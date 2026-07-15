@@ -329,7 +329,7 @@
       return;
     }
     var p = PROJECTS[idx];
-    document.title = p.title + " — Chill Factory";
+    document.title = (p.title + " — Chill Factory").toUpperCase();
 
     var hero;
     if (p.embed) hero = embedFrame(p.embed) || fallbackHero(p);

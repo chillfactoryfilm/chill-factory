@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Chill Factory</title>
+  <meta name="description" content="Get in touch with Chill Factory." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="page-contact theme-dark page-video">
+
+  <div id="page-bg" class="page-bg" data-bg-key="contactBgVideo"></div>
+
+  <header class="nav">
+    <a class="brand" href="index.html">Chill Factory</a>
+    <button class="nav-toggle" aria-label="Menu">Menu</button>
+    <nav class="nav-links">
+      <a href="work.html">Work</a>
+      <!-- <a href="features.html">Features</a> — hidden until launch; moving to personal site -->
+      <a href="about.html">About</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="wrap contact-wrap">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <a class="email-huge" data-email href="#">chillfactoryfilm AT gmail.com</a>
+        <div class="social-row" data-socials></div>
+        <p data-site="contactNote" style="margin-top:44px; color:var(--muted); max-width:48ch; font-size:15px; line-height:1.6">
+          For commissions, inquiries, and collaborations, email us directly. We read everything.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span class="footer-brand"><img src="assets/logo-mark.png" class="footer-mark" alt="" />Chill Factory</span>
+      <div class="footer-links">
+        <a href="work.html">Work</a>
+        <!-- <a href="features.html">Features</a> — hidden until launch; moving to personal site -->
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <small>© <span id="yr"></span> Chill Factory</small>
+    </div>
+  </footer>
+
+  <script src="js/site.js"></script>
+  <script>document.getElementById("yr").textContent = new Date().getFullYear();</script>
+</body>
+</html>

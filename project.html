@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project — Chill Factory</title>
+  <meta name="description" content="A film by Chill Factory." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="theme-dark">
+
+  <header class="nav">
+    <a class="brand" href="index.html">Chill Factory</a>
+    <button class="nav-toggle" aria-label="Menu">Menu</button>
+    <nav class="nav-links">
+      <a href="work.html">Work</a>
+      <!-- <a href="features.html">Features</a> — hidden until launch; moving to personal site -->
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="project-root"><!-- rendered from js/data.js --></main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span class="footer-brand"><img src="assets/logo-mark.png" class="footer-mark" alt="" />Chill Factory</span>
+      <div class="footer-links">
+        <a href="work.html">Work</a>
+        <!-- <a href="features.html">Features</a> — hidden until launch; moving to personal site -->
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <small>© <span id="yr"></span> Chill Factory</small>
+    </div>
+  </footer>
+
+  <script src="js/site.js"></script>
+  <script>document.getElementById("yr").textContent = new Date().getFullYear();</script>
+</body>
+</html>

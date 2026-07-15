@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1200" width="800" height="1200" role="img" aria-label="Play Me a Song to Set Me Free — poster">
+  <rect width="800" height="1200" fill="#000000"/>
+  <g fill="#ffffff"
+     style="font-family:'Helvetica Neue','Arial Black',Arial,sans-serif;font-weight:900;letter-spacing:-5px">
+    <text x="94" y="410" font-size="196"
+      style="transform:scaleX(0.78);transform-box:fill-box;transform-origin:left">play me</text>
+    <text x="94" y="570" font-size="196"
+      style="transform:scaleX(0.78);transform-box:fill-box;transform-origin:left">a song</text>
+    <text x="94" y="730" font-size="196"
+      style="transform:scaleX(0.78);transform-box:fill-box;transform-origin:left">to set</text>
+    <text x="94" y="890" font-size="196"
+      style="transform:scaleX(0.78);transform-box:fill-box;transform-origin:left">me free</text>
+  </g>
+</svg>

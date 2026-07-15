@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Source / working files — NOT part of the deployed site.
+# Videos stream from Vimeo; these are large local masters/loops/logos.
+_MP4/
+_FEATURES/
+_LOGOS/
+_archive/
+
+# Local agent/editor state
+.claude/
+
+# Node (only if a build is ever added)
+node_modules/

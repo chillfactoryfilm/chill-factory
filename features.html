@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Features — Chill Factory</title>
+  <meta name="description" content="Feature films by Chill Factory — told through their one-sheets." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="theme-dark">
+
+  <header class="nav">
+    <a class="brand" href="index.html">Chill Factory</a>
+    <button class="nav-toggle" aria-label="Menu">Menu</button>
+    <nav class="nav-links">
+      <a href="work.html">Work</a>
+      <a href="features.html" aria-current="page">Features</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="wrap page-head">
+      <h1 class="page-title">Features</h1>
+    </div>
+
+    <div class="wrap" style="padding-bottom: clamp(48px,9vw,120px)">
+      <div class="sheet-grid">
+
+        <a class="sheet reveal" href="feature.html?id=a-photographic-memory">
+          <div class="sheet-art">
+            <img src="assets/posters/a-photographic-memory.jpg" alt="A Photographic Memory — one-sheet" loading="lazy" />
+          </div>
+          <div class="sheet-meta">
+            <span class="sheet-title">A Photographic Memory</span>
+            <span class="sheet-role">Editor · Co-Writer · Co-Producer</span>
+          </div>
+        </a>
+
+        <div class="sheet reveal">
+          <div class="sheet-art">
+            <img src="assets/posters/play-me-a-song.svg" alt="Play Me a Song to Set Me Free — one-sheet" loading="lazy" />
+          </div>
+          <div class="sheet-meta">
+            <span class="sheet-title">Play Me a Song to Set Me Free</span>
+            <span class="sheet-role">Executive Producer · In Production</span>
+          </div>
+        </div>
+
+        <a class="sheet reveal" href="feature-motel-drive.html">
+          <div class="sheet-art">
+            <img src="assets/posters/motel-drive.jpg" alt="Motel Drive — one-sheet" loading="lazy" />
+          </div>
+          <div class="sheet-meta">
+            <span class="sheet-title">Motel Drive</span>
+            <span class="sheet-role">Editor · Producer</span>
+          </div>
+        </a>
+
+        <div class="sheet reveal">
+          <div class="sheet-art sheet-art--empty"><span>In Development</span></div>
+          <div class="sheet-meta">
+            <span class="sheet-title">Untitled Feature</span>
+            <span class="sheet-role">Chill Factory</span>
+          </div>
+        </div>
+
+        <div class="sheet reveal">
+          <div class="sheet-art sheet-art--empty"><span>In Development</span></div>
+          <div class="sheet-meta">
+            <span class="sheet-title">Untitled Feature</span>
+            <span class="sheet-role">Chill Factory</span>
+          </div>
+        </div>
+
+        <div class="sheet reveal">
+          <div class="sheet-art sheet-art--empty"><span>In Development</span></div>
+          <div class="sheet-meta">
+            <span class="sheet-title">Untitled Feature</span>
+            <span class="sheet-role">Chill Factory</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span class="footer-brand"><img src="assets/logo-mark.png" class="footer-mark" alt="" />Chill Factory</span>
+      <div class="footer-links">
+        <a href="work.html">Work</a>
+        <a href="features.html">Features</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <small>© <span id="yr"></span> Chill Factory</small>
+    </div>
+  </footer>
+
+  <script src="js/site.js"></script>
+  <script>document.getElementById("yr").textContent = new Date().getFullYear();</script>
+</body>
+</html>

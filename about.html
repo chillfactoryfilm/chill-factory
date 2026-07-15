@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Chill Factory</title>
+  <meta name="description" content="Chill Factory is the film production company of director Christopher Stoudt — documentary storytelling for Disney+, Peacock, MSNBC, The New Yorker and more." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="theme-dark page-video">
+
+  <!-- fixed video background (injected from content/site.json aboutBgVideo) -->
+  <div id="page-bg" class="page-bg" data-bg-key="aboutBgVideo"></div>
+
+  <header class="nav">
+    <a class="brand" href="index.html">Chill Factory</a>
+    <button class="nav-toggle" aria-label="Menu">Menu</button>
+    <nav class="nav-links">
+      <a href="work.html">Work</a>
+      <!-- <a href="features.html">Features</a> — hidden until launch; moving to personal site -->
+      <a href="about.html" aria-current="page">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="wrap page-head">
+      <h1 class="page-title">About</h1>
+    </div>
+
+    <section class="wrap">
+      <p class="about-lead reveal" data-site="aboutLead">A film production company built around documentary storytelling.</p>
+
+      <div class="about-cols">
+        <div class="reveal">
+          <div data-site-body>
+            <p>Chill Factory is the production company of director Christopher Stoudt. Originally from New Orleans and based in Los Angeles, Christopher makes documentary films that have screened at more than 85 festivals, gone viral, and earned hundreds of millions of views online.</p>
+          </div>
+          <p style="margin-top:28px"><a class="watch-btn" href="contact.html">Get in touch →</a></p>
+        </div>
+
+        <div class="reveal">
+          <p class="eyebrow" style="margin-bottom:0">Brands &amp; Networks</p>
+          <div class="logo-wall" data-brands></div>
+
+          <p class="eyebrow" style="margin:34px 0 0">Press</p>
+          <div class="press-list" data-press></div>
+        </div>
+      </div>
+    </section>
+
+    <div style="height: clamp(48px,9vw,120px)"></div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span class="footer-brand"><img src="assets/logo-mark.png" class="footer-mark" alt="" />Chill Factory</span>
+      <div class="footer-links">
+        <a href="work.html">Work</a>
+        <!-- <a href="features.html">Features</a> — hidden until launch; moving to personal site -->
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <small>© <span id="yr"></span> Chill Factory</small>
+    </div>
+  </footer>
+
+  <script src="js/site.js"></script>
+  <script>document.getElementById("yr").textContent = new Date().getFullYear();</script>
+</body>
+</html>

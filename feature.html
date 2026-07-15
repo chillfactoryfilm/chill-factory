@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>A Photographic Memory — Chill Factory</title>
+  <meta name="description" content="A Photographic Memory — edited, co-written, and co-produced by Christopher Stoudt." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="theme-dark page-video">
+
+  <!-- fixed video background (injected from content/site.json featureBgVideo) -->
+  <div id="page-bg" class="page-bg" data-bg-key="featureBgVideo"></div>
+
+  <header class="nav">
+    <a class="brand" href="index.html">Chill Factory</a>
+    <button class="nav-toggle" aria-label="Menu">Menu</button>
+    <nav class="nav-links">
+      <a href="work.html">Work</a>
+      <a href="features.html" aria-current="page">Features</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <div class="feature-stage">
+
+        <div class="feature-poster reveal">
+          <img src="assets/posters/a-photographic-memory.jpg" alt="A Photographic Memory — one-sheet" />
+        </div>
+
+        <div class="feature-info reveal">
+          <a class="back-link" href="features.html">← Features</a>
+          <h1 class="feature-title">A Photographic Memory</h1>
+          <p class="feature-logline">An intimate, genre-bending portrait of the filmmaker’s trailblazing mother, Sheila Turner Seed – a vibrant and pioneering journalist, photographer, and filmmaker, who died suddenly and tragically when Rachel was just 18 months old.</p>
+
+          <div class="feature-roles">
+            <p class="eyebrow">Role</p>
+            <ul class="role-list">
+              <li>Editor</li>
+              <li>Co-Writer</li>
+              <li>Co-Producer</li>
+            </ul>
+          </div>
+
+          <div class="tag-block tag-block--laurels feature-block">
+            <h3>Recognition</h3>
+            <ul>
+              <li><em>The New York Times</em> Critic’s Pick</li>
+              <li>2025 Truer-than-Fiction Independent Spirit Award</li>
+              <li>100% on Rotten Tomatoes</li>
+              <li>Premiered at True/False 2023</li>
+            </ul>
+          </div>
+
+          <dl class="feature-meta">
+            <div>
+              <dt>Year</dt>
+              <dd>2024</dd>
+            </div>
+            <div>
+              <dt>Director</dt>
+              <dd>Rachel Elizabeth Seed</dd>
+            </div>
+            <div>
+              <dt>Distributor</dt>
+              <dd>Zeitgeist / Kino Lorber</dd>
+            </div>
+            <div>
+              <dt>Format</dt>
+              <dd>Feature Documentary</dd>
+            </div>
+          </dl>
+
+          <a class="hero-cta" href="https://www.youtube.com/watch?v=wtcZiEvyG1A" target="_blank" rel="noopener">Watch trailer <span aria-hidden="true">↗</span></a>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span class="footer-brand"><img src="assets/logo-mark.png" class="footer-mark" alt="" />Chill Factory</span>
+      <div class="footer-links">
+        <a href="work.html">Work</a>
+        <a href="features.html">Features</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <small>© <span id="yr"></span> Chill Factory</small>
+    </div>
+  </footer>
+
+  <script src="js/site.js"></script>
+  <script>document.getElementById("yr").textContent = new Date().getFullYear();</script>
+</body>
+</html>

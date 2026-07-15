@@ -1,0 +1,121 @@
+# =============================================================================
+# Chill Factory — no-code editor configuration (Decap CMS)
+# You don't edit this file. It tells the admin panel what you can edit.
+# =============================================================================
+
+backend:
+  name: git-gateway          # free auth via Netlify Identity (see DEPLOY.md)
+  branch: main               # <-- change to "master" if your repo uses that
+
+# During local testing only (npx decap-server); ignored in production.
+local_backend: true
+
+# Where uploaded images/videos are stored in the project.
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+# Shown as "View site" links inside the editor.
+site_url: https://chillfactoryfilm.com
+display_url: https://chillfactoryfilm.com
+
+collections:
+  # ---- FILMS -------------------------------------------------------------
+  - name: "work"
+    label: "Films"
+    files:
+      - name: "projects"
+        label: "All Films"
+        file: "content/work.json"
+        description: "Add, edit, reorder, or remove films. Drag items to reorder the grid."
+        fields:
+          - label: "Films"
+            name: "projects"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "ID / slug", name: "id", widget: "string",
+                  pattern: ['^[a-z0-9-]+$', 'lowercase letters, numbers and hyphens only — no spaces'],
+                  hint: "Used in the page address, e.g. camp-alec." }
+              - { label: "Year", name: "year", widget: "string", required: false }
+              - { label: "Affiliation label", name: "clientLabel", widget: "select", required: false, default: "Client",
+                  options: ["Network", "Prod. Co.", "Client", "Client / Agency", "In Association With", "Co-Producer", "Agency"],
+                  hint: "Which label shows before the name below (pick the most applicable)." }
+              - { label: "Affiliation name (network / client / prod co)", name: "client", widget: "string", required: false }
+              - { label: "Second affiliation label (optional)", name: "clientLabel2", widget: "select", required: false,
+                  options: ["Network", "Prod. Co.", "Client", "Client / Agency", "In Association With", "Co-Producer", "Agency", "Presented By"] }
+              - { label: "Second affiliation name (optional)", name: "client2", widget: "string", required: false }
+              - { label: "Third affiliation label (optional)", name: "clientLabel3", widget: "select", required: false,
+                  options: ["Network", "Prod. Co.", "Client", "Client / Agency", "In Association With", "Co-Producer", "Agency", "Presented By"] }
+              - { label: "Third affiliation name (optional)", name: "client3", widget: "string", required: false }
+              - { label: "Category", name: "category", widget: "select", required: false,
+                  options: ["Feature", "Short", "Series", "Branded", "Episodic"] }
+              - { label: "Role", name: "role", widget: "string", required: false, default: "Director" }
+              - { label: "Logline (one strong sentence)", name: "logline", widget: "text", required: false }
+              - { label: "Description", name: "description", widget: "text", required: false }
+              - label: "Credits"
+                name: "credits"
+                widget: "list"
+                required: false
+                field: { label: "Credit (e.g. Director — Name)", name: "credit", widget: "string" }
+              - label: "Recognition (festivals / awards / press)"
+                name: "recognition"
+                widget: "list"
+                required: false
+                field: { label: "Line", name: "line", widget: "string" }
+              - { label: "Poster image (tile still)", name: "poster", widget: "image", required: false,
+                  hint: "A still image shown on the tile and project page." }
+              - { label: "Preview video (MP4, muted loop)", name: "video", widget: "file", required: false,
+                  hint: "Short muted clip that autoplays as the tile scrolls into view." }
+              - { label: "Cover imagery link (Vimeo/YouTube)", name: "cover", widget: "string", required: false,
+                  hint: "Optional. A loop/trailer used ONLY for the autoplay tile — pick clean imagery (no captions, no company-card intro). If blank, the tile uses the film link below." }
+              - { label: "Film link — plays on the project page (Vimeo/YouTube)", name: "embed", widget: "string", required: false,
+                  hint: "The actual film/trailer a visitor watches when they open the project." }
+              - { label: "External 'Watch' button link", name: "link", widget: "string", required: false }
+              - { label: "'Watch' button text", name: "linkLabel", widget: "string", required: false,
+                  default: "Watch the film", hint: "e.g. 'Watch on Peacock'. Defaults to 'Watch the film'." }
+              - { label: "Feature on home page", name: "featured", widget: "boolean", default: false }
+
+  # ---- SITE TEXT ---------------------------------------------------------
+  - name: "site"
+    label: "Site & Pages"
+    files:
+      - name: "general"
+        label: "Home / About / Contact"
+        file: "content/site.json"
+        description: "The words on the home splash, about page, and contact page."
+        fields:
+          - { label: "Home — big title (use a line break for two lines)", name: "heroTitle", widget: "text" }
+          - { label: "Home — subtitle", name: "heroSub", widget: "text" }
+          - { label: "Home — splash poster image", name: "heroPoster", widget: "image", required: false }
+          - { label: "Home — splash video (MP4, muted loop)", name: "heroVideo", widget: "file", required: false }
+          - { label: "Home — splash video background (YouTube/Vimeo URL)", name: "heroEmbed", widget: "string", required: false,
+              hint: "Used only when no MP4 above. Plays muted, looped, full-screen behind the title." }
+          - { label: "About — lead statement", name: "aboutLead", widget: "text" }
+          - { label: "About — body (blank line = new paragraph)", name: "aboutBody", widget: "text" }
+          - label: "About — Brands & Networks (logo cluster)"
+            name: "brands"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Logo (transparent PNG/SVG)", name: "logo", widget: "image", required: false,
+                  hint: "Optional. Leave blank to show the name in text. Logos are auto-tinted to one monochrome tone." }
+          - label: "About — Press (linked articles)"
+            name: "press"
+            widget: "list"
+            summary: "{{fields.outlet}} — {{fields.title}}"
+            fields:
+              - { label: "Outlet", name: "outlet", widget: "string" }
+              - { label: "Headline", name: "title", widget: "string" }
+              - { label: "Article URL", name: "url", widget: "string" }
+              - { label: "Date (YYYY-MM-DD)", name: "date", widget: "string", required: false,
+                  hint: "Used to auto-sort press newest-first. Not shown on the page." }
+          - { label: "Contact — email", name: "contactEmail", widget: "string" }
+          - { label: "Contact — note", name: "contactNote", widget: "text", required: false }
+          - label: "Contact — social links"
+            name: "socials"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }

@@ -175,7 +175,9 @@
     // Autoplay cover imagery: use the dedicated `cover` link if set, else the
     // film's `embed`. (Covers use loops/trailers to avoid captions + intro cards;
     // the project page still plays the real film via `embed`.)
-    var coverSrc = p.cover || p.embed;
+    // `cover: "none"` = show the poster still only, no autoplay (for films whose
+    // only clip opens with a countdown leader / title card).
+    var coverSrc = (p.cover === "none") ? "" : (p.cover || p.embed);
     var vim = (!p.video && coverSrc) ? parseVimeo(coverSrc) : null;
     var yt = (!p.video && coverSrc && !vim) ? getYouTubeId(coverSrc) : null;
     var attr = "";

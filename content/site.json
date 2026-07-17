@@ -1,7 +1,7 @@
 {
   "heroTitle": "Chill Factory",
   "heroSub": "Documentary storytelling for screens big and small.",
-  "heroPoster": "assets/posters/hero.svg",
+  "heroPoster": "assets/hero-poster.jpg",
   "heroVideo": "",
   "heroEmbed": "https://vimeo.com/1209975804/98fca70d2f",
   "aboutLead": "Chill Factory is a documentary production company\nbuilt on character-driven storytelling.",
@@ -93,5 +93,9 @@
   "aboutBgVideo": "https://vimeo.com/1210019457/352393d763",
   "contactBgVideo": "https://vimeo.com/215367802/78d9c54fef",
   "featureBgVideo": "https://vimeo.com/1210136837/c626b93b88",
-  "motelBgVideo": "https://vimeo.com/780026078/58392ed117"
+  "motelBgVideo": "https://vimeo.com/780026078/58392ed117",
+  "aboutBgPoster": "assets/bg-about.jpg",
+  "contactBgPoster": "assets/bg-contact.jpg",
+  "featureBgPoster": "assets/bg-feature.jpg",
+  "motelBgPoster": "assets/bg-motel.jpg"
 }

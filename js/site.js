@@ -9,6 +9,13 @@
   var PROJECTS = [];
   var SITE = {};
 
+  // Touch devices (phones/tablets) can't handle many autoplaying Vimeo/YouTube
+  // iframes — they crawl or refuse to autoplay. On those, show static poster
+  // images instead of video (backgrounds + grid covers). Desktop keeps video.
+  // ?static in the URL forces this on (handy for previewing the mobile render).
+  var IS_TOUCH = /[?&]static\b/.test(location.search) || !!(window.matchMedia &&
+    window.matchMedia("(hover: none) and (pointer: coarse)").matches);
+
   /* ---- boot: load content, then render --------------------------------- */
   document.addEventListener("DOMContentLoaded", function () {
     setupNav();
@@ -57,7 +64,9 @@
     if (hm) {
       var poster = SITE.heroPoster || "";
       var fallback = '<img class="hero-fallback" src="' + escapeAttr(poster) + '" alt="">';
-      if (SITE.heroVideo) {
+      if (IS_TOUCH) {
+        hm.innerHTML = '<img src="' + escapeAttr(poster) + '" alt="">';
+      } else if (SITE.heroVideo) {
         hm.innerHTML = '<video autoplay muted loop playsinline preload="metadata" poster="' +
           escapeAttr(poster) + '"><source src="' + escapeAttr(SITE.heroVideo) + '" type="video/mp4"></video>';
       } else if (SITE.heroEmbed && getYouTubeId(SITE.heroEmbed)) {
@@ -81,8 +90,13 @@
     // fixed page background video — link comes from the site field named in
     // the #page-bg data-bg-key (defaults to aboutBgVideo)
     var pageBg = document.getElementById("page-bg");
-    var bgLink = pageBg ? SITE[pageBg.getAttribute("data-bg-key") || "aboutBgVideo"] : null;
-    if (pageBg && bgLink) {
+    var bgKey = pageBg ? (pageBg.getAttribute("data-bg-key") || "aboutBgVideo") : null;
+    var bgLink = pageBg ? SITE[bgKey] : null;
+    if (pageBg && bgLink && IS_TOUCH) {
+      // mobile: static still (field named like the video field but ...Poster)
+      var bgPoster = SITE[bgKey.replace("Video", "Poster")] || "";
+      if (bgPoster) pageBg.innerHTML = '<img src="' + escapeAttr(bgPoster) + '" alt="">';
+    } else if (pageBg && bgLink) {
       var pv = parseVimeo(bgLink);
       var yv = pv ? null : getYouTubeId(bgLink);
       if (pv) {
@@ -259,6 +273,7 @@
 
   /* ---- Vimeo/YouTube autoplay covers (lazy) ---------------------------- */
   function setupAutoplayCovers() {
+    if (IS_TOUCH) return; // mobile shows the poster still only — no iframe players
     var tiles = document.querySelectorAll(".card-media[data-vimeo], .card-media[data-youtube]");
     if (!tiles.length || !("IntersectionObserver" in window)) return;
     var io = new IntersectionObserver(function (entries) {

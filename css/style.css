@@ -487,13 +487,16 @@ img, video { display: block; max-width: 100%; }
   .nav-links {
     position: fixed; inset: var(--nav-h) 0 auto 0;
     flex-direction: column; align-items: flex-start; gap: 0;
-    background: var(--bg); border-bottom: 1px solid var(--line);
+    background: #0a0a0a; border-bottom: 1px solid rgba(255, 255, 255, 0.14);
     padding: 8px var(--gutter) 20px;
     transform: translateY(-120%); transition: transform 0.4s var(--ease);
-    color: var(--fg);
+    color: #fff;
   }
   .nav-links.open { transform: translateY(0); }
-  .nav-links a { width: 100%; padding: 16px 0; border-bottom: 1px solid var(--line); font-size: 16px; }
-  .nav--transparent { mix-blend-mode: normal; color: #fff; }
-  .nav--transparent .nav-links { color: var(--fg); }
+  .nav-links a { width: 100%; padding: 16px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.12); font-size: 16px; }
+  /* On video/landing pages the transparent nav uses mix-blend difference; that
+     must be OFF on mobile or the open menu panel renders inverted. Match the
+     base selector's specificity (.nav.nav--transparent) so this actually wins. */
+  .nav.nav--transparent { mix-blend-mode: normal; color: #fff; }
+  .nav--transparent .nav-links { color: #fff; }
 }

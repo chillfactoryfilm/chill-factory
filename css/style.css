@@ -237,7 +237,7 @@ img, video { display: block; max-width: 100%; }
 /* ---------- frozen headlines (Chill Factory) ----------------------------- */
 /* Big page headlines get a crisp frost "rime" edge + a slow, subtle breathing
    frost halo — monochrome, playing on the "chill" theme. */
-.hero-title, .page-title, .project-title, .feature-title {
+.hero-title, .page-title, .project-title, .feature-title, .email-huge {
   -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.5);
   animation: frost-breathe 4.3s ease-in-out infinite;
 }
@@ -245,11 +245,31 @@ img, video { display: block; max-width: 100%; }
   0%, 100% { text-shadow: 0 0 5px rgba(255,255,255,0.24), 0 0 1px rgba(255,255,255,0.83); }
   50%      { text-shadow: 0 0 16px rgba(255,255,255,0.47), 0 0 2px rgba(255,255,255,0.9); }
 }
+/* the contact email glows harder than the headlines — its own brighter halo */
+.email-huge {
+  -webkit-text-stroke: 0.6px rgba(255, 255, 255, 0.65);
+  animation-name: frost-breathe-strong;
+}
+@keyframes frost-breathe-strong {
+  0%, 100% { text-shadow: 0 0 12px rgba(255,255,255,0.42), 0 0 3px rgba(255,255,255,0.9); }
+  50%      { text-shadow: 0 0 34px rgba(255,255,255,0.75), 0 0 5px rgba(255,255,255,1); }
+}
+/* About + Work page titles glow a step harder than the other headlines */
+.page-title--bright {
+  -webkit-text-stroke: 0.6px rgba(255, 255, 255, 0.65);
+  animation-name: frost-breathe-strong; /* same halo as the contact email */
+}
 /* accessibility: hold still (but keep a static frost glow) if motion is off */
 @media (prefers-reduced-motion: reduce) {
-  .hero-title, .page-title, .project-title, .feature-title {
+  .hero-title, .page-title, .project-title, .feature-title, .email-huge {
     animation: none;
     text-shadow: 0 0 7px rgba(255,255,255,0.26), 0 0 1px rgba(255,255,255,0.85);
+  }
+  .email-huge {
+    text-shadow: 0 0 18px rgba(255,255,255,0.5), 0 0 3px rgba(255,255,255,0.95);
+  }
+  .page-title--bright {
+    text-shadow: 0 0 18px rgba(255,255,255,0.5), 0 0 3px rgba(255,255,255,0.95);
   }
 }
 
@@ -389,6 +409,8 @@ img, video { display: block; max-width: 100%; }
 /* the gutter is too narrow on phones to hang the footer mark cleanly — hide it */
 @media (max-width: 768px) {
   .footer-mark { display: none; }
+  /* the contact-note line break is a desktop-only nicety — let it flow on phones */
+  .page-contact [data-site="contactNote"] br { display: none; }
 }
 .email-huge {
   display: inline-block; font-weight: 800; letter-spacing: -0.02em;

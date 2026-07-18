@@ -352,19 +352,23 @@
     if (p.embed) hero = embedFrame(p.embed) || fallbackHero(p);
     else hero = fallbackHero(p);
 
-    var metaRows = [
-      ["Year", p.year],
-      [p.clientLabel || "Client", p.client],
-      [p.clientLabel2, p.client2],
-      [p.clientLabel3, p.client3],
-      ["Category", p.category],
-      // Role row hidden — Credits covers it (and allows fuller crew later)
-    ]
-      .filter(function (r) { return r[0] && r[1]; })
-      .map(function (r) { return '<div class="meta-row"><dt>' + escapeHTML(r[0]) + "</dt><dd>" + escapeHTML(r[1]) + "</dd></div>"; })
+    // Flexible affiliation rows: an ordered [{label, value}] array. Christopher's
+    // roles + key crew are distributed across these rows (no separate Credits).
+    // Falls back to the old fixed fields for any project not yet migrated.
+    var affil = (p.affiliations && p.affiliations.length) ? p.affiliations : (function () {
+      var a = [];
+      if (p.year) a.push({ label: "Year", value: p.year });
+      if (p.client) a.push({ label: p.clientLabel || "Client", value: p.client });
+      if (p.client2) a.push({ label: p.clientLabel2, value: p.client2 });
+      if (p.client3) a.push({ label: p.clientLabel3, value: p.client3 });
+      if (p.category) a.push({ label: "Format", value: p.category });
+      return a;
+    })();
+    var metaRows = affil
+      .filter(function (r) { return r && r.label && r.value; })
+      .map(function (r) { return '<div class="meta-row"><dt>' + escapeHTML(r.label) + "</dt><dd>" + fmtMetaValue(r.value) + "</dd></div>"; })
       .join("");
 
-    var creditsBlock = listBlock("Credits", p.credits);
     var recBlock = listBlock("Recognition", p.recognition, "tag-block--laurels");
     var watch = p.link
       ? '<a class="watch-btn" href="' + escapeAttr(p.link) + '" target="_blank" rel="noopener">' +
@@ -381,10 +385,10 @@
       '<div class="wrap section"><a class="back-link" href="work.html">← All Work</a>' +
       '<div class="project-hero">' + hero + "</div>" +
       '<div class="project-grid"><div class="project-body">' +
-      '<h1 class="project-title">' + escapeHTML(p.title) + "</h1>" +
+      '<h1 class="project-title">' + escapeHTML(p.title).replace(/\n/g, "<br>") + "</h1>" +
       (p.logline ? '<p class="logline">' + escapeHTML(p.logline) + "</p>" : "") +
       descHTML + watch + "</div><aside>" +
-      '<dl class="meta-list">' + metaRows + "</dl>" + creditsBlock + recBlock +
+      '<dl class="meta-list">' + metaRows + "</dl>" + recBlock +
       "</aside></div>" +
       '<nav class="prevnext">' + prevLink + nextLink + "</nav></div>";
   }
@@ -393,6 +397,16 @@
     return p.video
       ? '<video data-autoplay muted loop playsinline preload="metadata" poster="' + escapeAttr(p.poster) + '"><source src="' + escapeAttr(p.video) + '" type="video/mp4"></video>'
       : '<img src="' + escapeAttr(p.poster) + '" alt="' + escapeAttr(p.title) + '">';
+  }
+  function fmtMetaValue(v) {
+    // Escape, honor explicit "\n" as a line break, and keep each name/unit from
+    // breaking mid-word: intra-item spaces become non-breaking, so a wrap can
+    // only fall at the ", " between names — no orphaned surnames.
+    return String(v).split("\n").map(function (line) {
+      return line.split(", ").map(function (part) {
+        return escapeHTML(part).replace(/ /g, " ");
+      }).join(", ");
+    }).join("<br>");
   }
   function listBlock(title, arr, cls) {
     if (!arr || !arr.length) return "";

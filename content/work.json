@@ -6,12 +6,8 @@
       "year": "2024",
       "client": "The New Yorker",
       "category": "Short",
-      "role": "Director / Editor / Producer",
       "logline": "A former attorney turned conductor builds the nation's largest majority Black and Latino youth orchestra.",
       "description": "A documentary portrait of Chuck Dickerson, who left the law to lead the nation's largest majority Black and Latino youth orchestra — confronting the fact that Black musicians make up just 2.3% of American orchestras. A story about mentorship, music, and who gets to belong on the concert stage.",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [
         "Audience Award — Mountainfilm, SLOFF & PAFF",
         "Screened at 100+ film festivals",
@@ -23,9 +19,48 @@
       "embed": "https://vimeo.com/1023391567/384c9911fc",
       "link": "",
       "featured": true,
-      "clientLabel": "Network",
-      "clientLabel2": "Co-Producer",
-      "client2": "Moonage Daydream"
+      "affiliations": [
+        {
+          "label": "Directed By",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "The New Yorker"
+        },
+        {
+          "label": "Co-Producer",
+          "value": "Moonage Daydream"
+        },
+        {
+          "label": "Producers",
+          "value": "Ryan Suffern, Maryann Garger, Christopher Stoudt,\nBob Logan, Ains \"Brainz\" Prasad"
+        },
+        {
+          "label": "Editor",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Executive Producers",
+          "value": "Ryan Harris, Michael Becker"
+        },
+        {
+          "label": "Director of Photography",
+          "value": "Lidia Nikonova"
+        },
+        {
+          "label": "Additional Photography",
+          "value": "Ruby Paiva"
+        },
+        {
+          "label": "Year",
+          "value": "2024"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     },
     {
       "id": "four-seasons-total-documentary",
@@ -33,12 +68,8 @@
       "year": "2023",
       "client": "MSNBC / Peacock",
       "category": "Short",
-      "role": "Director / Editor / Producer",
       "logline": "The improbable true story behind the press conference that became a defining image of the 2020 election.",
       "description": "An examination of the November 7, 2020 press conference at Four Seasons Total Landscaping — held between a crematorium and an adult bookstore — as the presidential election was called. A film about spin, chance, and the surreal machinery of American politics.",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [
         "Premiered on MSNBC",
         "Streaming on Peacock"
@@ -49,25 +80,61 @@
       "embed": "https://youtu.be/loQdYh_W8uo",
       "link": "",
       "featured": true,
-      "clientLabel": "Network",
-      "clientLabel2": "Co-Producers",
-      "client2": "Zipper Bros, Sutter Road"
+      "affiliations": [
+        {
+          "label": "Directed By",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "MSNBC / Peacock"
+        },
+        {
+          "label": "Production Companies",
+          "value": "Sutter Road Picture Company, Zipper Bros Films, Chill Factory"
+        },
+        {
+          "label": "Producers",
+          "value": "Christopher Stoudt, Glen Zipper, Sean Stuart, Chris Paonessa, Doc Crotzer, Kevin Middleton"
+        },
+        {
+          "label": "Co-Producer",
+          "value": "Jed Rapp Goldstein"
+        },
+        {
+          "label": "Executive Producers",
+          "value": "Rashida Jones, Amanda Spain"
+        },
+        {
+          "label": "Director of Photography",
+          "value": "Peter Quandt"
+        },
+        {
+          "label": "Editors",
+          "value": "Christopher Stoudt, Michael Mees"
+        },
+        {
+          "label": "Composer",
+          "value": "Tyler Strickland"
+        },
+        {
+          "label": "Year",
+          "value": "2021"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     },
     {
       "id": "adaptive-paris",
       "title": "Adaptive: Paris (S01)",
       "year": "2025",
       "client": "Peacock",
-      "clientLabel": "Network",
-      "clientLabel2": "Prod. Co.",
-      "client2": "Vitium Productions",
       "category": "Series",
-      "role": "Producer / Editor",
       "logline": "Adaptive follows four world-class athletes on their relentless pursuit of the podium at the Paris 2024 Paralympic Games.",
       "description": "Off the field, they’re powerful advocates for inclusion and equity in the disability community. And as the spotlight turns to Paris, they’ll put everything on the line—not just for medals, but to show the world what it truly means to be elite.",
-      "credits": [
-        "Producer / Editor — Christopher Stoudt"
-      ],
       "recognition": [
         "Streaming on Peacock",
         "S02 coming 2028"
@@ -79,8 +146,44 @@
       "link": "https://www.peacocktv.com/watch-online/tv/adaptive-paris/6615826746536447112",
       "featured": false,
       "linkLabel": "Watch on Peacock",
-      "clientLabel3": "Presented By",
-      "client3": "Dick's Sporting Goods"
+      "affiliations": [
+        {
+          "label": "Directed By",
+          "value": "Ryan S. Porush"
+        },
+        {
+          "label": "Network",
+          "value": "Peacock"
+        },
+        {
+          "label": "Presented By",
+          "value": "Dick's Sporting Goods"
+        },
+        {
+          "label": "Production Companies",
+          "value": "Vitium Productions, Far Between Pictures,\nCookie Jar & A Dream Studios, TFA Group"
+        },
+        {
+          "label": "Producers",
+          "value": "Christopher Stoudt, Clayton Frech, Jay Snyder,\nColin Weatherby, Ryan Suffern"
+        },
+        {
+          "label": "Executive Producers",
+          "value": "Dave Pantano, Ezra Frech, Bahar Soomekh, Bill Bindley, Mike Karz, Jay Ruderman, Mallory Weggemann"
+        },
+        {
+          "label": "Editors",
+          "value": "Elliot Levitt, Christopher Stoudt"
+        },
+        {
+          "label": "Year",
+          "value": "2025"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Series"
+        }
+      ]
     },
     {
       "id": "camp-alec",
@@ -88,12 +191,8 @@
       "year": "2025",
       "client": "Disney+",
       "category": "Short",
-      "role": "Director / Editor / Producer",
       "logline": "At a summer camp in Michigan, non-speaking kids find their voices through communication technology.",
       "description": "A literacy-focused summer camp where non-speaking children learn to communicate using electronic AAC devices. Co-produced with The Kennedy/Marshall Company and released as part of the Disney+ 'People & Places' series.",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [
         "Premiered on Disney+",
         "“People & Places” series"
@@ -104,9 +203,56 @@
       "embed": "",
       "link": "",
       "featured": true,
-      "clientLabel": "Network",
-      "clientLabel2": "Co-Producer",
-      "client2": "The Kennedy/Marshall Company"
+      "affiliations": [
+        {
+          "label": "Directed By",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "Disney+"
+        },
+        {
+          "label": "Co-Producer",
+          "value": "The Kennedy/Marshall Company"
+        },
+        {
+          "label": "Producers",
+          "value": "Christopher Stoudt, Chris Paonessa"
+        },
+        {
+          "label": "Editor",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Associate Producer",
+          "value": "Alex Bowen"
+        },
+        {
+          "label": "Executive Producers",
+          "value": "Frank Marshall, Ryan Suffern"
+        },
+        {
+          "label": "Director of Photography",
+          "value": "JohnPaul Morris"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
+        },
+        {
+          "label": "Title Design",
+          "value": "Melida Duran"
+        },
+        {
+          "label": "Year",
+          "value": "2025"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     },
     {
       "id": "one-buck-wont-hurt",
@@ -114,12 +260,8 @@
       "year": "2023",
       "client": "Wrong Creative",
       "category": "Short",
-      "role": "Director / Editor / Producer",
       "logline": "Four Black teenagers tap dance for tips in the French Quarter — from adolescence to adulthood.",
       "description": "A coming-of-age documentary following four Black teenagers who tap dance for tips in New Orleans' French Quarter, tracing their lives from adolescence to adulthood against the backdrop of youth and incarceration.",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [
         "Alameda Film Festival — Best Documentary Short",
         "BendFilm — Special Jury Award for Social Impact",
@@ -136,7 +278,40 @@
       "embed": "https://vimeo.com/1185327677/3502037a17",
       "link": "",
       "featured": true,
-      "clientLabel": "In Association With"
+      "affiliations": [
+        {
+          "label": "Directed By",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "In Association With",
+          "value": "Wrong Creative"
+        },
+        {
+          "label": "Producers",
+          "value": "Christopher Stoudt, Jed Rapp Goldstein, Ryan Suffern"
+        },
+        {
+          "label": "Associate Producers",
+          "value": "Beau Patrick Coulon, Betsy Shepherd"
+        },
+        {
+          "label": "Executive Producer",
+          "value": "Austin Simons"
+        },
+        {
+          "label": "Editor",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Year",
+          "value": "2023"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     },
     {
       "id": "lost-la-descanso-gardens",
@@ -144,12 +319,8 @@
       "year": "2017",
       "client": "KCET",
       "category": "Series",
-      "role": "Director / Editor",
       "logline": "One beloved public garden becomes a lens on the social and political history of Los Angeles.",
       "description": "Tracing Southern California's beloved public garden from pre-colonial oak woodland to its contemporary role as a museum, examining the social and political evolution of Los Angeles along the way.",
-      "credits": [
-        "Director / Editor — Christopher Stoudt"
-      ],
       "recognition": [
         "Los Angeles Emmy nomination — Outstanding Director",
         "Aired on KCET"
@@ -160,7 +331,52 @@
       "embed": "https://www.youtube.com/watch?v=pLDhLdXhF-c",
       "link": "",
       "featured": true,
-      "clientLabel": "Network"
+      "affiliations": [
+        {
+          "label": "Directed By",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "KCET"
+        },
+        {
+          "label": "Host",
+          "value": "Nathan Masters"
+        },
+        {
+          "label": "Production Companies",
+          "value": "KCETLink Media Group"
+        },
+        {
+          "label": "Producers",
+          "value": "Matthew Crotty, Nathan Masters, Austin Simons"
+        },
+        {
+          "label": "Associate Producer",
+          "value": "Zoe Montano"
+        },
+        {
+          "label": "Director of Photography",
+          "value": "Doug Porter"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
+        },
+        {
+          "label": "Editor",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Year",
+          "value": "2017"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Series"
+        }
+      ]
     },
     {
       "id": "daddy-business",
@@ -168,12 +384,8 @@
       "year": "2022",
       "client": "Means TV",
       "category": "Short",
-      "role": "Director / Editor / Producer",
       "logline": "A single father confronts his own trauma to break the cycle for his son.",
       "description": "A portrait of single father Christopher 'Tattoo' Fontes as he confronts his own trauma to break generational cycles for his son, Damian.",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [
         "Sarasota Film Festival — Premiere",
         "Cucalorus Film Festival",
@@ -185,7 +397,40 @@
       "embed": "https://vimeo.com/430848300/a2df3e1b4d",
       "link": "",
       "featured": true,
-      "clientLabel": "Network"
+      "affiliations": [
+        {
+          "label": "Directed By",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "Means TV"
+        },
+        {
+          "label": "Producers",
+          "value": "Christopher Stoudt, Josh Polon"
+        },
+        {
+          "label": "Director of Photography",
+          "value": "Greg Wetzel"
+        },
+        {
+          "label": "Composer",
+          "value": "Zack Wright"
+        },
+        {
+          "label": "Editor",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Year",
+          "value": "2022"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     },
     {
       "id": "sonic-live-free-eat-sonic",
@@ -193,12 +438,8 @@
       "year": "2026",
       "client": "Sonic",
       "category": "Branded",
-      "role": "Director / Editor",
       "logline": "Sonic celebrates America's 250th birthday.",
       "description": "Live free. Eat Sonic.",
-      "credits": [
-        "Director / Editor — Christopher Stoudt"
-      ],
       "recognition": [],
       "poster": "assets/posters/sonic-live-free-eat-sonic.jpg",
       "video": "",
@@ -206,9 +447,44 @@
       "embed": "https://vimeo.com/1206639913/eabbbc008c",
       "link": "",
       "featured": false,
-      "clientLabel": "Client",
-      "clientLabel2": "Agency",
-      "client2": "Mother"
+      "affiliations": [
+        {
+          "label": "Directed By",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Client",
+          "value": "Sonic"
+        },
+        {
+          "label": "Agency",
+          "value": "Mother"
+        },
+        {
+          "label": "Producer",
+          "value": "Colin Weatherby"
+        },
+        {
+          "label": "Director of Photography",
+          "value": "Ruby Paiva"
+        },
+        {
+          "label": "Additional Cinematography",
+          "value": "Tyler Bishop"
+        },
+        {
+          "label": "Editors",
+          "value": "Christopher Stoudt, Scott Shepherd, Adrian Randall"
+        },
+        {
+          "label": "Year",
+          "value": "2026"
+        },
+        {
+          "label": "Format",
+          "value": "Branded Documentary Short"
+        }
+      ]
     },
     {
       "id": "beyond-the-vest",
@@ -216,12 +492,8 @@
       "year": "2024",
       "client": "Sam's Club",
       "category": "Branded",
-      "role": "Director / Editor",
       "logline": "Beyond the Vest follows the employees of a Sam's Club in Columbus, Georgia, revealing the lives, dreams, and unexpected stories behind the blue vests.",
       "description": "",
-      "credits": [
-        "Director / Editor — Christopher Stoudt"
-      ],
       "recognition": [],
       "poster": "assets/posters/beyond-the-vest.jpg",
       "video": "",
@@ -229,22 +501,45 @@
       "embed": "https://vimeo.com/901299995/1a153ac387",
       "link": "",
       "featured": false,
-      "clientLabel": "Client",
-      "clientLabel2": "Prod. Co.",
-      "client2": "Hartbeat"
+      "affiliations": [
+        {
+          "label": "Directed By",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Client",
+          "value": "Sam's Club"
+        },
+        {
+          "label": "Production Company",
+          "value": "HartBeat"
+        },
+        {
+          "label": "Director of Photography",
+          "value": "Peter Quandt"
+        },
+        {
+          "label": "Editor",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Year",
+          "value": "2024"
+        },
+        {
+          "label": "Format",
+          "value": "Branded Documentary Short"
+        }
+      ]
     },
     {
       "id": "the-office-credits-parody",
-      "title": "The Office Credits Parody",
+      "title": "The Office -\nCredits Parody",
       "year": "2021",
       "client": "MSNBC / Peacock",
       "category": "Short",
-      "role": "Director / Editor / Producer",
       "logline": "Shot-for-shot remake of The Office opening credits — Four Seasons Total Landscaping edition.",
       "description": "",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [],
       "poster": "assets/posters/the-office-credits-parody.jpg",
       "video": "",
@@ -252,9 +547,20 @@
       "embed": "https://vimeo.com/512684287/a8f81df8f9",
       "link": "",
       "featured": false,
-      "clientLabel": "Network",
-      "clientLabel2": "Co-Producers",
-      "client2": "Zipper Bros, Sutter Road"
+      "affiliations": [
+        {
+          "label": "Directed By",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Year",
+          "value": "2021"
+        },
+        {
+          "label": "Format",
+          "value": "Web"
+        }
+      ]
     },
     {
       "id": "goat-milk-soap",
@@ -262,12 +568,8 @@
       "year": "2017",
       "client": "Vid.me",
       "category": "Branded",
-      "role": "Director / Editor",
       "logline": "Great skin care doesn't start in a lab. It starts in a barn. Meet the goats — and the people — behind Chivas Skin Care.",
       "description": "Produced for Vid.me as a pilot for their “Maker” web series.",
-      "credits": [
-        "Director / Editor — Christopher Stoudt"
-      ],
       "recognition": [],
       "poster": "assets/posters/goat-milk-soap.png",
       "video": "",
@@ -275,7 +577,32 @@
       "embed": "https://vimeo.com/236698055",
       "link": "",
       "featured": false,
-      "clientLabel": "Client"
+      "affiliations": [
+        {
+          "label": "Director / Editor",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Client",
+          "value": "Vid.me"
+        },
+        {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
+          "label": "Director of Photography",
+          "value": "Benji Dell"
+        },
+        {
+          "label": "Year",
+          "value": "2017"
+        },
+        {
+          "label": "Format",
+          "value": "Branded Documentary Short"
+        }
+      ]
     },
     {
       "id": "patron-saint-of-jazz-fest",
@@ -283,12 +610,8 @@
       "year": "2018",
       "client": "DNO",
       "category": "Short",
-      "role": "Director / Editor / Producer",
       "logline": "For the die-hards, the New Orleans Jazz & Heritage Festival is closer to religion.",
       "description": "A celebration of the New Orleans Jazz & Heritage Festival told through three devoted attendees whose participation borders on religious devotion.",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [
         "DTLA Film Festival — Premiere",
         "Cinema on the Bayou",
@@ -300,7 +623,36 @@
       "embed": "https://vimeo.com/282252343",
       "link": "",
       "featured": false,
-      "clientLabel": "In Association With"
+      "affiliations": [
+        {
+          "label": "Director / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "In Association With",
+          "value": "DNO"
+        },
+        {
+          "label": "Associate Producer",
+          "value": "Jacques Mouledoux"
+        },
+        {
+          "label": "Executive Producer",
+          "value": "Jac Currie"
+        },
+        {
+          "label": "Editor",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Year",
+          "value": "2018"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     },
     {
       "id": "innocence-project-new-orleans",
@@ -308,12 +660,8 @@
       "year": "2018",
       "client": "IPNO",
       "category": "Short",
-      "role": "Director / Editor / Producer",
       "logline": "After 46 years of wrongful incarceration, Wilbert Jones walks free.",
       "description": "Documenting the release of Wilbert Jones after 46 years of wrongful incarceration, and the work of Innocence Project New Orleans, which has freed more than 30 innocent prisoners across Louisiana and Mississippi.",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [],
       "poster": "assets/posters/innocence-project-new-orleans.png",
       "video": "",
@@ -321,7 +669,32 @@
       "embed": "https://vimeo.com/253386362",
       "link": "",
       "featured": false,
-      "clientLabel": "Client"
+      "affiliations": [
+        {
+          "label": "Directed By",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Client",
+          "value": "IPNO"
+        },
+        {
+          "label": "Network",
+          "value": "DNO"
+        },
+        {
+          "label": "Executive Producer",
+          "value": "Jac Currie"
+        },
+        {
+          "label": "Year",
+          "value": "2018"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     },
     {
       "id": "skater-girl",
@@ -332,9 +705,6 @@
       "role": "Director / Editor / Producer",
       "logline": "Eight-year-old Sky Brown came to America from Japan with her parents and younger brother, Ocean, to skateboard…and she's making plenty of waves in the process.",
       "description": "Just this year, Sky became the youngest girl to compete against adults at the Vans' Open Pro Series. But shaking up the male-dominated sport is hardly a big deal. For Sky, if she can inspire future generations of girls to pursue their dreams, she'd be as happy.",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [
         "25M+ views"
       ],
@@ -344,7 +714,25 @@
       "embed": "https://vimeo.com/190683323",
       "link": "",
       "featured": false,
-      "clientLabel": "Network"
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2018"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     },
     {
       "id": "silicone-dolls",
@@ -355,9 +743,6 @@
       "role": "Director / Editor / Producer",
       "logline": "Matt and his team of doll makers have perfected the human body.",
       "description": "In look and size, their silicone human replicas are as close to the real thing as you can get without a pulse. The future is here and it's straight out of science fiction.",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [],
       "poster": "assets/posters/silicone-dolls.jpg",
       "video": "",
@@ -365,7 +750,25 @@
       "embed": "https://vimeo.com/258311799",
       "link": "",
       "featured": false,
-      "clientLabel": "Network"
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2018"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     },
     {
       "id": "laughter-yoga",
@@ -376,9 +779,6 @@
       "role": "Director / Editor / Producer",
       "logline": "Jeffrey Briar trains members of the Laughter Yoga Institute, a laughing club in Laguna Beach, California that works on the principle that the body cannot differentiate between “real” and deliberate laughter.",
       "description": "Science suggests that laughter of both kinds can promote health benefits like cardiovascular fitness and better mood. Most importantly, the laughter yoga class can help total strangers forge new friendships — all to a lively laugh track.",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [],
       "poster": "assets/posters/laughter-yoga.jpg",
       "video": "",
@@ -386,7 +786,25 @@
       "embed": "https://vimeo.com/247212811",
       "link": "",
       "featured": false,
-      "clientLabel": "Network"
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2018"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     },
     {
       "id": "gator-wrestlers",
@@ -397,9 +815,6 @@
       "role": "Director / Editor / Producer",
       "logline": "With no structured competitions and a ludicrously high death potential, gator wrestling might be the most dangerous and pointless sport there is, but it's still got a strong following among Southerners like T. Michael Kliebert, who grew up in the swamps.",
       "description": "For them, it's all about tradition, and Mr. Kliebert explains why.",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [],
       "poster": "assets/posters/gator-wrestlers.jpg",
       "video": "",
@@ -407,7 +822,25 @@
       "embed": "https://vimeo.com/1210286830/5a6043b9e0",
       "link": "",
       "featured": false,
-      "clientLabel": "Network"
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     },
     {
       "id": "tiny-foods",
@@ -418,9 +851,6 @@
       "role": "Director / Editor / Producer",
       "logline": "Performance artist and unlikely chef Tom Brown is bringing strangers together around the tiny kitchen, where he's serving up tiny foods and words of wisdom.",
       "description": "Along with his fully functional portable kitchen, Tom has made more than 300 utensils and tools that he uses to cook up real, edible miniature foods. He may be passing out free lunches, but the gifts he gets from his customers are worth all the work.",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [
         "10M+ views"
       ],
@@ -430,7 +860,25 @@
       "embed": "https://vimeo.com/233409668",
       "link": "",
       "featured": false,
-      "clientLabel": "Network"
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2019"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     },
     {
       "id": "mr-okra",
@@ -441,9 +889,6 @@
       "role": "Director / Editor / Producer",
       "logline": "In the vibrant city of New Orleans, Mr. Okra is a man like no other.",
       "description": "For the last 50 years, Arthur Robinson, aka Mr. Okra, has been delivering fresh produce in the back of his pickup truck to his community. It's enough to make him quite the celebrity in his little pocket of the world, and one of the last singing vegetable vendors.",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [
         "Winner — 2017 Louisiana Tourism video contest"
       ],
@@ -453,7 +898,25 @@
       "embed": "https://vimeo.com/193641364",
       "link": "",
       "featured": false,
-      "clientLabel": "Network"
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2017"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     },
     {
       "id": "water-sommelier",
@@ -464,9 +927,6 @@
       "role": "Director / Editor / Producer",
       "logline": "Los Angeles's first and only \"water sommelier,\" Martin Riese of Patina Restaurant, is working to educate people about the world's most popular drink.",
       "description": "In his Water 101 class, Riese offers patrons the chance to join him for a water tasting — for $50 a head.",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [],
       "poster": "assets/posters/water-sommelier.jpg",
       "video": "",
@@ -474,7 +934,25 @@
       "embed": "https://vimeo.com/208783415",
       "link": "",
       "featured": false,
-      "clientLabel": "Network"
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2017"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     },
     {
       "id": "obama-impersonator",
@@ -485,9 +963,6 @@
       "role": "Director / Editor / Producer",
       "logline": "Reggie Brown never thought he'd be known for his looks, but that all changed around the time Barack Obama was hitting the national stage.",
       "description": "With his uncanny resemblance to the 44th President of the United States, Reggie has become the most famous Barack Obama impersonator in the world. And with the new President Donald Trump's administration settling in, Reggie's star continues to shine.",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [],
       "poster": "assets/posters/obama-impersonator.jpg",
       "video": "",
@@ -495,7 +970,25 @@
       "embed": "https://vimeo.com/205109656/84d302a30a",
       "link": "",
       "featured": false,
-      "clientLabel": "Network"
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2017"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     },
     {
       "id": "the-people-walker",
@@ -506,9 +999,6 @@
       "role": "Director / Editor / Producer",
       "logline": "Chuck McCarthy of Los Angeles, California, is a professional people walker.",
       "description": "For $7 a mile, The People Walker will escort you wherever you need to go, acting as a chaperone/chauffeur hybrid who doubles as a therapist, a friend and whatever else you seek in a sidewalk stroll. What's more, Chuck, who's also an actor, benefits too: he's lost weight, made new friends, and found new perspectives while running — that is, walking — his own business.",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [],
       "poster": "assets/posters/the-people-walker.png",
       "video": "",
@@ -516,7 +1006,25 @@
       "embed": "https://vimeo.com/222226851",
       "link": "",
       "featured": false,
-      "clientLabel": "Network"
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2017"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     },
     {
       "id": "weed-nuns",
@@ -527,9 +1035,6 @@
       "role": "Director / Editor / Producer",
       "logline": "The Sisters of the Valley is a medicinal cannabis company run by Christine Meeusen and Darcy Johnson in California's Central Valley.",
       "description": "Their mission? To erase the negative stigma around weed, and end human suffering as best they can. Their iconic nun outfits aren't worn as part of any organized religion — but rather as a sign of devotion to the plant.",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [],
       "poster": "assets/posters/weed-nuns.png",
       "video": "",
@@ -537,7 +1042,25 @@
       "embed": "https://vimeo.com/1209970971/6b6fbf25bc",
       "link": "",
       "featured": false,
-      "clientLabel": "Network"
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     },
     {
       "id": "the-grandma-gamer",
@@ -548,9 +1071,6 @@
       "role": "Director / Editor / Producer",
       "logline": "80-year-old Shirley Curry defies grandma stereotypes by becoming one of the oldest avid Skyrim players in the world.",
       "description": "She believes video games keep her mind active and says other people her age could benefit greatly from slaying virtual dragons.",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [],
       "poster": "assets/posters/the-grandma-gamer.png",
       "video": "",
@@ -558,7 +1078,25 @@
       "embed": "https://vimeo.com/1209970964/d54af2ac59",
       "link": "",
       "featured": false,
-      "clientLabel": "Network"
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     },
     {
       "id": "superman-of-hollywood-boulevard",
@@ -569,9 +1107,6 @@
       "role": "Director / Editor / Producer",
       "logline": "48-year-old Christopher Dennis' life didn't go as planned.",
       "description": "After some early success as an actor and model, Dennis struggled with drugs and eventually found himself on Hollywood Boulevard, working for tips from tourists as a Superman impersonator. Still, Dennis finds purpose in brightening other peoples' lives.",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [],
       "poster": "assets/posters/superman-of-hollywood-boulevard.png",
       "video": "",
@@ -579,7 +1114,25 @@
       "embed": "https://vimeo.com/1209970967/e489096b0e",
       "link": "",
       "featured": false,
-      "clientLabel": "Network"
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     },
     {
       "id": "im-a-furry",
@@ -590,9 +1143,6 @@
       "role": "Director / Editor / Producer",
       "logline": "19-year-old Christopher from California overcomes his social anxiety by dressing up as a neon green fox named Kona.",
       "description": "But it's not just about making himself feel better, it's about spreading the happiness as far as it will go.",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [],
       "poster": "assets/posters/im-a-furry.png",
       "video": "",
@@ -600,7 +1150,25 @@
       "embed": "https://vimeo.com/1209970965/b62b0386d7",
       "link": "",
       "featured": false,
-      "clientLabel": "Network"
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     },
     {
       "id": "slow-to-rise-katrina",
@@ -611,9 +1179,6 @@
       "role": "Director / Editor / Producer",
       "logline": "Ten years after Katrina, a New Orleans neighborhood is still waiting to rise.",
       "description": "Featured on Huffington Post.",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [],
       "poster": "assets/posters/slow-to-rise-katrina.png",
       "video": "",
@@ -621,7 +1186,25 @@
       "embed": "https://vimeo.com/137453932",
       "link": "",
       "featured": false,
-      "clientLabel": "Network"
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     },
     {
       "id": "the-homeless-jedi",
@@ -632,9 +1215,6 @@
       "role": "Director / Editor / Producer",
       "logline": "32-year-old Ace Venom (his legal name) identifies as a Jedi realist.",
       "description": "And like Jedi from Star Wars films, Ace relies upon a philosophy of righteousness and helping others to endure his day-to-day struggles in Portland, where rising rent prices have left him and his fiancée homeless.",
-      "credits": [
-        "Director / Editor / Producer — Christopher Stoudt"
-      ],
       "recognition": [],
       "poster": "assets/posters/the-homeless-jedi.png",
       "video": "",
@@ -642,7 +1222,25 @@
       "embed": "https://vimeo.com/1209970966/ee933e2093",
       "link": "",
       "featured": false,
-      "clientLabel": "Network"
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     }
   ]
 }

@@ -227,6 +227,25 @@ img, video { display: block; max-width: 100%; }
   letter-spacing: -0.01em; font-size: clamp(40px, 10vw, 128px);
 }
 
+/* ---------- frozen headlines (Chill Factory) ----------------------------- */
+/* Big page headlines get a crisp frost "rime" edge + a slow, subtle breathing
+   frost halo — monochrome, playing on the "chill" theme. */
+.hero-title, .page-title, .project-title, .feature-title {
+  -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.5);
+  animation: frost-breathe 4.3s ease-in-out infinite;
+}
+@keyframes frost-breathe {
+  0%, 100% { text-shadow: 0 0 5px rgba(255,255,255,0.24), 0 0 1px rgba(255,255,255,0.83); }
+  50%      { text-shadow: 0 0 16px rgba(255,255,255,0.47), 0 0 2px rgba(255,255,255,0.9); }
+}
+/* accessibility: hold still (but keep a static frost glow) if motion is off */
+@media (prefers-reduced-motion: reduce) {
+  .hero-title, .page-title, .project-title, .feature-title {
+    animation: none;
+    text-shadow: 0 0 7px rgba(255,255,255,0.26), 0 0 1px rgba(255,255,255,0.85);
+  }
+}
+
 /* ---------- project detail ----------------------------------------------- */
 .back-link {
   display: inline-block; margin-bottom: 28px; font-size: 12px; font-weight: 700;

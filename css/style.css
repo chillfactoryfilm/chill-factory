@@ -101,7 +101,7 @@ img, video { display: block; max-width: 100%; }
 }
 .brand {
   display: inline-flex; align-items: center; gap: 8px;
-  font-weight: 800; font-size: 19px; letter-spacing: 0.14em;
+  font-weight: 800; font-size: 22px; letter-spacing: 0.14em;
   text-transform: uppercase;
 }
 /* ice-cube mark before the wordmark (222x276 → 32px tall; ~2px > footer mark) */
@@ -214,8 +214,16 @@ img, video { display: block; max-width: 100%; }
 }
 .card-title {
   font-size: clamp(15px, 1.5vw, 20px); font-weight: 700; letter-spacing: 0.01em;
-  text-transform: uppercase;
+  text-transform: uppercase; position: relative;
 }
+/* hovering anywhere on the card (incl. the video) slides an underline under the
+   title, matching the header nav hover */
+.card-title::after {
+  content: ""; position: absolute; left: 0; bottom: -3px; height: 2px; width: 0;
+  background: currentColor;
+}
+/* underline just appears on hover — no slide in either direction */
+.card:hover .card-title::after { width: 100%; }
 .card-client {
   font-size: 13px; font-weight: 700; color: #fff;
   text-transform: uppercase; letter-spacing: 0.1em; white-space: nowrap;
@@ -258,6 +266,17 @@ img, video { display: block; max-width: 100%; }
 .page-title--bright, .hero-title {
   -webkit-text-stroke: 0.6px rgba(255, 255, 255, 0.65);
   animation-name: frost-breathe-strong; /* same halo as the contact email */
+}
+/* Work sits on solid black, where the strong halo reads much heavier than the
+   same glow does over About's darkened video. Dial the Work title down so the
+   two pages look matched. (Work is the only bright title on a non-video page.) */
+body:not(.page-video) .page-title--bright {
+  -webkit-text-stroke: 0.55px rgba(255, 255, 255, 0.6);
+  animation-name: frost-breathe-work;
+}
+@keyframes frost-breathe-work {
+  0%, 100% { text-shadow: 0 0 10px rgba(255,255,255,0.36), 0 0 3px rgba(255,255,255,0.88); }
+  50%      { text-shadow: 0 0 28px rgba(255,255,255,0.66), 0 0 4px rgba(255,255,255,0.95); }
 }
 /* accessibility: hold still (but keep a static frost glow) if motion is off */
 @media (prefers-reduced-motion: reduce) {
@@ -433,7 +452,7 @@ img, video { display: block; max-width: 100%; }
 .footer-brand { position: relative; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; font-size: 14px; color: #fff; }
 .footer-mark {
   position: absolute; right: 100%; top: 50%; transform: translateY(-50%);
-  margin-right: 9px; height: 30px; width: auto; filter: brightness(0) invert(1);
+  margin-right: 6px; height: 30px; width: auto; filter: brightness(0) invert(1);
 }
 .footer small { color: rgba(255, 255, 255, 0.5); font-size: 12px; letter-spacing: 0.04em; }
 .footer-links { display: flex; gap: 22px; }

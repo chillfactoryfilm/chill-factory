@@ -110,6 +110,10 @@ img, video { display: block; max-width: 100%; }
   background: url("../assets/logo-mark.png") center/contain no-repeat;
   filter: brightness(0) invert(1);
 }
+/* header + footer wordmarks, nav links, footer links: a subtle static frost glow (no pulse) */
+.brand, .footer-brand, .nav-links a, .footer-links a {
+  text-shadow: 0 0 6px rgba(255,255,255,0.30), 0 0 1px rgba(255,255,255,0.55);
+}
 .nav-links { display: flex; gap: clamp(18px, 3vw, 40px); align-items: center; }
 .nav-links a {
   font-size: 14px; font-weight: 700; text-transform: uppercase;
@@ -195,6 +199,35 @@ img, video { display: block; max-width: 100%; }
   .grid, .grid--three { grid-template-columns: 1fr; }
 }
 
+/* ---------- work category filter ---------------------------------------- */
+/* sits on the baseline of the WORK title, right side; same title typeface but
+   thin + tracked so it reads as a quiet caption under the headline */
+.work-filter {
+  display: flex; flex-wrap: wrap; align-items: baseline;
+  gap: clamp(14px, 2.2vw, 30px); margin: 0;
+}
+.work-filter-btn {
+  position: relative; background: none; border: 0; padding: 3px 0; cursor: pointer;
+  font-family: inherit; font-weight: 700; font-size: clamp(13px, 1.15vw, 16px);
+  letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted);
+  transition: color 0.3s var(--ease);
+}
+.work-filter-btn::after {
+  content: ""; position: absolute; left: 0; bottom: -2px; height: 1px; width: 0;
+  background: currentColor; transition: width 0.35s var(--ease);
+}
+.work-filter-btn:hover { color: var(--fg); }
+.work-filter-btn.is-active { color: var(--fg); }
+.work-filter-btn:hover::after,
+.work-filter-btn.is-active::after { width: 100%; }
+.work-filter-btn:focus-visible { outline: 2px solid var(--fg); outline-offset: 4px; }
+/* the repeat bar at the end of the grid — needs extra clearance on mobile
+   so it doesn't crowd the last card's title */
+.work-filter--end { margin-top: clamp(40px, 6vw, 64px); }
+
+/* hidden by the category filter */
+.card--hidden { display: none; }
+
 .card { display: block; position: relative; }
 .card-media {
   position: relative; aspect-ratio: 16 / 9; overflow: hidden;
@@ -236,7 +269,11 @@ img, video { display: block; max-width: 100%; }
 
 /* ---------- page header -------------------------------------------------- */
 /* vertical only — keep .wrap's horizontal gutter (was flush to the edge) */
-.page-head { padding-top: clamp(60px, 12vw, 160px); padding-bottom: clamp(28px, 5vw, 56px); }
+.page-head {
+  padding-top: clamp(60px, 12vw, 160px); padding-bottom: clamp(28px, 5vw, 56px);
+  display: flex; flex-direction: column; align-items: flex-start;
+  gap: clamp(10px, 1.6vw, 20px);
+}
 .page-title {
   margin: 0; font-weight: 800; text-transform: uppercase; line-height: 0.94;
   letter-spacing: -0.01em; font-size: clamp(40px, 10vw, 128px);

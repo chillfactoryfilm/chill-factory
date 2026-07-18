@@ -659,7 +659,7 @@
       "title": "Innocence Project New Orleans",
       "year": "2018",
       "client": "IPNO",
-      "category": "Short",
+      "category": "Branded",
       "logline": "After 46 years of wrongful incarceration, Wilbert Jones walks free.",
       "description": "Documenting the release of Wilbert Jones after 46 years of wrongful incarceration, and the work of Innocence Project New Orleans, which has freed more than 30 innocent prisoners across Louisiana and Mississippi.",
       "recognition": [],
@@ -721,8 +721,16 @@
           "value": "Christopher Stoudt"
         },
         {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
           "label": "Network",
           "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
         },
         {
           "label": "Year",
@@ -757,8 +765,16 @@
           "value": "Christopher Stoudt"
         },
         {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
           "label": "Network",
           "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
         },
         {
           "label": "Year",
@@ -793,8 +809,16 @@
           "value": "Christopher Stoudt"
         },
         {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
           "label": "Network",
           "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
         },
         {
           "label": "Year",
@@ -829,8 +853,16 @@
           "value": "Christopher Stoudt"
         },
         {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
           "label": "Network",
           "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
         },
         {
           "label": "Year",
@@ -867,8 +899,16 @@
           "value": "Christopher Stoudt"
         },
         {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
           "label": "Network",
           "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
         },
         {
           "label": "Year",
@@ -905,8 +945,16 @@
           "value": "Christopher Stoudt"
         },
         {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
           "label": "Network",
           "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
         },
         {
           "label": "Year",
@@ -941,8 +989,16 @@
           "value": "Christopher Stoudt"
         },
         {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
           "label": "Network",
           "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
         },
         {
           "label": "Year",
@@ -977,8 +1033,16 @@
           "value": "Christopher Stoudt"
         },
         {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
           "label": "Network",
           "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
         },
         {
           "label": "Year",
@@ -1013,8 +1077,16 @@
           "value": "Christopher Stoudt"
         },
         {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
           "label": "Network",
           "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
         },
         {
           "label": "Year",
@@ -1049,8 +1121,16 @@
           "value": "Christopher Stoudt"
         },
         {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
           "label": "Network",
           "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
         },
         {
           "label": "Year",
@@ -1085,8 +1165,16 @@
           "value": "Christopher Stoudt"
         },
         {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
           "label": "Network",
           "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
         },
         {
           "label": "Year",
@@ -1121,8 +1209,16 @@
           "value": "Christopher Stoudt"
         },
         {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
           "label": "Network",
           "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
         },
         {
           "label": "Year",
@@ -1157,8 +1253,16 @@
           "value": "Christopher Stoudt"
         },
         {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
           "label": "Network",
           "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
         },
         {
           "label": "Year",
@@ -1193,8 +1297,16 @@
           "value": "Christopher Stoudt"
         },
         {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
           "label": "Network",
           "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
         },
         {
           "label": "Year",
@@ -1229,8 +1341,16 @@
           "value": "Christopher Stoudt"
         },
         {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
           "label": "Network",
           "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
         },
         {
           "label": "Year",

@@ -32,6 +32,7 @@
       setupVideoAutoplay();
       setupAutoplayCovers();
       setupReveal();
+      setupWorkFilter();
     }).catch(function (err) {
       console.error("Content failed to load:", err);
     });
@@ -185,6 +186,14 @@
     return '<img src="' + escapeAttr(p.poster) + '" alt="' + escapeAttr(p.title) + '" loading="lazy">';
   }
 
+  // Work-grid filter bucket: one of films | series | branded | 60sd.
+  function workCat(p) {
+    if (p.client === "60 Second Docs") return "60sd";
+    if (p.category === "Series") return "series";
+    if (p.category === "Branded") return "branded";
+    return "films"; // standalone docs (Short/Web)
+  }
+
   function cardHTML(p) {
     // Autoplay cover imagery: use the dedicated `cover` link if set, else the
     // film's `embed`. (Covers use loops/trailers to avoid captions + intro cards;
@@ -198,7 +207,7 @@
     if (vim) attr = ' data-vimeo="' + escapeAttr(vim.id) + '"' +
       (vim.hash ? ' data-vimeo-h="' + escapeAttr(vim.hash) + '"' : "");
     else if (yt) attr = ' data-youtube="' + escapeAttr(yt) + '"';
-    return '<a class="card reveal" href="project.html?id=' + encodeURIComponent(p.id) + '">' +
+    return '<a class="card reveal" data-cat="' + workCat(p) + '" href="project.html?id=' + encodeURIComponent(p.id) + '">' +
       '<div class="card-media"' + attr + ">" + mediaEl(p) + "</div>" +
       '<div class="card-meta"><span class="card-title">' + escapeHTML(p.title) +
       '</span><span class="card-client">' + escapeHTML(p.client || "") + "</span></div></a>";
@@ -320,6 +329,41 @@
       });
     }, { threshold: 0.12, rootMargin: "0px 0px -8% 0px" });
     els.forEach(function (el) { io.observe(el); });
+  }
+
+  /* ---- work-grid category filter --------------------------------------- */
+  var WORK_CATS = ["all", "films", "series", "branded", "60sd"];
+  function setupWorkFilter() {
+    var bars = document.querySelectorAll("[data-work-filter]");
+    var grid = document.querySelector("[data-grid='all']");
+    if (!bars.length || !grid) return;
+    var cards = grid.querySelectorAll(".card");
+    function apply(cat) {
+      // sync the active state across every filter bar (top + bottom)
+      bars.forEach(function (bar) {
+        bar.querySelectorAll("button[data-filter]").forEach(function (b) {
+          var on = b.getAttribute("data-filter") === cat;
+          b.classList.toggle("is-active", on);
+          b.setAttribute("aria-pressed", on ? "true" : "false");
+        });
+      });
+      cards.forEach(function (card) {
+        var show = cat === "all" || card.getAttribute("data-cat") === cat;
+        card.classList.toggle("card--hidden", !show);
+        // reveal any shown card immediately (so filtered results aren't left
+        // invisible waiting on the scroll observer)
+        if (show) card.classList.add("in");
+      });
+    }
+    bars.forEach(function (bar) {
+      bar.addEventListener("click", function (e) {
+        var btn = e.target.closest("button[data-filter]");
+        if (btn) apply(btn.getAttribute("data-filter"));
+      });
+    });
+    // optional deep-link, e.g. work.html?cat=films
+    var initial = new URLSearchParams(location.search).get("cat");
+    if (initial && WORK_CATS.indexOf(initial) !== -1) apply(initial);
   }
 
   /* ---- mobile nav ------------------------------------------------------- */

@@ -239,7 +239,7 @@ img, video { display: block; max-width: 100%; }
    frost halo — monochrome, playing on the "chill" theme. */
 .hero-title, .page-title, .project-title, .feature-title, .email-huge {
   -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.5);
-  animation: frost-breathe 4.3s ease-in-out infinite;
+  animation: frost-breathe 6s ease-in-out infinite;
 }
 @keyframes frost-breathe {
   0%, 100% { text-shadow: 0 0 5px rgba(255,255,255,0.24), 0 0 1px rgba(255,255,255,0.83); }
@@ -251,8 +251,8 @@ img, video { display: block; max-width: 100%; }
   animation-name: frost-breathe-strong;
 }
 @keyframes frost-breathe-strong {
-  0%, 100% { text-shadow: 0 0 12px rgba(255,255,255,0.42), 0 0 3px rgba(255,255,255,0.9); }
-  50%      { text-shadow: 0 0 34px rgba(255,255,255,0.75), 0 0 5px rgba(255,255,255,1); }
+  0%, 100% { text-shadow: 0 0 12px rgba(255,255,255,0.41), 0 0 3px rgba(255,255,255,0.9); }
+  50%      { text-shadow: 0 0 33px rgba(255,255,255,0.735), 0 0 5px rgba(255,255,255,1); }
 }
 /* About + Work page titles glow a step harder than the other headlines */
 .page-title--bright, .hero-title {

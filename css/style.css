@@ -255,7 +255,7 @@ img, video { display: block; max-width: 100%; }
   50%      { text-shadow: 0 0 34px rgba(255,255,255,0.75), 0 0 5px rgba(255,255,255,1); }
 }
 /* About + Work page titles glow a step harder than the other headlines */
-.page-title--bright {
+.page-title--bright, .hero-title {
   -webkit-text-stroke: 0.6px rgba(255, 255, 255, 0.65);
   animation-name: frost-breathe-strong; /* same halo as the contact email */
 }
@@ -268,7 +268,7 @@ img, video { display: block; max-width: 100%; }
   .email-huge {
     text-shadow: 0 0 18px rgba(255,255,255,0.5), 0 0 3px rgba(255,255,255,0.95);
   }
-  .page-title--bright {
+  .page-title--bright, .hero-title {
     text-shadow: 0 0 18px rgba(255,255,255,0.5), 0 0 3px rgba(255,255,255,0.95);
   }
 }

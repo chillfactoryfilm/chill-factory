@@ -76,7 +76,8 @@ img, video { display: block; max-width: 100%; }
 
 /* ---------- layout helpers ---------------------------------------------- */
 .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--gutter); }
-.section { padding: clamp(48px, 9vw, 120px) 0; }
+/* vertical only — must NOT reset the horizontal gutter inherited from .wrap */
+.section { padding-top: clamp(48px, 9vw, 120px); padding-bottom: clamp(48px, 9vw, 120px); }
 .eyebrow {
   font-size: 12px; font-weight: 700; text-transform: uppercase;
   letter-spacing: 0.18em; color: var(--muted); margin: 0 0 24px;
@@ -219,7 +220,8 @@ img, video { display: block; max-width: 100%; }
 }
 
 /* ---------- page header -------------------------------------------------- */
-.page-head { padding: clamp(60px, 12vw, 160px) 0 clamp(28px, 5vw, 56px); }
+/* vertical only — keep .wrap's horizontal gutter (was flush to the edge) */
+.page-head { padding-top: clamp(60px, 12vw, 160px); padding-bottom: clamp(28px, 5vw, 56px); }
 .page-title {
   margin: 0; font-weight: 800; text-transform: uppercase; line-height: 0.94;
   letter-spacing: -0.01em; font-size: clamp(40px, 10vw, 128px);

@@ -225,8 +225,9 @@ img, video { display: block; max-width: 100%; }
    so it doesn't crowd the last card's title */
 .work-filter--end { margin-top: clamp(40px, 6vw, 64px); }
 
-/* hidden by the category filter */
-.card--hidden { display: none; }
+/* hidden by the category filter — .card.card--hidden so it outranks the
+   later `.card { display: block }` rule regardless of source order */
+.card.card--hidden { display: none; }
 
 .card { display: block; position: relative; }
 .card-media {

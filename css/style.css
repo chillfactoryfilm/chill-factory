@@ -100,8 +100,15 @@ img, video { display: block; max-width: 100%; }
   color: #fff; mix-blend-mode: difference;
 }
 .brand {
+  display: inline-flex; align-items: center; gap: 8px;
   font-weight: 800; font-size: 19px; letter-spacing: 0.14em;
   text-transform: uppercase;
+}
+/* ice-cube mark before the wordmark (222x276 → 32px tall; ~2px > footer mark) */
+.brand::before {
+  content: ""; flex: 0 0 auto; width: 26px; height: 32px;
+  background: url("../assets/logo-mark.png") center/contain no-repeat;
+  filter: brightness(0) invert(1);
 }
 .nav-links { display: flex; gap: clamp(18px, 3vw, 40px); align-items: center; }
 .nav-links a {
@@ -404,7 +411,7 @@ img, video { display: block; max-width: 100%; }
 .footer-brand { position: relative; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; font-size: 14px; color: #fff; }
 .footer-mark {
   position: absolute; right: 100%; top: 50%; transform: translateY(-50%);
-  margin-right: 9px; height: 27px; width: auto; filter: brightness(0) invert(1);
+  margin-right: 9px; height: 30px; width: auto; filter: brightness(0) invert(1);
 }
 .footer small { color: rgba(255, 255, 255, 0.5); font-size: 12px; letter-spacing: 0.04em; }
 .footer-links { display: flex; gap: 22px; }

@@ -93,11 +93,9 @@
     var pageBg = document.getElementById("page-bg");
     var bgKey = pageBg ? (pageBg.getAttribute("data-bg-key") || "aboutBgVideo") : null;
     var bgLink = pageBg ? SITE[bgKey] : null;
-    if (pageBg && bgLink && IS_TOUCH) {
-      // mobile: static still (field named like the video field but ...Poster)
-      var bgPoster = SITE[bgKey.replace("Video", "Poster")] || "";
-      if (bgPoster) pageBg.innerHTML = '<img src="' + escapeAttr(bgPoster) + '" alt="">';
-    } else if (pageBg && bgLink) {
+    // Background video is desktop-only. On touch/mobile the #page-bg stays empty,
+    // so the plain dark background (.page-bg) shows through — no video, no still.
+    if (pageBg && bgLink && !IS_TOUCH) {
       var pv = parseVimeo(bgLink);
       var yv = pv ? null : getYouTubeId(bgLink);
       if (pv) {

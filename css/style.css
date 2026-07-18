@@ -390,6 +390,10 @@ body:not(.page-video) .page-title--bright {
   display: flex; justify-content: space-between; gap: 20px;
   margin-top: clamp(48px, 8vw, 100px); padding-top: 28px; border-top: 1px solid var(--line);
 }
+/* Collabs prev/next: full-width like Work, aligned to the centered stage. Hugs the
+   text column as long as the text is at least as tall as the poster (which it is on
+   the content-rich pages; short pages carry a description to clear the poster). */
+.feature-stage + .prevnext { max-width: 1180px; margin-inline: auto; margin-top: clamp(20px, 3vw, 36px); }
 .prevnext a { font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; }
 .prevnext a:hover { color: var(--muted); }
 .prevnext .disabled { color: var(--line); pointer-events: none; }
@@ -545,10 +549,10 @@ body:not(.page-video) .page-title--bright {
 
 /* ---------- feature film page (poster-forward, over video bg) ------------ */
 .feature-stage {
-  min-height: calc(100svh - var(--nav-h));
+  max-width: 1180px; margin-inline: auto;
   display: grid; grid-template-columns: auto 1fr;
-  gap: clamp(32px, 6vw, 88px); align-items: start;
-  padding: clamp(96px, 13vh, 150px) 0 clamp(56px, 9vh, 100px);
+  gap: clamp(32px, 5vw, 72px); align-items: start;
+  padding: clamp(96px, 13vh, 150px) 0 clamp(32px, 5vh, 64px);
 }
 /* keep the poster pinned in view while the longer copy scrolls past it */
 .feature-poster { position: sticky; top: calc(var(--nav-h) + 28px); }
@@ -567,30 +571,81 @@ body:not(.page-video) .page-title--bright {
   .feature-poster { position: static; }
   .feature-poster img { height: auto; width: min(72vw, 360px); }
 }
-.feature-info { color: #fff; max-width: 46ch; }
+/* watch chips under the poster */
+.poster-chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+.poster-chip {
+  display: inline-flex; align-items: center; gap: 8px; padding: 9px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 999px;
+  font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em;
+  color: #fff; text-decoration: none;
+  transition: background 0.3s var(--ease), color 0.3s var(--ease), border-color 0.3s var(--ease);
+}
+.poster-chip:hover { background: #fff; color: #0a0a0a; border-color: #fff; }
+.poster-chip span { transition: transform 0.3s var(--ease); }
+.poster-chip:hover span { transform: translateX(3px); }
+
+.feature-info { color: #fff; max-width: none; }
 .feature-info .back-link { color: rgba(255, 255, 255, 0.6); }
 .feature-info .back-link:hover { color: #fff; }
 .feature-title {
-  margin: 0; font-weight: 800; text-transform: uppercase; line-height: 0.95;
-  letter-spacing: -0.01em; font-size: clamp(36px, 5.2vw, 68px);
+  margin: 0; font-weight: 800; text-transform: uppercase; line-height: 0.98;
+  letter-spacing: -0.01em; font-size: clamp(32px, 4.2vw, 50px); text-wrap: balance;
 }
 .feature-logline {
   font-size: clamp(14px, 1.35vw, 16px); font-weight: 400; font-style: italic;
   line-height: 1.6; margin: 20px 0 0; color: rgba(255, 255, 255, 0.82);
 }
-.feature-roles { margin: clamp(28px, 4vw, 40px) 0 0; }
-.feature-roles .eyebrow { color: rgba(255, 255, 255, 0.5); margin-bottom: 14px; }
-.role-list { list-style: none; margin: 0; padding: 0; }
-.role-list li {
-  font-size: clamp(18px, 2vw, 24px); font-weight: 700; text-transform: uppercase;
-  letter-spacing: 0.02em; padding: 10px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+.feature-desc {
+  font-size: clamp(14px, 1.3vw, 15.5px); line-height: 1.7;
+  color: rgba(255, 255, 255, 0.7); margin: 16px 0 0;
 }
-.feature-meta { display: flex; gap: clamp(24px, 4vw, 48px); margin-top: 30px; flex-wrap: wrap; }
+/* prominent role lead at the top of a feature page (mirrors the Rachel dev pages);
+   monochrome adaptation — white role value carries the static frost glow */
+.role-lead { margin: clamp(28px, 4vw, 44px) 0 0; padding-bottom: 18px; border-bottom: 1px solid rgba(255, 255, 255, 0.16); }
+.role-lead-label {
+  display: block; font-size: 14px; font-weight: 800; text-transform: uppercase;
+  letter-spacing: 0.16em; color: #fff; margin-bottom: 8px;
+}
+.role-lead-role {
+  display: block; font-weight: 800; font-size: clamp(21px, 2.6vw, 33px);
+  letter-spacing: -0.02em; line-height: 1.04; color: #fff;
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.28), 0 0 1px rgba(255, 255, 255, 0.55);
+}
+/* role + status pill on one line (e.g. in-production Collabs) */
+.role-lead-line { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.role-lead-status {
+  flex: none; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.16em;
+  padding: 6px 11px; color: #fff; border: 1px solid rgba(255, 255, 255, 0.4); border-radius: 999px;
+}
+
+/* critic pull quote on a feature page (optionally wrapped in a link to the review) */
+a.feature-quote-link { display: block; text-decoration: none; color: inherit; }
+a.feature-quote-link .feature-quote { transition: border-color 0.3s var(--ease); }
+a.feature-quote-link:hover .feature-quote { border-left-color: #fff; }
+a.feature-quote-link:hover cite { color: #fff; }
+a.feature-quote-link:focus-visible { outline: 2px solid var(--fg); outline-offset: 6px; }
+.feature-quote { margin: clamp(24px, 4vw, 36px) 0 0; padding-left: 18px; border-left: 2px solid rgba(255, 255, 255, 0.32); }
+.feature-quote p {
+  margin: 0; font-size: clamp(18px, 2vw, 23px); font-style: italic;
+  line-height: 1.4; color: #fff;
+}
+.feature-quote cite {
+  display: block; margin-top: 12px; font-style: normal; font-size: 12px;
+  font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: rgba(255, 255, 255, 0.62);
+}
+.feature-quote cite span { color: rgba(255, 255, 255, 0.42); }
+
+/* feature affiliation rows — a vertical label/value list like the detail pages, on dark */
+.feature-meta { display: block; margin-top: clamp(26px, 4vw, 38px); border-top: 1px solid rgba(255, 255, 255, 0.16); }
+.feature-meta > div {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 24px;
+  padding: 12px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
 .feature-meta dt {
-  font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.14em;
-  color: rgba(255, 255, 255, 0.5); margin: 0 0 4px;
+  flex: none; margin: 0; font-size: 12px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.12em; color: rgba(255, 255, 255, 0.55);
 }
-.feature-meta dd { margin: 0; font-size: 15px; font-weight: 500; color: #fff; }
+.feature-meta dd { margin: 0; font-size: 14px; font-weight: 500; color: #fff; text-align: right; }
 
 /* ---------- mobile nav --------------------------------------------------- */
 @media (max-width: 640px) {

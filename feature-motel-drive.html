@@ -21,7 +21,7 @@
   <!-- Favicon / app icon -->
   <link rel="icon" type="image/png" href="/assets/icon.png" />
   <link rel="apple-touch-icon" href="/assets/icon.png" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css?v=3" />
 </head>
 <body class="theme-dark page-video">
 
@@ -33,7 +33,7 @@
     <button class="nav-toggle" aria-label="Menu">Menu</button>
     <nav class="nav-links">
       <a href="work.html">Work</a>
-      <a href="features.html" aria-current="page">Features</a>
+      <a href="features.html" aria-current="page">Collabs</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
     </nav>
@@ -45,53 +45,57 @@
 
         <div class="feature-poster reveal">
           <img src="assets/posters/motel-drive.jpg" alt="Motel Drive — one-sheet" />
+          <div class="poster-chips">
+            <a class="poster-chip" href="https://www.youtube.com/watch?v=s5SAuL7zEWk" target="_blank" rel="noopener">Watch the trailer <span aria-hidden="true">↗</span></a>
+            <a class="poster-chip" href="https://vinegarsyndrome.com/collections/dekanalog/products/motel-drive" target="_blank" rel="noopener">Buy on Blu-ray <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
 
         <div class="feature-info reveal">
-          <a class="back-link" href="features.html">← Features</a>
+          <a class="back-link" href="features.html">← Collabs</a>
           <h1 class="feature-title">Motel Drive</h1>
           <p class="feature-logline">Within a community of motels infamous for illicit activity, the Shaw family grapples with housing insecurity and addiction while trying to raise their young son. When California’s High-Speed Rail project displaces them, a glimpse of stability appears within reach.</p>
 
-          <div class="feature-roles">
-            <p class="eyebrow">Role</p>
-            <ul class="role-list">
-              <li>Editor</li>
-              <li>Producer</li>
-            </ul>
+          <div class="role-lead">
+            <span class="role-lead-label">Role</span>
+            <span class="role-lead-role">Editor · Producer</span>
           </div>
+
+          <dl class="feature-meta">
+            <div><dt>Director</dt><dd>Brendan Geraghty</dd></div>
+            <div><dt>Producers</dt><dd>Brendan&nbsp;Geraghty, Josh&nbsp;Polon</dd></div>
+            <div><dt>Director of Photography</dt><dd>Sebastian&nbsp;Heinrich, Luc&nbsp;G.&nbsp;Nicknair</dd></div>
+            <div><dt>Composer</dt><dd>Zack Wright</dd></div>
+            <div><dt>Distributor</dt><dd>Vinegar Syndrome</dd></div>
+            <div><dt>Format</dt><dd>Feature Documentary</dd></div>
+            <div><dt>Year</dt><dd>2023</dd></div>
+            <div><dt>Runtime</dt><dd>62 minutes</dd></div>
+          </dl>
+
+          <a class="feature-quote-link" href="https://filmthreat.com/reviews/motel-drive/" target="_blank" rel="noopener">
+            <blockquote class="feature-quote">
+              <p>“One of the most striking statements about the American housing nightmare we have seen.”</p>
+              <cite>Film Threat <span>(9/10)</span></cite>
+            </blockquote>
+          </a>
 
           <div class="tag-block tag-block--laurels feature-block">
             <h3>Recognition</h3>
             <ul>
-              <li>Jury Award, Best Documentary — London International Film Festival</li>
-              <li>Official Selection — Slamdance 2023</li>
+              <li><b>Premiere</b> — Slamdance 2023</li>
+              <li><b>Best Documentary</b> — Lighthouse International Film Festival</li>
               <li>Official Selection — San Francisco Documentary Festival 2023</li>
+              <li>Official Selection — Arizona International Film Festival 2023</li>
             </ul>
           </div>
-
-          <dl class="feature-meta">
-            <div>
-              <dt>Year</dt>
-              <dd>2023</dd>
-            </div>
-            <div>
-              <dt>Director</dt>
-              <dd>Brendan Geraghty</dd>
-            </div>
-            <div>
-              <dt>Distributor</dt>
-              <dd>Vinegar Syndrome</dd>
-            </div>
-            <div>
-              <dt>Format</dt>
-              <dd>Feature Documentary</dd>
-            </div>
-          </dl>
-
-          <a class="hero-cta" href="https://www.youtube.com/watch?v=s5SAuL7zEWk" target="_blank" rel="noopener">Watch trailer <span aria-hidden="true">↗</span></a>
         </div>
 
       </div>
+
+      <nav class="prevnext">
+        <a href="feature.html">← A Photographic Memory</a>
+        <a href="features.html">Collabs →</a>
+      </nav>
     </div>
   </main>
 
@@ -100,7 +104,7 @@
       <span class="footer-brand"><img src="assets/logo-mark.png" class="footer-mark" alt="" />Chill Factory</span>
       <div class="footer-links">
         <a href="work.html">Work</a>
-        <a href="features.html">Features</a>
+        <a href="features.html">Collabs</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
       </div>
@@ -108,7 +112,7 @@
     </div>
   </footer>
 
-  <script src="js/site.js"></script>
+  <script src="js/site.js?v=3"></script>
   <script>document.getElementById("yr").textContent = new Date().getFullYear();</script>
 </body>
 </html>

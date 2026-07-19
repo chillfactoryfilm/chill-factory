@@ -403,7 +403,10 @@ body:not(.page-video) .page-title--bright {
 /* Collabs prev/next: full-width like Work, aligned to the centered stage. Hugs the
    text column as long as the text is at least as tall as the poster (which it is on
    the content-rich pages; short pages carry a description to clear the poster). */
-.feature-stage + .prevnext { max-width: 1180px; margin-inline: auto; margin-top: clamp(20px, 3vw, 36px); }
+.feature-stage + .prevnext {
+  max-width: 1180px; margin-inline: auto; margin-top: clamp(14px, 2vw, 22px);
+  padding-bottom: clamp(40px, 6vh, 72px); /* breathing room between the nav and the footer */
+}
 .prevnext a { font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; }
 .prevnext a:hover { color: var(--muted); }
 .prevnext .disabled { color: var(--line); pointer-events: none; }
@@ -566,7 +569,7 @@ body:not(.page-video) .page-title--bright {
   max-width: 1180px; margin-inline: auto;
   display: grid; grid-template-columns: auto 1fr;
   gap: clamp(32px, 5vw, 72px); align-items: start;
-  padding: clamp(96px, 13vh, 150px) 0 clamp(32px, 5vh, 64px);
+  padding: clamp(96px, 13vh, 150px) 0 clamp(52px, 8vh, 100px);
 }
 /* keep the poster pinned in view while the longer copy scrolls past it */
 .feature-poster { position: sticky; top: calc(var(--nav-h) + 28px); }

@@ -1603,7 +1603,7 @@
           "value": "Documentary Short"
         }
       ]
-     },
+    },
     {
       "id": "the-black-rebel",
       "title": "The Black Rebel",
@@ -1822,8 +1822,8 @@
       "recognition": [],
       "poster": "assets/posters/real-life-fangsmith.png",
       "video": "",
-      "cover": "",
-      "embed": "https://youtu.be/iCFKrthyCEE",
+      "cover": "https://vimeo.com/143057364",
+      "embed": "https://vimeo.com/143057364",
       "link": "",
       "featured": false,
       "tier": "bteam",
@@ -1912,8 +1912,8 @@
       "recognition": [],
       "poster": "assets/posters/i-have-alopecia.png",
       "video": "",
-      "cover": "",
-      "embed": "https://youtu.be/xxoo0gDp0iI",
+      "cover": "https://vimeo.com/256816363/67553a6ad2",
+      "embed": "https://vimeo.com/256816363/67553a6ad2",
       "link": "",
       "featured": false,
       "tier": "bteam",
@@ -2002,8 +2002,8 @@
       "recognition": [],
       "poster": "assets/posters/santa-dave.png",
       "video": "",
-      "cover": "",
-      "embed": "https://youtu.be/nqfRaoaP6nA",
+      "cover": "https://vimeo.com/150062524",
+      "embed": "https://vimeo.com/150062524",
       "link": "",
       "featured": false,
       "tier": "bteam",
@@ -2182,8 +2182,8 @@
       "recognition": [],
       "poster": "assets/posters/straight-outta-compton.png",
       "video": "",
-      "cover": "",
-      "embed": "https://youtu.be/bxcce2_Pesc",
+      "cover": "https://vimeo.com/137443116",
+      "embed": "https://vimeo.com/137443116",
       "link": "",
       "featured": false,
       "tier": "bteam",
@@ -2709,7 +2709,7 @@
           "value": "Documentary Short"
         }
       ]
-     },
+    },
     {
       "id": "bunny-museum",
       "title": "Bunny Museum",
@@ -2722,8 +2722,8 @@
       "recognition": [],
       "poster": "assets/posters/bunny-museum.jpg",
       "video": "",
-      "cover": "",
-      "embed": "https://youtu.be/_2RLVddlKeU",
+      "cover": "https://vimeo.com/212685331/ff074826ce",
+      "embed": "https://vimeo.com/212685331/ff074826ce",
       "link": "",
       "featured": false,
       "tier": "bteam",
@@ -2767,8 +2767,8 @@
       "recognition": [],
       "poster": "assets/posters/caramel-curves.jpg",
       "video": "",
-      "cover": "",
-      "embed": "https://youtu.be/s8uRDYAxNjI",
+      "cover": "https://vimeo.com/326233729/894a16e5dc",
+      "embed": "https://vimeo.com/326233729/894a16e5dc",
       "link": "",
       "featured": false,
       "tier": "bteam",

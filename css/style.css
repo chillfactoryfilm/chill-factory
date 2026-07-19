@@ -588,18 +588,18 @@ body:not(.page-video) .page-title--bright {
   .feature-poster { position: static; }
   .feature-poster img { height: auto; width: min(72vw, 360px); }
 }
-/* watch chips under the poster */
+/* watch chips under the poster — matched to the work-page .watch-btn chip
+   (solid fill, square corners, 13px / .14em, fade on hover) so the Collab
+   detail pages and the Work detail pages read as the same component. */
 .poster-chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
 .poster-chip {
-  display: inline-flex; align-items: center; gap: 8px; padding: 9px 16px;
-  border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 999px;
-  font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em;
-  color: #fff; text-decoration: none;
-  transition: background 0.3s var(--ease), color 0.3s var(--ease), border-color 0.3s var(--ease);
+  display: inline-flex; align-items: center; gap: 8px; padding: 14px 30px;
+  background: var(--fg); color: var(--bg); border: 0; border-radius: 0;
+  font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.14em;
+  text-decoration: none;
+  transition: opacity 0.3s var(--ease);
 }
-.poster-chip:hover { background: #fff; color: #0a0a0a; border-color: #fff; }
-.poster-chip span { transition: transform 0.3s var(--ease); }
-.poster-chip:hover span { transform: translateX(3px); }
+.poster-chip:hover { opacity: 0.8; }
 
 .feature-info { color: #fff; max-width: none; }
 .feature-info .back-link { color: rgba(255, 255, 255, 0.6); }

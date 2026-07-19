@@ -1462,7 +1462,7 @@
     {
       "id": "celebrity-autograph-hunter",
       "title": "Celebrity Autograph Hunter",
-      "year": "",
+      "year": "2016",
       "client": "60 Second Docs",
       "category": "Short",
       "role": "Director / Editor / Producer",
@@ -1487,6 +1487,10 @@
           "value": "60 Second Docs"
         },
         {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
           "label": "Format",
           "value": "Documentary Short"
         }
@@ -1495,7 +1499,7 @@
     {
       "id": "urban-beekeeping",
       "title": "Urban Beekeeping",
-      "year": "",
+      "year": "2016",
       "client": "60 Second Docs",
       "category": "Short",
       "role": "Director / Editor / Producer",
@@ -1520,6 +1524,10 @@
           "value": "60 Second Docs"
         },
         {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
           "label": "Format",
           "value": "Documentary Short"
         }
@@ -1528,7 +1536,7 @@
     {
       "id": "treeman-of-venice",
       "title": "Treeman of Venice",
-      "year": "",
+      "year": "2016",
       "client": "60 Second Docs",
       "category": "Short",
       "role": "Director / Editor / Producer",
@@ -1551,6 +1559,10 @@
         {
           "label": "Network",
           "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
         },
         {
           "label": "Format",

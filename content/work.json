@@ -1569,6 +1569,928 @@
           "value": "Documentary Short"
         }
       ]
+     },
+    {
+      "id": "the-black-rebel",
+      "title": "The Black Rebel",
+      "year": "2019",
+      "client": "",
+      "category": "Short",
+      "role": "Director / Editor",
+      "logline": "22-year-old Andrew Duncomb has become one of the most prominent Confederate flag supporters in the nation — largely because of the color of his skin.",
+      "description": "A black man raised by white parents, Duncomb believes the controversial symbol represents heritage, not hate, but the majority of America disagrees. And he doesn't care one bit. This is his story.",
+      "recognition": [
+        "Vimeo Staff Pick 2019"
+      ],
+      "poster": "assets/posters/the-black-rebel.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://vimeo.com/334210358",
+      "link": "",
+      "featured": false,
+      "tier": "archive",
+      "affiliations": [
+        {
+          "label": "Director / Editor",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Year",
+          "value": "2019"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "building-a-healthy-neighborhood",
+      "title": "Building a Healthy Neighborhood",
+      "year": "2018",
+      "client": "Rebuilding Together",
+      "category": "Branded",
+      "role": "Director / Editor",
+      "logline": "St. Roch is a historic New Orleans neighborhood nestled between the famous Marigny, Bywater and 7th Ward neighborhoods.",
+      "description": "With more than 65% of the residents in this community considered low-income earning less than $15,000 a year; 16% of the neighbors are 65 years or older. St. Roch is a prime neighborhood for reinvestment targeting older adults. Many homeowners have lived in the community for generations and most have experienced the destruction Hurricane Katrina brought to their neighborhood.",
+      "recognition": [],
+      "poster": "assets/posters/building-a-healthy-neighborhood.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://vimeo.com/298205797",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Client",
+      "affiliations": [
+        {
+          "label": "Director / Editor",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Client",
+          "value": "Rebuilding Together"
+        },
+        {
+          "label": "Year",
+          "value": "2018"
+        },
+        {
+          "label": "Format",
+          "value": "Branded Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "transgender-boxer",
+      "title": "Transgender Boxer",
+      "year": "2017",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "Before his sexual reassignment surgery, Pat Manuel was a highly decorated female boxer and a women’s boxing Olympic hopeful.",
+      "description": "Now, following his transition, Manuel competes in the men’s division — and makes waves as an outspoken advocate for transgender equality.",
+      "recognition": [],
+      "poster": "assets/posters/transgender-boxer.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/w8_kJK4OBEQ",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2017"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "adult-thumbsucker",
+      "title": "Adult Thumbsucker",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "As an adult thumbsucker, Harvey Miller feels like his favorite habit is largely misunderstood.",
+      "description": "For him and others like him, thumbsucking is a harmless way to fill a void. And who can argue with that?",
+      "recognition": [],
+      "poster": "assets/posters/adult-thumbsucker.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/lvBgjQKht5g",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "bball-girl",
+      "title": "BBall Girl",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "At just six years old, Jaliyah Manuel is already catching the attention of basketball pros.",
+      "description": "But while she dreams of one day becoming a superstar in the WNBA, her father is focused on making sure she has the best future ahead of her.",
+      "recognition": [],
+      "poster": "assets/posters/bball-girl.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/7kq5xmHQtSw",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "real-life-fangsmith",
+      "title": "Real-life Fangsmith",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "A former dental technician who now goes by the name Father Sebastiaan travels the world fitting real-life vampires with custom fangs.",
+      "description": "In this video, he explains how his unusual occupation gives his life purpose.",
+      "recognition": [],
+      "poster": "assets/posters/real-life-fangsmith.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/iCFKrthyCEE",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "i-have-a-stutter",
+      "title": "I Have a Stutter",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "Due to a severe stutter, Ray Demnitz often struggles to say his name.",
+      "description": "He struggles to place orders at restaurants. Finishing any sentence can prove challenging. Even though he may struggle to get the words out, he’s a great communicator. Rather than let his stutter hold him back, Ray has proudly embraced it as a mark of his individuality — and others might do well to learn from his example.",
+      "recognition": [],
+      "poster": "assets/posters/i-have-a-stutter.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/n7sO3FA9MiU",
+      "link": "",
+      "featured": false,
+      "tier": "archive",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "i-have-alopecia",
+      "title": "I Have Alopecia",
+      "year": "2018",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "“I have alopecia,” says Kylie Bamberger, who started losing her hair at age 12.",
+      "description": "By the time she turned 15, she was completely bald. In the time since, she’s moved past her struggles with alopecia to embrace life and help kids struggling with the hair loss disease to do the same.",
+      "recognition": [],
+      "poster": "assets/posters/i-have-alopecia.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/xxoo0gDp0iI",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2018"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "the-football-giant",
+      "title": "The Football Giant",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "7-foot 440-pound high school senior John Krahn, 17, just might be the largest football player ever.",
+      "description": "But even though he towers over his competition, Krahn’s life aspirations aren’t all football - so what does someone his size dream about becoming if the NFL doesn’t come knocking?",
+      "recognition": [],
+      "poster": "assets/posters/the-football-giant.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/bByz66Y2KwE",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "santa-dave",
+      "title": "Santa Dave",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "61-year-old Dave Morrison has been making children smile for the last decade as a Santa-for-hire.",
+      "description": "But every holiday season, Dave is reminded of his own children who he hasn’t seen in years.",
+      "recognition": [],
+      "poster": "assets/posters/santa-dave.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/nqfRaoaP6nA",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "art-of-the-paparazzi",
+      "title": "Art of the Paparazzi",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "32-year-old Yori Uehara has worked as a paparazzo in L.A. for nearly a decade.",
+      "description": "He's learned that being a successful “pap” takes quick wits, a sharp eye and years of experience. He also learned that photographing celebrities doesn’t automatically make you a terrible person.",
+      "recognition": [],
+      "poster": "assets/posters/art-of-the-paparazzi.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/vX65vQM5tk4",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "the-zen-of-sign-spinning",
+      "title": "The Zen of Sign Spinning",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "20-year-old Oshay Henderson hits the sweltering streets of L.A. every day to spin signs for a living.",
+      "description": "According to him, it’s the best job in the world. But he’s a lot more than just some guy on the side of road - he may just have life figured out.",
+      "recognition": [],
+      "poster": "assets/posters/the-zen-of-sign-spinning.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/19WCu4rJgwc",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "samurai-in-the-modern-world",
+      "title": "Samurai in the Modern World",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "Toshishiro Obata is a master of Japanese swordsmanship who comes from a long line of samurai, dating back to the 15th century.",
+      "description": "As a samurai living in the 21st century, Toshishiro has a unique opinion about technology, tradition, and the importance of being independent.",
+      "recognition": [],
+      "poster": "assets/posters/samurai-in-the-modern-world.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/k-B156w16u8",
+      "link": "",
+      "featured": false,
+      "tier": "archive",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "straight-outta-compton",
+      "title": "What 'Straight Outta Compton' Means in Compton",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "As reports circulated that police would be increasing security in Compton to handle the threat of gang violence on opening night of the N.W.A. film Straight Outta Compton, locals stepped out in peace to show heartfelt support for their hometown rap group.",
+      "description": "",
+      "recognition": [],
+      "poster": "assets/posters/straight-outta-compton.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/bxcce2_Pesc",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "professional-dog-dancer",
+      "title": "Professional Dog Dancer",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "Patie Ventre, lifelong animal lover and dog dancing champion has only one thing on her mind — the Olympics.",
+      "description": "For her, it's just a matter of time before this unusual sport is accepted by the world.",
+      "recognition": [],
+      "poster": "assets/posters/professional-dog-dancer.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/aGsv7VWkmeg",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "grandma-bodybuilder",
+      "title": "Grandma Bodybuilder",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "68-year-old Ruby Pikes began entering bodybuilding competitions at age 51 and has since dedicated her life to fitness and helping other older women reach their fitness goals.",
+      "description": "Here she explains what keeps her going and why age is no excuse to stay unhealthy.",
+      "recognition": [],
+      "poster": "assets/posters/grandma-bodybuilder.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/0ZHUc7lVqt0",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "the-satanic-temple",
+      "title": "The Satanic Temple",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "The Satanic Temple of Los Angeles, co-founded by 50-year-old William Morrison, was established not as a religious order but as a political movement whose primary mission is to defend first amendment rights against the encroachment of the American Christian agenda.",
+      "description": "Here, Morrison explains why the group has marked the day 6/6/16 with a visit to City Hall in Lancaster, CA.",
+      "recognition": [],
+      "poster": "assets/posters/the-satanic-temple.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/5zvR4iqLAlo",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "californias-teen-smokers",
+      "title": "California's Teen Smokers",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "California's new law raising the age at which one can legally purchase cigarettes to 21 went into effect on June 9, 2016.",
+      "description": "Teen smokers around the state are now trying to kick the habit — or looking for more unsavory ways to feed their habit. Here are three youngsters caught in the throes of this struggle.",
+      "recognition": [],
+      "poster": "assets/posters/californias-teen-smokers.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/37KmsQmckQk",
+      "link": "",
+      "featured": false,
+      "tier": "archive",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "la-street-cobbler",
+      "title": "LA Street Cobbler",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "Rafael Lopez doesn’t have much, but what he has he shares.",
+      "description": "Since coming to America 30 years ago, Rafael has been making what he can as a cobbler on the streets of Echo Park, Los Angeles. Someday, he hopes, all of his hard work and shoe repairs will pay off.",
+      "recognition": [],
+      "poster": "assets/posters/la-street-cobbler.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/QIp_y0UDjSQ",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "speedcubers",
+      "title": "Speedcubers",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "Welcome to the world of speedcubing, the fast-paced puzzle competition that is growing in popularity around the world – even if you’ve never heard of it.",
+      "description": "Cubers like Michael Young, from West Hollywood, are battling to see who can solve the Rubik’s cube in the fastest time.",
+      "recognition": [],
+      "poster": "assets/posters/speedcubers.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/jTUXJY8SQ4s",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "black-santa-claus",
+      "title": "Black Santa Claus",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "Santa is about peace, love and putting a smile on children’s faces.",
+      "description": "And for the children in this Southern California neighborhood, Santa is looking a lot more like them. Meet Langston Patterson, the new face of the holidays. As the black Santa Claus at the Baldwin Hills Crenshaw Plaza in Los Angeles, Patterson is hoping to bring children of all ages and races together to celebrate the holidays in a loving way. And judging by the looks on his fans’ faces, it’s working.",
+      "recognition": [],
+      "poster": "assets/posters/black-santa-claus.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/1yiVyhJSsmo",
+      "link": "",
+      "featured": false,
+      "tier": "archive",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "dad-in-jail",
+      "title": "Dad in Jail",
+      "year": "2017",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "With their dad in jail, twin teens Justice and Freedom have been forced to make a lot of sacrifices for their family.",
+      "description": "Before they were born, the twins’ father was convicted of a crime and sent to jail. But despite his time in prison, their father has been a constant in their lives. It is because of this unique bond that the family has grown stronger together – incarceration and all.",
+      "recognition": [],
+      "poster": "assets/posters/dad-in-jail.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/3ksbJ_F3nhk",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2017"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "the-chainsaw-artist",
+      "title": "The Chainsaw Artist",
+      "year": "2017",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "There’s something dangerous about Stacy Poitras’ sculptures.",
+      "description": "One mistake while carving could result in a ruined chainsaw carving...or even worse. But that’s to be expected when he’s using a chainsaw as a paintbrush. After dropping out of art school to pursue chainsaw art as part of CMT’s Chainsaw Gang, Stacy has gained a new perspective on life and what it means to be an artist.",
+      "recognition": [],
+      "poster": "assets/posters/the-chainsaw-artist.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/eKaIkB6n1AI",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2017"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "stunt-driver",
+      "title": "Stunt Driver",
+      "year": "2017",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "20-year old Brionna Lynch has always had a passion for cars and driving fast.",
+      "description": "Since the moment she turned 16 and got her license, she’s been tearing up the streets on and off screen. And now, as one of the only females in the stunt driving profession, she’s carving a path in movies such as The Fate of the Furious and Ninja Turtles 2.",
+      "recognition": [],
+      "poster": "assets/posters/stunt-driver.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/5w2yyCpjfy8",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2017"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "food-truck-for-the-homeless",
+      "title": "Food Truck for the Homeless",
+      "year": "2017",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "After a life-changing epiphany in 2009, Ravi Singh, along with his wife Jacquelin, started Share a Meal, a non-profit program that delivers fresh meals to the homeless on Los Angeles’ Skid Row.",
+      "description": "For five days a week, the Sikh man and his team of volunteers make and deliver hundreds of vegan burritos out of their food truck as a way to serve and share with the community. Out here, it’s more than just a free meal – it’s a way to show others that they have not been forgotten.",
+      "recognition": [],
+      "poster": "assets/posters/food-truck-for-the-homeless.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/jP0e3o3ViGE",
+      "link": "",
+      "featured": false,
+      "tier": "archive",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2017"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     }
   ]
 }

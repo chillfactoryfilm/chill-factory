@@ -1,51 +1,40 @@
 # Vimeo links needed
 
-Status after searching Chris's Vimeo library (2026-07-19). 6 films swapped to Vimeo.
-Remaining items below.
+Status 2026-07-19. **11 B-team films now on Vimeo** (cover + embed), all verified playing.
 
-## A. Password-protected on Vimeo (3) — quickest win
+## Still on YouTube — not in the Vimeo library (14)
 
-These EXIST on Vimeo but are password-locked, so they'd show a password wall.
-Clear the password (or set to unlisted) and I'll swap them in immediately.
+Searched by first word of each title; no match. These need uploading to Vimeo.
 
-| Film | Vimeo ID (ready to use) | Currently on site |
-|------|------------------------|-------------------|
-| Speedcubers | `191582260` | YouTube `jTUXJY8SQ4s` |
-| The Chainsaw Artist | `198278656` | YouTube `eKaIkB6n1AI` |
-| Stunt Driver | `202552416` | YouTube `5w2yyCpjfy8` |
+| Film | Year | Currently (YouTube) | Vimeo link to provide |
+|------|------|---------------------|-----------------------|
+| Celebrity Autograph Hunter | 2016 | `EgG2mMIIZEg` | ⬜ |
+| Urban Beekeeping | 2016 | `MSpTsOth88s` | ⬜ |
+| Treeman of Venice | 2016 | `xLHINtVryZU` | ⬜ |
+| Transgender Boxer | 2017 | `w8_kJK4OBEQ` | ⬜ |
+| Adult Thumbsucker | 2016 | `lvBgjQKht5g` | ⬜ |
+| BBall Girl | 2016 | `7kq5xmHQtSw` | ⬜ |
+| The Football Giant | 2016 | `bByz66Y2KwE` | ⬜ |
+| Art of the Paparazzi | 2016 | `vX65vQM5tk4` | ⬜ |
+| The Zen of Sign Spinning | 2016 | `19WCu4rJgwc` | ⬜ |
+| Professional Dog Dancer | 2016 | `aGsv7VWkmeg` | ⬜ |
+| Grandma Bodybuilder | 2016 | `0ZHUc7lVqt0` | ⬜ |
+| The Satanic Temple | 2016 | `5zvR4iqLAlo` | ⬜ |
+| LA Street Cobbler | 2016 | `QIp_y0UDjSQ` | ⬜ |
+| Dad in Jail | 2017 | `3ksbJ_F3nhk` | ⬜ |
 
-## B. Not found on Vimeo (14) — need uploading
+## Archive on YouTube (6) — only if promoted to live
 
-Searched by first word of each title; no match in the library.
+| Film | YouTube | Note |
+|------|---------|------|
+| I Have a Stutter | `n7sO3FA9MiU` |  |
+| Samurai in the Modern World | `k-B156w16u8` |  |
+| California's Teen Smokers | `37KmsQmckQk` |  |
+| Speedcubers | `jTUXJY8SQ4s` | Vimeo 191582260 exists but is password-locked |
+| Black Santa Claus | `1yiVyhJSsmo` |  |
+| Food Truck for the Homeless | `jP0e3o3ViGE` |  |
 
-| Film |
-|------|
-| Celebrity Autograph Hunter |
-| Urban Beekeeping |
-| Treeman of Venice |
-| Transgender Boxer |
-| Adult Thumbsucker |
-| BBall Girl |
-| The Football Giant |
-| Art of the Paparazzi |
-| The Zen of Sign Spinning |
-| Professional Dog Dancer |
-| Grandma Bodybuilder |
-| The Satanic Temple |
-| LA Street Cobbler |
-| Dad in Jail |
-
-## C. Archive on YouTube (5) — only if promoted to live
-
-| Film | YouTube |
-|------|---------|
-| I Have a Stutter | `n7sO3FA9MiU` |
-| Samurai in the Modern World | `k-B156w16u8` |
-| California's Teen Smokers | `37KmsQmckQk` |
-| Black Santa Claus | `1yiVyhJSsmo` |
-| Food Truck for the Homeless | `jP0e3o3ViGE` |
-
-## D. Other 60SDs spotted in your Vimeo (not yet on the site)
+## Other 60SDs spotted in your Vimeo (not yet on the site)
 
 | Title in Vimeo |
 |----------------|

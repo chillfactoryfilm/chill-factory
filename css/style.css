@@ -478,7 +478,10 @@ body:not(.page-video) .page-title--bright {
   font-size: clamp(26px, 6.2vw, 84px); line-height: 1.02; text-transform: none;
   word-break: break-word;
 }
-.email-huge:hover { color: var(--muted); }
+.email-huge:hover {
+  color: #fff; animation: none;
+  text-shadow: 0 0 28px rgba(255,255,255,0.95), 0 0 8px rgba(255,255,255,1), 0 0 2px rgba(255,255,255,1);
+}
 .social-row { display: flex; flex-wrap: wrap; gap: 26px; margin-top: 44px; }
 .social-row a { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.14em; color: var(--muted); }
 .social-row a:hover { color: var(--fg); }

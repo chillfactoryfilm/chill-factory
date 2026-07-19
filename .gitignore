@@ -13,3 +13,7 @@ _archive/
 
 # Node (only if a build is ever added)
 node_modules/
+
+# stray local files, not part of the site
+RACHEL.zip
+RACHEL_OLD/

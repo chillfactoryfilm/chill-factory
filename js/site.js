@@ -442,13 +442,22 @@
       ? String(p.description).split(/\n{2,}/).map(function (para) { return "<p>" + escapeHTML(para) + "</p>"; }).join("")
       : "";
 
-    // prev/next walks the live projects (A-team + B-team); archive is skipped
-    var VIS = PROJECTS.filter(function (q) { return q.tier !== "archive" && !q.hidden; });
+    // prev/next stays WITHIN THE SAME CATEGORY bucket (Branded↔Branded, 60SD↔60SD,
+    // etc.), excluding archive. At the ends of a category, link back to All Work
+    // instead of showing a dead arrow.
+    var VIS = PROJECTS.filter(function (q) {
+      return q.tier !== "archive" && !q.hidden && workCat(q) === workCat(p);
+    });
     var vidx = VIS.findIndex(function (q) { return q.id === p.id; });
     var prev = vidx === -1 ? null : VIS[vidx - 1];
     var next = vidx === -1 ? null : VIS[vidx + 1];
-    var prevLink = prev ? '<a href="project.html?id=' + encodeURIComponent(prev.id) + '">← ' + escapeHTML(prev.title) + "</a>" : '<span class="disabled">←</span>';
-    var nextLink = next ? '<a href="project.html?id=' + encodeURIComponent(next.id) + '">' + escapeHTML(next.title) + " →</a>" : '<span class="disabled">→</span>';
+    function pnLabel(t) { return escapeHTML(String(t).replace(/\n/g, " ")); }
+    var prevLink = prev
+      ? '<a href="project.html?id=' + encodeURIComponent(prev.id) + '">← ' + pnLabel(prev.title) + "</a>"
+      : '<a href="work.html">← All Work</a>';
+    var nextLink = next
+      ? '<a href="project.html?id=' + encodeURIComponent(next.id) + '">' + pnLabel(next.title) + " →</a>"
+      : '<a href="work.html">All Work →</a>';
 
     root.innerHTML =
       '<div class="wrap section"><a class="back-link" href="work.html">← All Work</a>' +

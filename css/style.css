@@ -388,13 +388,19 @@ body:not(.page-video) .page-title--bright {
   mask: url("../assets/laurel.png") center/contain no-repeat;
 }
 
+/* Outline chip — ghost box that fills on hover. Shared look with the Collab
+   .poster-chip below and a sibling of the home hero's .hero-cta, so the whole
+   site reads as one kit. (Only used on .theme-dark pages, hence the white.) */
 .watch-btn {
-  display: inline-block; margin-top: 30px; padding: 14px 30px;
-  background: var(--fg); color: var(--bg); font-size: 13px; font-weight: 700;
+  display: inline-flex; align-items: center; gap: 8px;
+  margin-top: 30px; padding: 14px 30px;
+  background: transparent; color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  font-size: 13px; font-weight: 700;
   text-transform: uppercase; letter-spacing: 0.14em;
-  transition: opacity 0.3s var(--ease);
+  transition: background 0.3s var(--ease), color 0.3s var(--ease), border-color 0.3s var(--ease);
 }
-.watch-btn:hover { opacity: 0.8; }
+.watch-btn:hover { background: #fff; color: #0a0a0a; border-color: #fff; }
 
 .prevnext {
   display: flex; justify-content: space-between; gap: 20px;
@@ -594,12 +600,13 @@ body:not(.page-video) .page-title--bright {
 .poster-chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
 .poster-chip {
   display: inline-flex; align-items: center; gap: 8px; padding: 14px 30px;
-  background: var(--fg); color: var(--bg); border: 0; border-radius: 0;
+  background: transparent; color: #fff; border-radius: 0;
+  border: 1px solid rgba(255, 255, 255, 0.55);
   font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.14em;
   text-decoration: none;
-  transition: opacity 0.3s var(--ease);
+  transition: background 0.3s var(--ease), color 0.3s var(--ease), border-color 0.3s var(--ease);
 }
-.poster-chip:hover { opacity: 0.8; }
+.poster-chip:hover { background: #fff; color: #0a0a0a; border-color: #fff; }
 
 .feature-info { color: #fff; max-width: none; }
 .feature-info .back-link { color: rgba(255, 255, 255, 0.6); }

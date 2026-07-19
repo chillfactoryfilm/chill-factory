@@ -25,9 +25,13 @@
     ]).then(function (res) {
       PROJECTS = (res[0] && res[0].projects) || [];
       SITE = res[1] || {};
+      // Entries flagged `hidden:true` are works-in-progress: kept out of the
+      // grids and the prev/next chain, but still reachable by direct
+      // project.html?id=… link so metadata can be refined before they go live.
+      var VISIBLE = PROJECTS.filter(function (p) { return !p.hidden; });
       bindSite();
-      renderGrid("[data-grid='featured']", PROJECTS.filter(function (p) { return p.featured; }));
-      renderGrid("[data-grid='all']", PROJECTS);
+      renderGrid("[data-grid='featured']", VISIBLE.filter(function (p) { return p.featured; }));
+      renderGrid("[data-grid='all']", VISIBLE);
       renderProject();
       setupVideoAutoplay();
       setupAutoplayCovers();
@@ -419,7 +423,11 @@
       ? String(p.description).split(/\n{2,}/).map(function (para) { return "<p>" + escapeHTML(para) + "</p>"; }).join("")
       : "";
 
-    var prev = PROJECTS[idx - 1], next = PROJECTS[idx + 1];
+    // prev/next walks only the visible projects (skip hidden works-in-progress)
+    var VIS = PROJECTS.filter(function (q) { return !q.hidden; });
+    var vidx = VIS.findIndex(function (q) { return q.id === p.id; });
+    var prev = vidx === -1 ? null : VIS[vidx - 1];
+    var next = vidx === -1 ? null : VIS[vidx + 1];
     var prevLink = prev ? '<a href="project.html?id=' + encodeURIComponent(prev.id) + '">← ' + escapeHTML(prev.title) + "</a>" : '<span class="disabled">←</span>';
     var nextLink = next ? '<a href="project.html?id=' + encodeURIComponent(next.id) + '">' + escapeHTML(next.title) + " →</a>" : '<span class="disabled">→</span>';
 

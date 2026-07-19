@@ -1385,6 +1385,178 @@
           "value": "Documentary Short"
         }
       ]
+    },
+    {
+      "id": "new-orleans-boxing-club",
+      "title": "New Orleans Boxing Club",
+      "year": "2016",
+      "client": "Defend New Orleans",
+      "category": "Branded",
+      "logline": "",
+      "description": "",
+      "recognition": [],
+      "poster": "assets/posters/new-orleans-boxing-club.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://vimeo.com/156635402",
+      "link": "",
+      "featured": false,
+      "hidden": true,
+      "clientLabel": "Client",
+      "affiliations": [
+        {
+          "label": "Director / Editor",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Client",
+          "value": "Defend New Orleans"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Branded Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "ryans-recycling",
+      "title": "Ryan's Recycling",
+      "year": "2017",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "",
+      "description": "",
+      "recognition": [],
+      "poster": "assets/posters/ryans-recycling.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://vimeo.com/206298087",
+      "link": "",
+      "featured": false,
+      "hidden": true,
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Year",
+          "value": "2017"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "celebrity-autograph-hunter",
+      "title": "Celebrity Autograph Hunter",
+      "year": "",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "",
+      "description": "",
+      "recognition": [],
+      "poster": "assets/posters/celebrity-autograph-hunter.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/EgG2mMIIZEg",
+      "link": "",
+      "featured": false,
+      "hidden": true,
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "urban-beekeeping",
+      "title": "Urban Beekeeping",
+      "year": "",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "",
+      "description": "",
+      "recognition": [],
+      "poster": "assets/posters/urban-beekeeping.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/MSpTsOth88s",
+      "link": "",
+      "featured": false,
+      "hidden": true,
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "treeman-of-venice",
+      "title": "Treeman of Venice",
+      "year": "",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "",
+      "description": "",
+      "recognition": [],
+      "poster": "assets/posters/treeman-of-venice.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/xLHINtVryZU",
+      "link": "",
+      "featured": false,
+      "hidden": true,
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     }
   ]
 }

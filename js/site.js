@@ -25,13 +25,25 @@
     ]).then(function (res) {
       PROJECTS = (res[0] && res[0].projects) || [];
       SITE = res[1] || {};
-      // Entries flagged `hidden:true` are works-in-progress: kept out of the
-      // grids and the prev/next chain, but still reachable by direct
-      // project.html?id=… link so metadata can be refined before they go live.
-      var VISIBLE = PROJECTS.filter(function (p) { return !p.hidden; });
+      // Project tiers:
+      //   (absent) — A-team. Shows on the home featured strip and in the WORK
+      //              grid under both "ALL" and its category filter.
+      //   "bteam"  — B-team. Rendered into the WORK grid but HIDDEN while the
+      //              filter is on "ALL"; appears only when its specific category
+      //              (Branded, 60 Second Docs, …) is selected. Never featured.
+      //   "archive"— never rendered anywhere on the live site (kept for
+      //              reference / metadata refinement; reachable by direct
+      //              project.html?id=… link only).
+      // Legacy `hidden:true` is treated as archive.
+      function isArchive(p) { return p.tier === "archive" || p.hidden; }
+      var LIVE = PROJECTS.filter(function (p) { return !isArchive(p); });
       bindSite();
-      renderGrid("[data-grid='featured']", VISIBLE.filter(function (p) { return p.featured; }));
-      renderGrid("[data-grid='all']", VISIBLE);
+      // Home featured strip: A-team only (never B-team).
+      renderGrid("[data-grid='featured']", LIVE.filter(function (p) {
+        return p.featured && p.tier !== "bteam";
+      }));
+      // WORK grid holds A-team + B-team; setupWorkFilter shows/hides B-team.
+      renderGrid("[data-grid='all']", LIVE);
       renderProject();
       setupVideoAutoplay();
       setupAutoplayCovers();
@@ -209,7 +221,8 @@
     if (vim) attr = ' data-vimeo="' + escapeAttr(vim.id) + '"' +
       (vim.hash ? ' data-vimeo-h="' + escapeAttr(vim.hash) + '"' : "");
     else if (yt) attr = ' data-youtube="' + escapeAttr(yt) + '"';
-    return '<a class="card reveal" data-cat="' + workCat(p) + '" href="project.html?id=' + encodeURIComponent(p.id) + '">' +
+    var teamCls = (p.tier === "bteam") ? " card--bteam" : "";
+    return '<a class="card reveal' + teamCls + '" data-cat="' + workCat(p) + '" href="project.html?id=' + encodeURIComponent(p.id) + '">' +
       '<div class="card-media"' + attr + ">" + mediaEl(p) + "</div>" +
       '<div class="card-meta"><span class="card-title">' + escapeHTML(p.title) +
       '</span><span class="card-client">' + escapeHTML(p.client || "") + "</span></div></a>";
@@ -350,7 +363,12 @@
         });
       });
       cards.forEach(function (card) {
-        var show = cat === "all" || card.getAttribute("data-cat") === cat;
+        var isB = card.classList.contains("card--bteam");
+        var show = (cat === "all")
+          // "ALL" = A-team only; B-team stays hidden until its category is picked
+          ? !isB
+          // a specific category shows everyone in it (A-team + B-team)
+          : card.getAttribute("data-cat") === cat;
         card.classList.toggle("card--hidden", !show);
         // reveal any shown card immediately (so filtered results aren't left
         // invisible waiting on the scroll observer)
@@ -363,9 +381,10 @@
         if (btn) apply(btn.getAttribute("data-filter"));
       });
     });
-    // optional deep-link, e.g. work.html?cat=films
+    // Apply on load so B-team cards start hidden under the default "ALL" view.
+    // Optional deep-link, e.g. work.html?cat=films.
     var initial = new URLSearchParams(location.search).get("cat");
-    if (initial && WORK_CATS.indexOf(initial) !== -1) apply(initial);
+    apply(initial && WORK_CATS.indexOf(initial) !== -1 ? initial : "all");
   }
 
   /* ---- mobile nav ------------------------------------------------------- */
@@ -423,8 +442,8 @@
       ? String(p.description).split(/\n{2,}/).map(function (para) { return "<p>" + escapeHTML(para) + "</p>"; }).join("")
       : "";
 
-    // prev/next walks only the visible projects (skip hidden works-in-progress)
-    var VIS = PROJECTS.filter(function (q) { return !q.hidden; });
+    // prev/next walks the live projects (A-team + B-team); archive is skipped
+    var VIS = PROJECTS.filter(function (q) { return q.tier !== "archive" && !q.hidden; });
     var vidx = VIS.findIndex(function (q) { return q.id === p.id; });
     var prev = vidx === -1 ? null : VIS[vidx - 1];
     var next = vidx === -1 ? null : VIS[vidx + 1];

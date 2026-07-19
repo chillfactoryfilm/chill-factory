@@ -373,6 +373,10 @@
         // reveal any shown card immediately (so filtered results aren't left
         // invisible waiting on the scroll observer)
         if (show) card.classList.add("in");
+        // stamp the active filter onto the card link so the detail page's
+        // prev/next matches the grid the visitor is browsing (see renderProject)
+        var m = card.getAttribute("href").match(/id=([^&]+)/);
+        if (m) card.setAttribute("href", "project.html?id=" + m[1] + "&from=" + cat);
       });
     }
     bars.forEach(function (bar) {
@@ -442,25 +446,30 @@
       ? String(p.description).split(/\n{2,}/).map(function (para) { return "<p>" + escapeHTML(para) + "</p>"; }).join("")
       : "";
 
-    // prev/next stays WITHIN THE SAME CATEGORY bucket (Branded↔Branded, 60SD↔60SD,
-    // etc.) AND the same tier, excluding archive. Keeping A-team and B-team chains
-    // separate means a live A-team page never links into a hidden B-team page — a
-    // B-team detail page is only reachable via its category filter (or a sibling
-    // B-team page). At the ends of a chain, link back to All Work.
+    // prev/next stays WITHIN THE SAME CATEGORY (Branded↔Branded, 60SD↔60SD, …),
+    // excluding archive. The `from` param carries the WORK filter the visitor
+    // arrived through. If they came via THIS category's own filter, the grid they
+    // saw mixed A-team + B-team, so prev/next spans BOTH tiers. Otherwise (from
+    // ALL, the home page, or a direct link) B-team stays walled off: same tier
+    // only, so a live A-team page never links into a hidden B-team page. The
+    // `from` context is carried along the chain so continued paging keeps it.
+    var fromCat = new URLSearchParams(location.search).get("from");
+    var mixTiers = !!fromCat && fromCat === workCat(p);
     var VIS = PROJECTS.filter(function (q) {
       return q.tier !== "archive" && !q.hidden
         && workCat(q) === workCat(p)
-        && (q.tier || "") === (p.tier || "");
+        && (mixTiers || (q.tier || "") === (p.tier || ""));
     });
     var vidx = VIS.findIndex(function (q) { return q.id === p.id; });
     var prev = vidx === -1 ? null : VIS[vidx - 1];
     var next = vidx === -1 ? null : VIS[vidx + 1];
+    var fromQS = fromCat ? "&from=" + encodeURIComponent(fromCat) : "";
     function pnLabel(t) { return escapeHTML(String(t).replace(/\n/g, " ")); }
     var prevLink = prev
-      ? '<a href="project.html?id=' + encodeURIComponent(prev.id) + '">← ' + pnLabel(prev.title) + "</a>"
+      ? '<a href="project.html?id=' + encodeURIComponent(prev.id) + fromQS + '">← ' + pnLabel(prev.title) + "</a>"
       : '<a href="work.html">← All Work</a>';
     var nextLink = next
-      ? '<a href="project.html?id=' + encodeURIComponent(next.id) + '">' + pnLabel(next.title) + " →</a>"
+      ? '<a href="project.html?id=' + encodeURIComponent(next.id) + fromQS + '">' + pnLabel(next.title) + " →</a>"
       : '<a href="work.html">All Work →</a>';
 
     root.innerHTML =

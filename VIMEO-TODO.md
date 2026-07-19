@@ -7,7 +7,7 @@ next to each and I'll swap `embed`/`cover` in `content/work.json`. Current sourc
 Why Vimeo: every 60 Second Docs film should use an unlisted Vimeo so the grid cover autoplays
 cleanly — no captions, no "Watch on YouTube" chrome, no private/age-restriction surprises.
 
-## Needed — B-Team on YouTube (21)
+## Needed — B-Team on YouTube (23)
 
 | Film | Year | Currently (YouTube) | Vimeo link to provide |
 |------|------|---------------------|-----------------------|
@@ -32,12 +32,14 @@ cleanly — no captions, no "Watch on YouTube" chrome, no private/age-restrictio
 | Dad in Jail | 2017 | `3ksbJ_F3nhk` | ⬜ |
 | The Chainsaw Artist | 2017 | `eKaIkB6n1AI` | ⬜ |
 | Stunt Driver | 2017 | `5w2yyCpjfy8` | ⬜ |
+| Bunny Museum | 2017 | `_2RLVddlKeU` | ⬜ |
+| Caramel Curves | 2019 | `s8uRDYAxNjI` | ⬜ |
 
 ## Known gap — no embed at all
 
 | Film | Note |
 |------|------|
-| Camp ALEC | poster only (Disney+ can't embed) — needs a Vimeo/YouTube trailer |
+| Camp ALEC | poster only — has a 'Watch on Disney+' chip instead |
 
 ## Archive on YouTube (5) — only needed if promoted to live
 
@@ -58,4 +60,4 @@ cleanly — no captions, no "Watch on YouTube" chrome, no private/age-restrictio
 | Lost LA: Descanso Gardens | https://www.youtube.com/watch?v=pLDhLdXhF-c |
 
 ---
-_Last updated: 2026-07-18_
+_Last updated: 2026-07-19_

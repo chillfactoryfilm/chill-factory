@@ -2709,6 +2709,96 @@
           "value": "Documentary Short"
         }
       ]
+     },
+    {
+      "id": "bunny-museum",
+      "title": "Bunny Museum",
+      "year": "2017",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "The Bunny Museum in Altadena, CA isn’t your average exhibition — it’s also home to co-founders Candace Frazee and her husband Steve Lubanski.",
+      "description": "In the early days of their relationship, Candace and Steve found themselves giving each other bunny-themed presents from time to time; eventually, it evolved into an all-out bunny obsession. Now they live, work and revel in their quirky digs — accompanied by more than 34,000 bunny items.",
+      "recognition": [],
+      "poster": "assets/posters/bunny-museum.jpg",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/_2RLVddlKeU",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
+        },
+        {
+          "label": "Year",
+          "value": "2017"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "caramel-curves",
+      "title": "Caramel Curves",
+      "year": "2019",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "New Orleans first all-female motorcycle gang meets every Sunday, decked out in sky-high heels, bedazzled jewelry, and fuchsia latex.",
+      "description": "Tru’s biker crew, the Caramel Curves, come from all walks of life — and together, they’re working to give women a voice in male-dominated scenes.",
+      "recognition": [],
+      "poster": "assets/posters/caramel-curves.jpg",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/s8uRDYAxNjI",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
+        },
+        {
+          "label": "Year",
+          "value": "2019"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     }
   ]
 }

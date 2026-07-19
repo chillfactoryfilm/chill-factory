@@ -464,16 +464,23 @@
     var prev = vidx === -1 ? null : VIS[vidx - 1];
     var next = vidx === -1 ? null : VIS[vidx + 1];
     var fromQS = fromCat ? "&from=" + encodeURIComponent(fromCat) : "";
+    // "Back to work" target: return to the CATEGORY grid the visitor came from
+    // (e.g. Branded → work.html?cat=branded), falling back to the full ALL grid.
+    // Used by both the top back-link and the start/end-of-chain boundary links,
+    // so the return path mirrors how they got in (ALL → Branded → detail).
+    var CAT_LABEL = { films: "Films", series: "Series", branded: "Branded", "60sd": "60SD" };
+    var backLabel = CAT_LABEL[fromCat] || "All Work";
+    var backHref = CAT_LABEL[fromCat] ? ("work.html?cat=" + encodeURIComponent(fromCat)) : "work.html";
     function pnLabel(t) { return escapeHTML(String(t).replace(/\n/g, " ")); }
     var prevLink = prev
       ? '<a href="project.html?id=' + encodeURIComponent(prev.id) + fromQS + '">← ' + pnLabel(prev.title) + "</a>"
-      : '<a href="work.html">← All Work</a>';
+      : '<a href="' + backHref + '">← ' + escapeHTML(backLabel) + "</a>";
     var nextLink = next
       ? '<a href="project.html?id=' + encodeURIComponent(next.id) + fromQS + '">' + pnLabel(next.title) + " →</a>"
-      : '<a href="work.html">All Work →</a>';
+      : '<a href="' + backHref + '">' + escapeHTML(backLabel) + " →</a>";
 
     root.innerHTML =
-      '<div class="wrap section"><a class="back-link" href="work.html">← All Work</a>' +
+      '<div class="wrap section"><a class="back-link" href="' + backHref + '">← ' + escapeHTML(backLabel) + "</a>" +
       '<div class="project-hero">' + hero + "</div>" +
       '<div class="project-grid"><div class="project-body">' +
       '<h1 class="project-title">' + escapeHTML(p.title).replace(/\n/g, "<br>") + "</h1>" +

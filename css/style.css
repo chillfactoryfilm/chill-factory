@@ -113,6 +113,12 @@ img, video { display: block; max-width: 100%; }
 /* header + footer wordmarks, nav links, footer links: a subtle static frost glow (no pulse) */
 .brand, .footer-brand, .nav-links a, .footer-links a {
   text-shadow: 0 0 6px rgba(255,255,255,0.30), 0 0 1px rgba(255,255,255,0.55);
+  transition: text-shadow 0.3s var(--ease), color 0.3s var(--ease);
+}
+/* brighten the frost glow on hover (same idea as the contact email) */
+.brand:hover, .nav-links a:hover, .footer-brand:hover, .footer-links a:hover {
+  color: #fff;
+  text-shadow: 0 0 9px rgba(255,255,255,0.55), 0 0 2px rgba(255,255,255,0.9);
 }
 .nav-links { display: flex; gap: clamp(18px, 3vw, 40px); align-items: center; }
 .nav-links a {
@@ -249,7 +255,10 @@ img, video { display: block; max-width: 100%; }
 .card-title {
   font-size: clamp(15px, 1.5vw, 20px); font-weight: 700; letter-spacing: 0.01em;
   text-transform: uppercase; position: relative;
+  transition: text-shadow 0.3s var(--ease);
 }
+/* card title brightens with a frost glow on hover, matching the nav/footer hover */
+.card:hover .card-title { text-shadow: 0 0 9px rgba(255,255,255,0.55), 0 0 2px rgba(255,255,255,0.9); }
 /* hovering anywhere on the card (incl. the video) slides an underline under the
    title, matching the header nav hover */
 .card-title::after {

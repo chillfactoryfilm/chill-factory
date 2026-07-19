@@ -1401,7 +1401,7 @@
       "embed": "https://vimeo.com/156635402",
       "link": "",
       "featured": false,
-      "hidden": true,
+      "tier": "bteam",
       "clientLabel": "Client",
       "affiliations": [
         {
@@ -1438,7 +1438,7 @@
       "embed": "https://vimeo.com/206298087",
       "link": "",
       "featured": false,
-      "hidden": true,
+      "tier": "bteam",
       "clientLabel": "Network",
       "affiliations": [
         {
@@ -1475,7 +1475,7 @@
       "embed": "https://youtu.be/EgG2mMIIZEg",
       "link": "",
       "featured": false,
-      "hidden": true,
+      "tier": "bteam",
       "clientLabel": "Network",
       "affiliations": [
         {
@@ -1508,7 +1508,7 @@
       "embed": "https://youtu.be/MSpTsOth88s",
       "link": "",
       "featured": false,
-      "hidden": true,
+      "tier": "bteam",
       "clientLabel": "Network",
       "affiliations": [
         {
@@ -1541,7 +1541,7 @@
       "embed": "https://youtu.be/xLHINtVryZU",
       "link": "",
       "featured": false,
-      "hidden": true,
+      "tier": "bteam",
       "clientLabel": "Network",
       "affiliations": [
         {

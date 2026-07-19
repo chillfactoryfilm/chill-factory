@@ -443,10 +443,14 @@
       : "";
 
     // prev/next stays WITHIN THE SAME CATEGORY bucket (Branded↔Branded, 60SD↔60SD,
-    // etc.), excluding archive. At the ends of a category, link back to All Work
-    // instead of showing a dead arrow.
+    // etc.) AND the same tier, excluding archive. Keeping A-team and B-team chains
+    // separate means a live A-team page never links into a hidden B-team page — a
+    // B-team detail page is only reachable via its category filter (or a sibling
+    // B-team page). At the ends of a chain, link back to All Work.
     var VIS = PROJECTS.filter(function (q) {
-      return q.tier !== "archive" && !q.hidden && workCat(q) === workCat(p);
+      return q.tier !== "archive" && !q.hidden
+        && workCat(q) === workCat(p)
+        && (q.tier || "") === (p.tier || "");
     });
     var vidx = VIS.findIndex(function (q) { return q.id === p.id; });
     var prev = vidx === -1 ? null : VIS[vidx - 1];

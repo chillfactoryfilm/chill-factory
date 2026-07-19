@@ -169,7 +169,8 @@ img, video { display: block; max-width: 100%; }
   color: #fff;
 }
 .hero-title {
-  margin: 0; font-weight: 800; letter-spacing: -0.02em;
+  margin: 0 0 0 -0.045em; /* offset the "C" glyph's left bearing so it's flush with the sub + button */
+  font-weight: 800; letter-spacing: -0.02em;
   font-size: clamp(20px, 7vw, 116px); line-height: 1;
   text-transform: uppercase; white-space: nowrap;
 }
@@ -502,12 +503,13 @@ body:not(.page-video) .page-title--bright {
 .footer-inner {
   padding-top: 24px; padding-bottom: 24px;
   display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; align-items: center;
+  max-width: none; /* full-bleed like the nav, so the footer brand aligns with the header brand */
 }
-.footer-brand { position: relative; font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; font-size: 14px; color: #fff; }
-.footer-mark {
-  position: absolute; right: 100%; top: 50%; transform: translateY(-50%);
-  margin-right: 6px; height: 30px; width: auto; filter: brightness(0) invert(1);
+.footer-brand {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-weight: 800; letter-spacing: 0.14em; text-transform: uppercase; font-size: 14px; color: #fff;
 }
+.footer-mark { height: 30px; width: auto; filter: brightness(0) invert(1); }
 .footer small { color: rgba(255, 255, 255, 0.5); font-size: 12px; letter-spacing: 0.04em; }
 .footer-links { display: flex; gap: 22px; }
 .footer-links a { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: rgba(255, 255, 255, 0.6); }

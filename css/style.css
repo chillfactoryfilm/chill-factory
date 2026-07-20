@@ -651,13 +651,17 @@ body:not(.page-video) .page-title--bright {
   text-shadow: 0 0 7px rgba(255, 255, 255, 0.28), 0 0 1px rgba(255, 255, 255, 0.55);
 }
 /* role + status pill on one line (e.g. in-production Collabs) */
-/* status tag: solid box, flush-left UNDER the role (Rachel-site design, in white) */
-.role-lead-status {
-  display: inline-block; margin-top: 16px;
-  background: #fff; color: #0a0a0a;
+/* role tags: flush-left row UNDER the role (Rachel-site design, in white).
+   --fill = solid box (the format, e.g. FEATURE DOCUMENTARY);
+   --line = outlined box (the status, e.g. IN PRODUCTION). */
+.role-tags { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 18px; }
+.role-tag {
+  display: inline-block;
   font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.14em;
-  padding: 12px 22px; border: 0; border-radius: 0;
+  padding: 12px 22px; border-radius: 0;
 }
+.role-tag--fill { background: #fff; color: #0a0a0a; border: 1px solid #fff; }
+.role-tag--line { background: transparent; color: #fff; border: 1px solid rgba(255, 255, 255, 0.85); }
 
 /* critic pull quote on a feature page (optionally wrapped in a link to the review) */
 a.feature-quote-link { display: block; text-decoration: none; color: inherit; }

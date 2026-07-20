@@ -55,6 +55,24 @@ img, video { display: block; max-width: 100%; }
 /* video-page nav: transparent + blurred so the footage flows through (matches
    the landing), instead of a solid bar with a hard cutoff line */
 .page-video .nav { background: transparent; border-bottom-color: transparent; }
+/* Feather the see-through blur strip: the element-level backdrop-filter ends in
+   a hard horizontal seam wherever content scrolls beneath the nav. Move the
+   blur onto a ::before that overshoots the bar and mask-fades it out, so
+   blurred → sharp is a gradient instead of a cut line. */
+.page-video .nav,
+.nav.nav--transparent {
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+.page-video .nav::before,
+.nav.nav--transparent::before {
+  content: ""; position: absolute; left: 0; right: 0; top: 0; bottom: -22px;
+  z-index: -1; pointer-events: none;
+  backdrop-filter: saturate(130%) blur(3px);
+  -webkit-backdrop-filter: saturate(130%) blur(3px);
+  -webkit-mask-image: linear-gradient(to bottom, #000 55%, transparent 100%);
+  mask-image: linear-gradient(to bottom, #000 55%, transparent 100%);
+}
 .page-bg {
   position: fixed; inset: 0; z-index: -2; overflow: hidden; background: #0a0a0a;
 }

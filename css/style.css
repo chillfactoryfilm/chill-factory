@@ -201,6 +201,7 @@ img, video { display: block; max-width: 100%; }
   display: grid; gap: clamp(8px, 1.4vw, 20px);
   grid-template-columns: repeat(2, 1fr);
 }
+.grid--one { grid-template-columns: 1fr; }
 .grid--three { grid-template-columns: repeat(3, 1fr); }
 @media (max-width: 720px) {
   .grid, .grid--three { grid-template-columns: 1fr; }

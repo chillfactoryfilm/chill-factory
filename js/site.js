@@ -366,8 +366,11 @@
           b.setAttribute("aria-pressed", on ? "true" : "false");
         });
       });
-      // 60 Second Docs reads as a contact sheet: 3 tiles per row (desktop).
-      // Every other view keeps the big 2-across tiles.
+      // Tile size mirrors the stature of the work (desktop):
+      //   Films / Series -> 1 per row (full-bleed, cinematic)
+      //   ALL / Branded  -> 2 per row (the classic grid)
+      //   60 Second Docs -> 3 per row (contact sheet)
+      grid.classList.toggle("grid--one", cat === "films" || cat === "series");
       grid.classList.toggle("grid--three", cat === "60sd");
       cards.forEach(function (card) {
         var isB = card.classList.contains("card--bteam");

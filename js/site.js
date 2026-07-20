@@ -194,7 +194,7 @@
   /* ---- media element for a card ---------------------------------------- */
   // Poster cache-buster: bump whenever poster image files change under the
   // same filenames, so browsers (ours and visitors') drop stale cached copies.
-  var POSTER_V = "?pv=3";
+  var POSTER_V = "?pv=4";
   function posterURL(p) { return escapeAttr(p.poster) + POSTER_V; }
   function mediaEl(p) {
     if (p.video) {

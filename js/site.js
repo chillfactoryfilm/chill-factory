@@ -366,6 +366,9 @@
           b.setAttribute("aria-pressed", on ? "true" : "false");
         });
       });
+      // 60 Second Docs reads as a contact sheet: 3 tiles per row (desktop).
+      // Every other view keeps the big 2-across tiles.
+      grid.classList.toggle("grid--three", cat === "60sd");
       cards.forEach(function (card) {
         var isB = card.classList.contains("card--bteam");
         var show = (cat === "all")

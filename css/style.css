@@ -234,8 +234,46 @@ img, video { display: block; max-width: 100%; }
   row-gap: clamp(40px, 6vh, 72px);
 }
 .grid--three { grid-template-columns: repeat(3, 1fr); }
+.grid--four { grid-template-columns: repeat(4, 1fr); gap: clamp(14px, 1.6vw, 24px); }
+.grid--six {
+  grid-template-columns: repeat(6, 1fr); gap: clamp(10px, 1vw, 16px);
+  max-width: 1280px; margin-left: auto; margin-right: auto;
+}
+.grid--five {
+  grid-template-columns: repeat(5, 1fr); gap: clamp(12px, 1.2vw, 18px);
+  max-width: 1280px; margin-left: auto; margin-right: auto;
+}
+/* per-category subheadline above the grid (currently 60SD only) */
+.grid-sub {
+  margin: 0 0 clamp(22px, 3vw, 34px);
+  font-size: clamp(14px, 1.2vw, 17px); color: #c9c9c9;
+}
+.grid-sub--wall { max-width: 1280px; margin-left: auto; margin-right: auto; }
+.grid-sub[hidden] { display: none; }
+/* 60SD wall mode: captionless contact sheet. The caption stays in the DOM but
+   becomes an overlay that fades in over a bottom scrim on hover — the wall
+   stays pure image until you reach into it. */
+.grid--six .card, .grid--five .card { position: relative; }
+.grid--six .card-meta, .grid--five .card-meta {
+  position: absolute; left: 0; right: 0; bottom: 0; z-index: 2;
+  margin: 0; padding: 34px 12px 10px;
+  background: linear-gradient(to top, rgba(10, 10, 10, 0.85), transparent);
+  opacity: 0; transition: opacity 0.3s var(--ease);
+  pointer-events: none;
+}
+.grid--six .card:hover .card-meta, .grid--five .card:hover .card-meta { opacity: 1; }
+.grid--six .card-title, .grid--five .card-title { font-size: 13px; }
+.grid--six .card-client, .grid--five .card-client { display: none; }  /* the wall IS the 60SD page — the tag is redundant */
 @media (max-width: 720px) {
-  .grid, .grid--three { grid-template-columns: 1fr; }
+  /* collapsed to one column the wall is just the normal grid — captions return */
+  .grid--six .card-meta, .grid--five .card-meta {
+    position: static; opacity: 1; background: none;
+    padding: 14px 2px 0; pointer-events: auto;
+  }
+  .grid--six .card-client, .grid--five .card-client { display: block; }
+}
+@media (max-width: 720px) {
+  .grid, .grid--three, .grid--four, .grid--five, .grid--six { grid-template-columns: 1fr; }
 }
 
 /* ---------- work category filter ---------------------------------------- */

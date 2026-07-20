@@ -150,6 +150,13 @@ img, video { display: block; max-width: 100%; }
 .nav-links a:hover::after,
 .nav-links a[aria-current="page"]::after { width: 100%; }
 
+/* thin divider between Work and the rest of the nav (header + footer) */
+.nav-divider {
+  flex: 0 0 auto; width: 1px; height: 15px;
+  background: currentColor; opacity: 0.35; align-self: center;
+}
+.footer-links .nav-divider { height: 12px; background: rgba(255, 255, 255, 0.6); }
+
 .nav-toggle {
   display: none; background: none; border: 0; cursor: pointer;
   font: inherit; color: inherit; font-weight: 700; letter-spacing: 0.12em;
@@ -779,5 +786,7 @@ a.feature-quote-link:focus-visible { outline: 2px solid var(--fg); outline-offse
   }
   .nav-links.open { transform: translateY(0); }
   .nav-links a { width: 100%; padding: 16px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.12); font-size: 16px; }
+  /* vertical divider makes no sense in the stacked mobile menu */
+  .nav-links .nav-divider { display: none; }
   .nav--transparent .nav-links { color: #fff; }
 }

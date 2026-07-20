@@ -152,10 +152,10 @@ img, video { display: block; max-width: 100%; }
 
 /* thin divider between Work and the rest of the nav (header + footer) */
 .nav-divider {
-  flex: 0 0 auto; width: 1px; height: 15px;
-  background: currentColor; opacity: 0.35; align-self: center;
+  flex: 0 0 auto; width: 2px; height: 15px;
+  background: #fff; align-self: center;
 }
-.footer-links .nav-divider { height: 12px; background: rgba(255, 255, 255, 0.6); }
+.footer-links .nav-divider { height: 12px; }
 
 .nav-toggle {
   display: none; background: none; border: 0; cursor: pointer;

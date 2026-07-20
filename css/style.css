@@ -201,7 +201,14 @@ img, video { display: block; max-width: 100%; }
   display: grid; gap: clamp(8px, 1.4vw, 20px);
   grid-template-columns: repeat(2, 1fr);
 }
-.grid--one { grid-template-columns: 1fr; }
+/* One-per-row tiles size themselves to the VIEWPORT HEIGHT: the 16:9 media
+   plus the page header must fit above the fold at any window width, so the
+   column width is derived from the height budget (100vh minus nav + WORK
+   head + card caption), instead of always filling the container. */
+.grid--one {
+  grid-template-columns: 1fr;
+  max-width: min(100%, calc((100vh - 320px) * 1.77778));
+}
 .grid--three { grid-template-columns: repeat(3, 1fr); }
 @media (max-width: 720px) {
   .grid, .grid--three { grid-template-columns: 1fr; }

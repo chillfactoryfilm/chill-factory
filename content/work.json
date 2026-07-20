@@ -2044,51 +2044,6 @@
       ]
     },
     {
-      "id": "samurai-in-the-modern-world",
-      "title": "Samurai in the Modern World",
-      "year": "2016",
-      "client": "60 Second Docs",
-      "category": "Short",
-      "role": "Director / Editor / Producer",
-      "logline": "Toshishiro Obata is a master of Japanese swordsmanship who comes from a long line of samurai, dating back to the 15th century.",
-      "description": "As a samurai living in the 21st century, Toshishiro has a unique opinion about technology, tradition, and the importance of being independent.",
-      "recognition": [],
-      "poster": "assets/posters/samurai-in-the-modern-world.png",
-      "video": "",
-      "cover": "",
-      "embed": "https://youtu.be/k-B156w16u8",
-      "link": "",
-      "featured": false,
-      "tier": "archive",
-      "clientLabel": "Network",
-      "affiliations": [
-        {
-          "label": "Director / Editor / Producer",
-          "value": "Christopher Stoudt"
-        },
-        {
-          "label": "Producer",
-          "value": "Emmet McDermott"
-        },
-        {
-          "label": "Network",
-          "value": "60 Second Docs"
-        },
-        {
-          "label": "Composer",
-          "value": "Chance Duran"
-        },
-        {
-          "label": "Year",
-          "value": "2016"
-        },
-        {
-          "label": "Format",
-          "value": "Documentary Short"
-        }
-      ]
-    },
-    {
       "id": "straight-outta-compton",
       "title": "Straight Outta Compton",
       "year": "2016",
@@ -3026,6 +2981,51 @@
         {
           "label": "Year",
           "value": "2017"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "samurai-in-the-modern-world",
+      "title": "Samurai in the Modern World",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "Toshishiro Obata is a master of Japanese swordsmanship who comes from a long line of samurai, dating back to the 15th century.",
+      "description": "As a samurai living in the 21st century, Toshishiro has a unique opinion about technology, tradition, and the importance of being independent.",
+      "recognition": [],
+      "poster": "assets/posters/samurai-in-the-modern-world.png",
+      "video": "",
+      "cover": "https://vimeo.com/1211519443/5c02f12322",
+      "embed": "https://vimeo.com/1211519443/5c02f12322",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
         },
         {
           "label": "Format",

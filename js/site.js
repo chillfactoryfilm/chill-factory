@@ -228,7 +228,10 @@
     var teamCls = (p.tier === "bteam") ? " card--bteam" : "";
     // allOnly: shows on the ALL grid but is exempt from every category filter
     var allOnly = p.allOnly ? ' data-all-only=""' : "";
-    return '<a class="card reveal' + teamCls + '" data-cat="' + workCat(p) + '"' + allOnly + ' href="project.html?id=' + encodeURIComponent(p.id) + '">' +
+    // cardLink: the tile links somewhere other than a detail page
+    // (e.g. the 60 Second Docs series card opens the 60SD wall)
+    var href = p.cardLink || ("project.html?id=" + encodeURIComponent(p.id));
+    return '<a class="card reveal' + teamCls + '" data-cat="' + workCat(p) + '"' + allOnly + ' href="' + escapeAttr(href) + '">' +
       '<div class="card-media"' + attr + ">" + mediaEl(p) + "</div>" +
       '<div class="card-meta"><span class="card-title">' + escapeHTML(p.title) +
       '</span><span class="card-client">' + escapeHTML(p.client || "") + "</span></div></a>";
@@ -487,7 +490,9 @@
         && (allScope || workCat(q) === workCat(p))
         && (mixTiers || (q.tier || "") === (p.tier || ""))
         // allOnly entries chain only in the ALL context (or on their own page)
-        && (allScope || !q.allOnly || q.id === p.id);
+        && (allScope || !q.allOnly || q.id === p.id)
+        // cardLink entries have no detail page — never chain into them
+        && !q.cardLink;
     });
     var vidx = VIS.findIndex(function (q) { return q.id === p.id; });
     var prev = vidx === -1 ? null : VIS[vidx - 1];

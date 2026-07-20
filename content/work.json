@@ -401,6 +401,23 @@
       ]
     },
     {
+      "id": "sixty-second-docs",
+      "title": "60 Second Docs",
+      "year": "2016",
+      "client": "93 Episodes",
+      "category": "Series",
+      "logline": "",
+      "description": "",
+      "recognition": [],
+      "poster": "assets/posters/sixty-second-docs.png",
+      "video": "",
+      "cover": "none",
+      "embed": "",
+      "link": "",
+      "featured": false,
+      "cardLink": "work.html?cat=60sd"
+    },
+    {
       "id": "daddy-business",
       "title": "Daddy Business",
       "year": "2022",

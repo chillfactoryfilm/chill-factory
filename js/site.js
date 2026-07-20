@@ -399,7 +399,11 @@
     bars.forEach(function (bar) {
       bar.addEventListener("click", function (e) {
         var btn = e.target.closest("button[data-filter]");
-        if (btn) apply(btn.getAttribute("data-filter"));
+        if (!btn) return;
+        apply(btn.getAttribute("data-filter"));
+        // the bottom bar sits under the grid — after switching, put the
+        // visitor at the top of the newly filtered page, not mid-scroll
+        if (bar.classList.contains("work-filter--end")) window.scrollTo(0, 0);
       });
     });
     // Apply on load so B-team cards start hidden under the default "ALL" view.

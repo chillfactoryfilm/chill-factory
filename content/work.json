@@ -2989,6 +2989,51 @@
       ]
     },
     {
+      "id": "cosplay-queen",
+      "title": "Cosplay Queen",
+      "year": "2017",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "Instagram cosplay queen Lyz Brickley is known as a cosplay icon by her mass of fans on YouTube and social media.",
+      "description": "Brickley, who used to be a model before pivoting into nerdom, transforms into popular video game and fantasy novel characters from Overwatch, Zelda, and Lord of the Rings — such as Mercy, Link, and Gandalf the Grey — and makes regular visits to conventions and events where she rocks candy-colored wigs, full metal suits of armor, and giant anime swords at her leisure.",
+      "recognition": [],
+      "poster": "assets/posters/cosplay-queen.jpg",
+      "video": "",
+      "cover": "https://vimeo.com/223079941/eeba652495",
+      "embed": "https://vimeo.com/223079941/eeba652495",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
+        },
+        {
+          "label": "Year",
+          "value": "2017"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
       "id": "throttled",
       "title": "Throttled",
       "year": "2016",

@@ -456,18 +456,21 @@
       ? String(p.description).split(/\n{2,}/).map(function (para) { return "<p>" + escapeHTML(para) + "</p>"; }).join("")
       : "";
 
-    // prev/next stays WITHIN THE SAME CATEGORY (Branded↔Branded, 60SD↔60SD, …),
-    // excluding archive. The `from` param carries the WORK filter the visitor
-    // arrived through. If they came via THIS category's own filter, the grid they
-    // saw mixed A-team + B-team, so prev/next spans BOTH tiers. Otherwise (from
-    // ALL, the home page, or a direct link) B-team stays walled off: same tier
-    // only, so a live A-team page never links into a hidden B-team page. The
-    // `from` context is carried along the chain so continued paging keeps it.
+    // prev/next mirrors the grid the visitor came through, excluding archive.
+    // The `from` param carries the WORK filter they arrived via:
+    //   from=all  → page through the ENTIRE ALL grid (every category, A-team
+    //               only — B-team never shows on ALL), in grid order.
+    //   from=<cat> (this page's own category) → that grid mixed A-team +
+    //               B-team, so prev/next spans BOTH tiers within the category.
+    //   otherwise (home page, direct link) → same category, same tier only,
+    //               so a live A-team page never links into a hidden B-team page.
+    // The `from` context is carried along the chain so continued paging keeps it.
     var fromCat = new URLSearchParams(location.search).get("from");
     var mixTiers = !!fromCat && fromCat === workCat(p);
+    var allScope = fromCat === "all";
     var VIS = PROJECTS.filter(function (q) {
       return q.tier !== "archive" && !q.hidden
-        && workCat(q) === workCat(p)
+        && (allScope || workCat(q) === workCat(p))
         && (mixTiers || (q.tier || "") === (p.tier || ""));
     });
     var vidx = VIS.findIndex(function (q) { return q.id === p.id; });

@@ -207,7 +207,8 @@ img, video { display: block; max-width: 100%; }
    head + card caption), instead of always filling the container. */
 .grid--one {
   grid-template-columns: 1fr;
-  max-width: min(100%, calc((100vh - 320px) * 1.77778));
+  /* height budget reserves a little air below the caption at the fold */
+  max-width: min(100%, calc((100vh - 350px) * 1.77778));
 }
 .grid--three { grid-template-columns: repeat(3, 1fr); }
 @media (max-width: 720px) {

@@ -594,7 +594,8 @@
           "label": "Format",
           "value": "Web"
         }
-      ]
+      ],
+      "allOnly": true
     },
     {
       "id": "goat-milk-soap",

@@ -226,7 +226,9 @@
       (vim.hash ? ' data-vimeo-h="' + escapeAttr(vim.hash) + '"' : "");
     else if (yt) attr = ' data-youtube="' + escapeAttr(yt) + '"';
     var teamCls = (p.tier === "bteam") ? " card--bteam" : "";
-    return '<a class="card reveal' + teamCls + '" data-cat="' + workCat(p) + '" href="project.html?id=' + encodeURIComponent(p.id) + '">' +
+    // allOnly: shows on the ALL grid but is exempt from every category filter
+    var allOnly = p.allOnly ? ' data-all-only=""' : "";
+    return '<a class="card reveal' + teamCls + '" data-cat="' + workCat(p) + '"' + allOnly + ' href="project.html?id=' + encodeURIComponent(p.id) + '">' +
       '<div class="card-media"' + attr + ">" + mediaEl(p) + "</div>" +
       '<div class="card-meta"><span class="card-title">' + escapeHTML(p.title) +
       '</span><span class="card-client">' + escapeHTML(p.client || "") + "</span></div></a>";
@@ -384,8 +386,9 @@
         var show = (cat === "all")
           // "ALL" = A-team only; B-team stays hidden until its category is picked
           ? !isB
-          // a specific category shows everyone in it (A-team + B-team)
-          : card.getAttribute("data-cat") === cat;
+          // a specific category shows everyone in it (A-team + B-team) —
+          // except allOnly entries, which live exclusively on the ALL grid
+          : card.getAttribute("data-cat") === cat && !card.hasAttribute("data-all-only");
         card.classList.toggle("card--hidden", !show);
         // reveal any shown card immediately (so filtered results aren't left
         // invisible waiting on the scroll observer)
@@ -482,7 +485,9 @@
     var VIS = PROJECTS.filter(function (q) {
       return q.tier !== "archive" && !q.hidden
         && (allScope || workCat(q) === workCat(p))
-        && (mixTiers || (q.tier || "") === (p.tier || ""));
+        && (mixTiers || (q.tier || "") === (p.tier || ""))
+        // allOnly entries chain only in the ALL context (or on their own page)
+        && (allScope || !q.allOnly || q.id === p.id);
     });
     var vidx = VIS.findIndex(function (q) { return q.id === p.id; });
     var prev = vidx === -1 ? null : VIS[vidx - 1];

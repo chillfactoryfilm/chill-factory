@@ -192,12 +192,16 @@
   }
 
   /* ---- media element for a card ---------------------------------------- */
+  // Poster cache-buster: bump whenever poster image files change under the
+  // same filenames, so browsers (ours and visitors') drop stale cached copies.
+  var POSTER_V = "?pv=2";
+  function posterURL(p) { return escapeAttr(p.poster) + POSTER_V; }
   function mediaEl(p) {
     if (p.video) {
       return '<video class="tile-video" muted loop playsinline preload="metadata" poster="' +
-        escapeAttr(p.poster) + '"><source src="' + escapeAttr(p.video) + '" type="video/mp4"></video>';
+        posterURL(p) + '"><source src="' + escapeAttr(p.video) + '" type="video/mp4"></video>';
     }
-    return '<img src="' + escapeAttr(p.poster) + '" alt="' + escapeAttr(p.title) + '" loading="lazy">';
+    return '<img src="' + posterURL(p) + '" alt="' + escapeAttr(p.title) + '" loading="lazy">';
   }
 
   // Work-grid filter bucket: one of films | series | branded | 60sd.
@@ -493,8 +497,8 @@
 
   function fallbackHero(p) {
     return p.video
-      ? '<video data-autoplay muted loop playsinline preload="metadata" poster="' + escapeAttr(p.poster) + '"><source src="' + escapeAttr(p.video) + '" type="video/mp4"></video>'
-      : '<img src="' + escapeAttr(p.poster) + '" alt="' + escapeAttr(p.title) + '">';
+      ? '<video data-autoplay muted loop playsinline preload="metadata" poster="' + posterURL(p) + '"><source src="' + escapeAttr(p.video) + '" type="video/mp4"></video>'
+      : '<img src="' + posterURL(p) + '" alt="' + escapeAttr(p.title) + '">';
   }
   function fmtMetaValue(v) {
     // Escape, honor explicit "\n" as a line break, and keep each name/unit from

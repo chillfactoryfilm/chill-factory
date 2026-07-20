@@ -97,7 +97,7 @@ img, video { display: block; max-width: 100%; }
 .nav.nav--transparent {
   position: fixed; left: 0; right: 0;
   background: transparent; border-bottom-color: transparent;
-  color: #fff; mix-blend-mode: difference;
+  color: #fff;
 }
 .brand {
   display: inline-flex; align-items: center; gap: 8px;
@@ -705,9 +705,5 @@ a.feature-quote-link:focus-visible { outline: 2px solid var(--fg); outline-offse
   }
   .nav-links.open { transform: translateY(0); }
   .nav-links a { width: 100%; padding: 16px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.12); font-size: 16px; }
-  /* On video/landing pages the transparent nav uses mix-blend difference; that
-     must be OFF on mobile or the open menu panel renders inverted. Match the
-     base selector's specificity (.nav.nav--transparent) so this actually wins. */
-  .nav.nav--transparent { mix-blend-mode: normal; color: #fff; }
   .nav--transparent .nav-links { color: #fff; }
 }

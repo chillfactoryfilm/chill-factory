@@ -955,6 +955,316 @@
       ]
     },
     {
+      "id": "the-grandma-gamer",
+      "title": "Grandma Gamer",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "80-year-old Shirley Curry defies grandma stereotypes by becoming one of the oldest avid Skyrim players in the world.",
+      "description": "She believes video games keep her mind active and says other people her age could benefit greatly from slaying virtual dragons.",
+      "recognition": [],
+      "poster": "assets/posters/the-grandma-gamer.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://vimeo.com/1209970964/d54af2ac59",
+      "link": "",
+      "featured": false,
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Music",
+          "value": "Jacques Mouledoux"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "superman-of-hollywood-boulevard",
+      "title": "Superman of Hollywood Boulevard",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "48-year-old Christopher Dennis' life didn't go as planned.",
+      "description": "After some early success as an actor and model, Dennis struggled with drugs and eventually found himself on Hollywood Boulevard, working for tips from tourists as a Superman impersonator. Still, Dennis finds purpose in brightening other peoples' lives.",
+      "recognition": [],
+      "poster": "assets/posters/superman-of-hollywood-boulevard.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://vimeo.com/1209970967/e489096b0e",
+      "link": "",
+      "featured": false,
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "im-a-furry",
+      "title": "I'm a Furry",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "19-year-old Christopher from California overcomes his social anxiety by dressing up as a neon green fox named Kona.",
+      "description": "But it's not just about making himself feel better, it's about spreading the happiness as far as it will go.",
+      "recognition": [],
+      "poster": "assets/posters/im-a-furry.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://vimeo.com/1209970965/b62b0386d7",
+      "link": "",
+      "featured": false,
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "the-homeless-jedi",
+      "title": "Homeless Jedi",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "32-year-old Ace Venom (his legal name) identifies as a Jedi realist.",
+      "description": "And like Jedi from Star Wars films, Ace relies upon a philosophy of righteousness and helping others to endure his day-to-day struggles in Portland, where rising rent prices have left him and his fiancée homeless.",
+      "recognition": [],
+      "poster": "assets/posters/the-homeless-jedi.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://vimeo.com/1209970966/ee933e2093",
+      "link": "",
+      "featured": false,
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "bball-girl",
+      "title": "BBall Girl",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "At just six years old, Jaliyah Manuel is already catching the attention of basketball pros.",
+      "description": "But while she dreams of one day becoming a superstar in the WNBA, her father is focused on making sure she has the best future ahead of her.",
+      "recognition": [],
+      "poster": "assets/posters/bball-girl.png",
+      "video": "",
+      "cover": "https://vimeo.com/1211244342/3823004f15",
+      "embed": "https://vimeo.com/1211244342/3823004f15",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "weed-nuns",
+      "title": "Weed Nuns",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "The Sisters of the Valley is a medicinal cannabis company run by Christine Meeusen and Darcy Johnson in California's Central Valley.",
+      "description": "Their mission? To erase the negative stigma around weed, and end human suffering as best they can. Their iconic nun outfits aren't worn as part of any organized religion — but rather as a sign of devotion to the plant.",
+      "recognition": [],
+      "poster": "assets/posters/weed-nuns.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://vimeo.com/1209970971/6b6fbf25bc",
+      "link": "",
+      "featured": false,
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "celebrity-autograph-hunter",
+      "title": "Celebrity Autograph Hunter",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "37-year-old Michael Medlin, known around Hollywood as “Red Bull,” has turned autograph collecting into a bustling business.",
+      "description": "It’s hard work and it gets messy, but for this movie fanatic, getting up close and personal with Hollywood’s elite is enough to stomach the struggle.",
+      "recognition": [],
+      "poster": "assets/posters/celebrity-autograph-hunter.png",
+      "video": "",
+      "cover": "https://vimeo.com/1211240325/f9153ce63b",
+      "embed": "https://vimeo.com/1211240325/f9153ce63b",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
       "id": "mr-okra",
       "title": "Mr. Okra",
       "year": "2017",
@@ -1133,182 +1443,6 @@
       ]
     },
     {
-      "id": "weed-nuns",
-      "title": "Weed Nuns",
-      "year": "2016",
-      "client": "60 Second Docs",
-      "category": "Short",
-      "role": "Director / Editor / Producer",
-      "logline": "The Sisters of the Valley is a medicinal cannabis company run by Christine Meeusen and Darcy Johnson in California's Central Valley.",
-      "description": "Their mission? To erase the negative stigma around weed, and end human suffering as best they can. Their iconic nun outfits aren't worn as part of any organized religion — but rather as a sign of devotion to the plant.",
-      "recognition": [],
-      "poster": "assets/posters/weed-nuns.png",
-      "video": "",
-      "cover": "",
-      "embed": "https://vimeo.com/1209970971/6b6fbf25bc",
-      "link": "",
-      "featured": false,
-      "clientLabel": "Network",
-      "affiliations": [
-        {
-          "label": "Director / Editor / Producer",
-          "value": "Christopher Stoudt"
-        },
-        {
-          "label": "Producer",
-          "value": "Emmet McDermott"
-        },
-        {
-          "label": "Network",
-          "value": "60 Second Docs"
-        },
-        {
-          "label": "Composer",
-          "value": "Chance Duran"
-        },
-        {
-          "label": "Year",
-          "value": "2016"
-        },
-        {
-          "label": "Format",
-          "value": "Documentary Short"
-        }
-      ]
-    },
-    {
-      "id": "the-grandma-gamer",
-      "title": "Grandma Gamer",
-      "year": "2016",
-      "client": "60 Second Docs",
-      "category": "Short",
-      "role": "Director / Editor / Producer",
-      "logline": "80-year-old Shirley Curry defies grandma stereotypes by becoming one of the oldest avid Skyrim players in the world.",
-      "description": "She believes video games keep her mind active and says other people her age could benefit greatly from slaying virtual dragons.",
-      "recognition": [],
-      "poster": "assets/posters/the-grandma-gamer.png",
-      "video": "",
-      "cover": "",
-      "embed": "https://vimeo.com/1209970964/d54af2ac59",
-      "link": "",
-      "featured": false,
-      "clientLabel": "Network",
-      "affiliations": [
-        {
-          "label": "Director / Editor / Producer",
-          "value": "Christopher Stoudt"
-        },
-        {
-          "label": "Producer",
-          "value": "Emmet McDermott"
-        },
-        {
-          "label": "Network",
-          "value": "60 Second Docs"
-        },
-        {
-          "label": "Music",
-          "value": "Jacques Mouledoux"
-        },
-        {
-          "label": "Year",
-          "value": "2016"
-        },
-        {
-          "label": "Format",
-          "value": "Documentary Short"
-        }
-      ]
-    },
-    {
-      "id": "superman-of-hollywood-boulevard",
-      "title": "Superman of Hollywood Boulevard",
-      "year": "2016",
-      "client": "60 Second Docs",
-      "category": "Short",
-      "role": "Director / Editor / Producer",
-      "logline": "48-year-old Christopher Dennis' life didn't go as planned.",
-      "description": "After some early success as an actor and model, Dennis struggled with drugs and eventually found himself on Hollywood Boulevard, working for tips from tourists as a Superman impersonator. Still, Dennis finds purpose in brightening other peoples' lives.",
-      "recognition": [],
-      "poster": "assets/posters/superman-of-hollywood-boulevard.png",
-      "video": "",
-      "cover": "",
-      "embed": "https://vimeo.com/1209970967/e489096b0e",
-      "link": "",
-      "featured": false,
-      "clientLabel": "Network",
-      "affiliations": [
-        {
-          "label": "Director / Editor / Producer",
-          "value": "Christopher Stoudt"
-        },
-        {
-          "label": "Producer",
-          "value": "Emmet McDermott"
-        },
-        {
-          "label": "Network",
-          "value": "60 Second Docs"
-        },
-        {
-          "label": "Composer",
-          "value": "Chance Duran"
-        },
-        {
-          "label": "Year",
-          "value": "2016"
-        },
-        {
-          "label": "Format",
-          "value": "Documentary Short"
-        }
-      ]
-    },
-    {
-      "id": "im-a-furry",
-      "title": "I'm a Furry",
-      "year": "2016",
-      "client": "60 Second Docs",
-      "category": "Short",
-      "role": "Director / Editor / Producer",
-      "logline": "19-year-old Christopher from California overcomes his social anxiety by dressing up as a neon green fox named Kona.",
-      "description": "But it's not just about making himself feel better, it's about spreading the happiness as far as it will go.",
-      "recognition": [],
-      "poster": "assets/posters/im-a-furry.png",
-      "video": "",
-      "cover": "",
-      "embed": "https://vimeo.com/1209970965/b62b0386d7",
-      "link": "",
-      "featured": false,
-      "clientLabel": "Network",
-      "affiliations": [
-        {
-          "label": "Director / Editor / Producer",
-          "value": "Christopher Stoudt"
-        },
-        {
-          "label": "Producer",
-          "value": "Emmet McDermott"
-        },
-        {
-          "label": "Network",
-          "value": "60 Second Docs"
-        },
-        {
-          "label": "Composer",
-          "value": "Chance Duran"
-        },
-        {
-          "label": "Year",
-          "value": "2016"
-        },
-        {
-          "label": "Format",
-          "value": "Documentary Short"
-        }
-      ]
-    },
-    {
       "id": "slow-to-rise-katrina",
       "title": "Katrina, Ten Years Later",
       "year": "2016",
@@ -1322,50 +1456,6 @@
       "video": "",
       "cover": "",
       "embed": "https://vimeo.com/137453932",
-      "link": "",
-      "featured": false,
-      "clientLabel": "Network",
-      "affiliations": [
-        {
-          "label": "Director / Editor / Producer",
-          "value": "Christopher Stoudt"
-        },
-        {
-          "label": "Producer",
-          "value": "Emmet McDermott"
-        },
-        {
-          "label": "Network",
-          "value": "60 Second Docs"
-        },
-        {
-          "label": "Composer",
-          "value": "Chance Duran"
-        },
-        {
-          "label": "Year",
-          "value": "2016"
-        },
-        {
-          "label": "Format",
-          "value": "Documentary Short"
-        }
-      ]
-    },
-    {
-      "id": "the-homeless-jedi",
-      "title": "Homeless Jedi",
-      "year": "2016",
-      "client": "60 Second Docs",
-      "category": "Short",
-      "role": "Director / Editor / Producer",
-      "logline": "32-year-old Ace Venom (his legal name) identifies as a Jedi realist.",
-      "description": "And like Jedi from Star Wars films, Ace relies upon a philosophy of righteousness and helping others to endure his day-to-day struggles in Portland, where rising rent prices have left him and his fiancée homeless.",
-      "recognition": [],
-      "poster": "assets/posters/the-homeless-jedi.png",
-      "video": "",
-      "cover": "",
-      "embed": "https://vimeo.com/1209970966/ee933e2093",
       "link": "",
       "featured": false,
       "clientLabel": "Network",
@@ -1442,51 +1532,6 @@
       ]
     },
     {
-      "id": "celebrity-autograph-hunter",
-      "title": "Celebrity Autograph Hunter",
-      "year": "2016",
-      "client": "60 Second Docs",
-      "category": "Short",
-      "role": "Director / Editor / Producer",
-      "logline": "37-year-old Michael Medlin, known around Hollywood as “Red Bull,” has turned autograph collecting into a bustling business.",
-      "description": "It’s hard work and it gets messy, but for this movie fanatic, getting up close and personal with Hollywood’s elite is enough to stomach the struggle.",
-      "recognition": [],
-      "poster": "assets/posters/celebrity-autograph-hunter.png",
-      "video": "",
-      "cover": "https://vimeo.com/1211240325/f9153ce63b",
-      "embed": "https://vimeo.com/1211240325/f9153ce63b",
-      "link": "",
-      "featured": false,
-      "tier": "bteam",
-      "clientLabel": "Network",
-      "affiliations": [
-        {
-          "label": "Director / Editor / Producer",
-          "value": "Christopher Stoudt"
-        },
-        {
-          "label": "Producer",
-          "value": "Emmet McDermott"
-        },
-        {
-          "label": "Network",
-          "value": "60 Second Docs"
-        },
-        {
-          "label": "Composer",
-          "value": "Chance Duran"
-        },
-        {
-          "label": "Year",
-          "value": "2016"
-        },
-        {
-          "label": "Format",
-          "value": "Documentary Short"
-        }
-      ]
-    },
-    {
       "id": "urban-beekeeping",
       "title": "Urban Beekeeping",
       "year": "2016",
@@ -1500,51 +1545,6 @@
       "video": "",
       "cover": "https://vimeo.com/191225430/5159372ba2",
       "embed": "https://vimeo.com/191225430/5159372ba2",
-      "link": "",
-      "featured": false,
-      "tier": "bteam",
-      "clientLabel": "Network",
-      "affiliations": [
-        {
-          "label": "Director / Editor / Producer",
-          "value": "Christopher Stoudt"
-        },
-        {
-          "label": "Producer",
-          "value": "Emmet McDermott"
-        },
-        {
-          "label": "Network",
-          "value": "60 Second Docs"
-        },
-        {
-          "label": "Composer",
-          "value": "Chance Duran"
-        },
-        {
-          "label": "Year",
-          "value": "2016"
-        },
-        {
-          "label": "Format",
-          "value": "Documentary Short"
-        }
-      ]
-    },
-    {
-      "id": "treeman-of-venice",
-      "title": "Treeman of Venice",
-      "year": "2016",
-      "client": "60 Second Docs",
-      "category": "Short",
-      "role": "Director / Editor / Producer",
-      "logline": "A self-described artist and teacher, 57-year-old Lionel Powell dresses up as a tree every day and roams the Venice Beach boardwalk, spreading his “smell the roses” philosophy as the Treeman of Venice.",
-      "description": "Want to know the answers to life’s biggest questions? Ask a tree. This is what keeps him going in a world that values money over happiness.",
-      "recognition": [],
-      "poster": "assets/posters/treeman-of-venice.png",
-      "video": "",
-      "cover": "https://vimeo.com/1211244343/6d0f856da6",
-      "embed": "https://vimeo.com/1211244343/6d0f856da6",
       "link": "",
       "featured": false,
       "tier": "bteam",
@@ -1684,6 +1684,51 @@
       ]
     },
     {
+      "id": "treeman-of-venice",
+      "title": "Treeman of Venice",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "A self-described artist and teacher, 57-year-old Lionel Powell dresses up as a tree every day and roams the Venice Beach boardwalk, spreading his “smell the roses” philosophy as the Treeman of Venice.",
+      "description": "Want to know the answers to life’s biggest questions? Ask a tree. This is what keeps him going in a world that values money over happiness.",
+      "recognition": [],
+      "poster": "assets/posters/treeman-of-venice.png",
+      "video": "",
+      "cover": "https://vimeo.com/1211244343/6d0f856da6",
+      "embed": "https://vimeo.com/1211244343/6d0f856da6",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
       "id": "transgender-boxer",
       "title": "Transgender Boxer",
       "year": "2017",
@@ -1742,51 +1787,6 @@
       "video": "",
       "cover": "https://vimeo.com/1211244344/bb5dff7d0a",
       "embed": "https://vimeo.com/1211244344/bb5dff7d0a",
-      "link": "",
-      "featured": false,
-      "tier": "bteam",
-      "clientLabel": "Network",
-      "affiliations": [
-        {
-          "label": "Director / Editor / Producer",
-          "value": "Christopher Stoudt"
-        },
-        {
-          "label": "Producer",
-          "value": "Emmet McDermott"
-        },
-        {
-          "label": "Network",
-          "value": "60 Second Docs"
-        },
-        {
-          "label": "Composer",
-          "value": "Chance Duran"
-        },
-        {
-          "label": "Year",
-          "value": "2016"
-        },
-        {
-          "label": "Format",
-          "value": "Documentary Short"
-        }
-      ]
-    },
-    {
-      "id": "bball-girl",
-      "title": "BBall Girl",
-      "year": "2016",
-      "client": "60 Second Docs",
-      "category": "Short",
-      "role": "Director / Editor / Producer",
-      "logline": "At just six years old, Jaliyah Manuel is already catching the attention of basketball pros.",
-      "description": "But while she dreams of one day becoming a superstar in the WNBA, her father is focused on making sure she has the best future ahead of her.",
-      "recognition": [],
-      "poster": "assets/posters/bball-girl.png",
-      "video": "",
-      "cover": "https://vimeo.com/1211244342/3823004f15",
-      "embed": "https://vimeo.com/1211244342/3823004f15",
       "link": "",
       "featured": false,
       "tier": "bteam",

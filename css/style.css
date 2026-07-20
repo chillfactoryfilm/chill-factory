@@ -282,7 +282,8 @@ img, video { display: block; max-width: 100%; }
 /* ---------- page header -------------------------------------------------- */
 /* vertical only — keep .wrap's horizontal gutter (was flush to the edge) */
 .page-head {
-  padding-top: clamp(60px, 12vw, 160px); padding-bottom: clamp(28px, 5vw, 56px);
+  /* tight enough that the first grid tile reads above the fold on a laptop */
+  padding-top: clamp(40px, 6.5vw, 84px); padding-bottom: clamp(18px, 3vw, 32px);
   display: flex; flex-direction: column; align-items: flex-start;
   gap: clamp(10px, 1.6vw, 20px);
 }

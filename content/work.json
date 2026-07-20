@@ -2036,51 +2036,6 @@
       ]
     },
     {
-      "id": "art-of-the-paparazzi",
-      "title": "Art of the Paparazzi",
-      "year": "2016",
-      "client": "60 Second Docs",
-      "category": "Short",
-      "role": "Director / Editor / Producer",
-      "logline": "32-year-old Yori Uehara has worked as a paparazzo in L.A. for nearly a decade.",
-      "description": "He's learned that being a successful “pap” takes quick wits, a sharp eye and years of experience. He also learned that photographing celebrities doesn’t automatically make you a terrible person.",
-      "recognition": [],
-      "poster": "assets/posters/art-of-the-paparazzi.png",
-      "video": "",
-      "cover": "",
-      "embed": "https://youtu.be/vX65vQM5tk4",
-      "link": "",
-      "featured": false,
-      "tier": "bteam",
-      "clientLabel": "Network",
-      "affiliations": [
-        {
-          "label": "Director / Editor / Producer",
-          "value": "Christopher Stoudt"
-        },
-        {
-          "label": "Producer",
-          "value": "Emmet McDermott"
-        },
-        {
-          "label": "Network",
-          "value": "60 Second Docs"
-        },
-        {
-          "label": "Composer",
-          "value": "Chance Duran"
-        },
-        {
-          "label": "Year",
-          "value": "2016"
-        },
-        {
-          "label": "Format",
-          "value": "Documentary Short"
-        }
-      ]
-    },
-    {
       "id": "samurai-in-the-modern-world",
       "title": "Samurai in the Modern World",
       "year": "2016",

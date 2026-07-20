@@ -371,17 +371,13 @@
       //   ALL / Branded  -> 2 per row (the classic grid)
       //   60 Second Docs -> 3 per row (contact sheet)
       grid.classList.toggle("grid--one", cat === "films" || cat === "series");
-      var cols = new URLSearchParams(location.search).get("cols");
-      grid.classList.toggle("grid--three", cat === "60sd" && !cols);
-      grid.classList.toggle("grid--four", cat === "60sd" && cols === "4");
-      grid.classList.toggle("grid--five", cat === "60sd" && cols === "5");
-      grid.classList.toggle("grid--six", cat === "60sd" && cols === "6");
-      // per-category subheadline above the grid (currently 60SD only)
+      // 60SD renders as the wall: 5-across, captionless, hover-reveal titles
+      grid.classList.toggle("grid--five", cat === "60sd");
+      // per-category intro above the grid (currently 60SD only)
       var sub = document.querySelector("[data-grid-sub]");
       if (sub) {
         sub.hidden = cat !== "60sd";
-        sub.classList.toggle("grid-sub--wall",
-          grid.classList.contains("grid--five") || grid.classList.contains("grid--six"));
+        sub.classList.toggle("grid-sub--wall", cat === "60sd");
       }
       cards.forEach(function (card) {
         var isB = card.classList.contains("card--bteam");

@@ -2754,6 +2754,231 @@
           "value": "Documentary Short"
         }
       ]
+    },
+    {
+      "id": "vogue-party",
+      "title": "Vogue Party",
+      "year": "2017",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "Isla Chanel of Los Angeles, California is a competitive voguer, repping a dance movement that evolved out of 1960s-era gay, trans, black and Latino communities and later expanded to accept women and all parts of the LGBT community.",
+      "description": "Inspired by modeling poses, voguers bring the runway to the dance floor with moves like spins, death drops and catwalking. Chanel, recently crowned Woman Voguer of the Year, even runs the local vogue event Banjee Ball at the Union Nightclub in Los Angeles — all to maintain a safe space where members of the queer community can express themselves and their femininity.",
+      "recognition": [],
+      "poster": "assets/posters/vogue-party.jpg",
+      "video": "",
+      "cover": "https://vimeo.com/222992443/ca112bee36",
+      "embed": "https://vimeo.com/222992443/ca112bee36",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
+        },
+        {
+          "label": "Year",
+          "value": "2017"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "bug-chef",
+      "title": "Bug Chef",
+      "year": "2017",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "The Bug Chef, aka David George Gordon, released an insect-based cookbook in 1998 and has been cooking with bugs ever since, a traveling chef sautéing scorpions for cheering crowds.",
+      "description": "Rich in protein, vitamins and minerals, two billion people are already eating bugs; Gordon’s just bringing gourmets up to speed. As our population grows another billion in the next 40 years, Gordon warns that humans will have to find alternate protein sources to spare the environment — and he thinks bugs are just the superfood we need.",
+      "recognition": [],
+      "poster": "assets/posters/bug-chef.jpg",
+      "video": "",
+      "cover": "https://vimeo.com/221670320/69bb5bb6c7",
+      "embed": "https://vimeo.com/221670320/69bb5bb6c7",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
+        },
+        {
+          "label": "Year",
+          "value": "2017"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "cardboard-artist",
+      "title": "Cardboard Artist",
+      "year": "2017",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "Cardboard artist Calder Greenwood is Los Angeles’s own upcycling genius.",
+      "description": "A VFX artist by trade, Calder spends his free time turning cardboard from would-be waste into urban fine art. Whether he’s crafting 3D Frankenstein heads, huge hanging spiders or unconventional modern art, Calder’s goal is the same: to inspire people to look up and notice the overlooked magic of their surroundings.",
+      "recognition": [],
+      "poster": "assets/posters/cardboard-artist.jpg",
+      "video": "",
+      "cover": "https://vimeo.com/215591865/4d9a3d79f1",
+      "embed": "https://vimeo.com/215591865/4d9a3d79f1",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
+        },
+        {
+          "label": "Year",
+          "value": "2017"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "rage-ground",
+      "title": "Rage Ground",
+      "year": "2017",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "Peter Wolf learned how to redirect his anger in a nondestructive way from a young age.",
+      "description": "Today, he’s developed Rage Ground, a room full of things to destroy, to assist others in coping with their daily frustrations. Catered to “everyday people,” this room of rage allows everyone and anyone to place themselves in a safe environment to release their inner rage.",
+      "recognition": [],
+      "poster": "assets/posters/rage-ground.jpg",
+      "video": "",
+      "cover": "https://vimeo.com/243704992/3a2f83e572",
+      "embed": "https://vimeo.com/243704992/3a2f83e572",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
+        },
+        {
+          "label": "Year",
+          "value": "2017"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "pro-arm-wrestling",
+      "title": "Pro Arm Wrestling",
+      "year": "2018",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "",
+      "description": "",
+      "recognition": [],
+      "poster": "assets/posters/pro-arm-wrestling.jpg",
+      "video": "",
+      "cover": "https://vimeo.com/286190034/6d414c03d0",
+      "embed": "https://vimeo.com/286190034/6d414c03d0",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
+        },
+        {
+          "label": "Year",
+          "value": "2018"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
     }
   ]
 }

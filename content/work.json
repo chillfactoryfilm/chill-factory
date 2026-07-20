@@ -1526,8 +1526,8 @@
       "recognition": [],
       "poster": "assets/posters/urban-beekeeping.png",
       "video": "",
-      "cover": "",
-      "embed": "https://youtu.be/MSpTsOth88s",
+      "cover": "https://vimeo.com/191225430/5159372ba2",
+      "embed": "https://vimeo.com/191225430/5159372ba2",
       "link": "",
       "featured": false,
       "tier": "bteam",
@@ -1687,8 +1687,8 @@
       "recognition": [],
       "poster": "assets/posters/transgender-boxer.png",
       "video": "",
-      "cover": "",
-      "embed": "https://youtu.be/w8_kJK4OBEQ",
+      "cover": "https://vimeo.com/232594038/d2fb43ab02",
+      "embed": "https://vimeo.com/232594038/d2fb43ab02",
       "link": "",
       "featured": false,
       "tier": "bteam",
@@ -2793,6 +2793,51 @@
         {
           "label": "Year",
           "value": "2019"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "little-tokyos-one-man-band",
+      "title": "Little Tokyo's One Man Band",
+      "year": "2017",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "For the last four decades, Arthur Nakane has made Los Angeles sound a little sweeter.",
+      "description": "Even after a serious injury left him partially paralyzed and without the full function of his hands and limbs, the self-proclaimed one-man-band continues to serenade the crowds who gather daily in Little Tokyo to watch him play.",
+      "recognition": [],
+      "poster": "assets/posters/little-tokyos-one-man-band.jpg",
+      "video": "",
+      "cover": "https://vimeo.com/203777098/7d4324b087",
+      "embed": "https://vimeo.com/203777098/7d4324b087",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
+        },
+        {
+          "label": "Year",
+          "value": "2017"
         },
         {
           "label": "Format",

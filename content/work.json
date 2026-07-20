@@ -2979,6 +2979,118 @@
           "value": "Documentary Short"
         }
       ]
+    },
+    {
+      "id": "throttled",
+      "title": "Throttled",
+      "year": "2016",
+      "client": "North Fork Productions",
+      "category": "Narrative",
+      "role": "Director",
+      "logline": "An overworked wireless router takes revenge on its internet-obsessed owner.",
+      "description": "",
+      "recognition": [],
+      "poster": "assets/posters/throttled.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://vimeo.com/189229510",
+      "link": "",
+      "featured": false,
+      "tier": "archive",
+      "affiliations": [
+        {
+          "label": "Directed By",
+          "value": "Christopher Stoudt & Jacques Mouledoux"
+        },
+        {
+          "label": "Production Company",
+          "value": "North Fork Productions"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Narrative Short"
+        }
+      ]
+    },
+    {
+      "id": "la-lenguas-9-to-5",
+      "title": "La Lenguas — 9 to 5",
+      "year": "2015",
+      "client": "Burger Records",
+      "category": "Music Video",
+      "role": "Director / Editor",
+      "logline": "Official music video for La Lenguas’ single “9 to 5” (Burger Records, 2015).",
+      "description": "",
+      "recognition": [],
+      "poster": "assets/posters/la-lenguas-9-to-5.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://youtu.be/JuhZsDMCVl8",
+      "link": "",
+      "featured": false,
+      "tier": "archive",
+      "affiliations": [
+        {
+          "label": "Director / Editor",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Artist",
+          "value": "La Lenguas"
+        },
+        {
+          "label": "Label",
+          "value": "Burger Records"
+        },
+        {
+          "label": "Year",
+          "value": "2015"
+        },
+        {
+          "label": "Format",
+          "value": "Music Video"
+        }
+      ]
+    },
+    {
+      "id": "dno-you-are-love",
+      "title": "DNO — You Are Love",
+      "year": "2017",
+      "client": "DNO",
+      "category": "Music Video",
+      "role": "Director / Editor",
+      "logline": "Produced for DNO as part of their “You Are Love” social-justice campaign.",
+      "description": "",
+      "recognition": [],
+      "poster": "assets/posters/dno-you-are-love.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://vimeo.com/198357569",
+      "link": "",
+      "featured": false,
+      "tier": "archive",
+      "affiliations": [
+        {
+          "label": "Director / Editor",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Client",
+          "value": "DNO"
+        },
+        {
+          "label": "Year",
+          "value": "2017"
+        },
+        {
+          "label": "Format",
+          "value": "Music Video"
+        }
+      ]
     }
   ]
 }

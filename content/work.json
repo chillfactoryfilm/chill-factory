@@ -1864,51 +1864,6 @@
       ]
     },
     {
-      "id": "i-have-a-stutter",
-      "title": "I Have a Stutter",
-      "year": "2016",
-      "client": "60 Second Docs",
-      "category": "Short",
-      "role": "Director / Editor / Producer",
-      "logline": "Due to a severe stutter, Ray Demnitz often struggles to say his name.",
-      "description": "He struggles to place orders at restaurants. Finishing any sentence can prove challenging. Even though he may struggle to get the words out, he’s a great communicator. Rather than let his stutter hold him back, Ray has proudly embraced it as a mark of his individuality — and others might do well to learn from his example.",
-      "recognition": [],
-      "poster": "assets/posters/i-have-a-stutter.png",
-      "video": "",
-      "cover": "",
-      "embed": "https://youtu.be/n7sO3FA9MiU",
-      "link": "",
-      "featured": false,
-      "tier": "archive",
-      "clientLabel": "Network",
-      "affiliations": [
-        {
-          "label": "Director / Editor / Producer",
-          "value": "Christopher Stoudt"
-        },
-        {
-          "label": "Producer",
-          "value": "Emmet McDermott"
-        },
-        {
-          "label": "Network",
-          "value": "60 Second Docs"
-        },
-        {
-          "label": "Composer",
-          "value": "Chance Duran"
-        },
-        {
-          "label": "Year",
-          "value": "2016"
-        },
-        {
-          "label": "Format",
-          "value": "Documentary Short"
-        }
-      ]
-    },
-    {
       "id": "i-have-alopecia",
       "title": "I Have Alopecia",
       "year": "2018",
@@ -3002,6 +2957,51 @@
       "video": "",
       "cover": "https://vimeo.com/1211519443/5c02f12322",
       "embed": "https://vimeo.com/1211519443/5c02f12322",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Network",
+      "affiliations": [
+        {
+          "label": "Director / Editor / Producer",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Producer",
+          "value": "Emmet McDermott"
+        },
+        {
+          "label": "Network",
+          "value": "60 Second Docs"
+        },
+        {
+          "label": "Composer",
+          "value": "Chance Duran"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
+        },
+        {
+          "label": "Format",
+          "value": "Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "i-have-a-stutter",
+      "title": "I Have a Stutter",
+      "year": "2016",
+      "client": "60 Second Docs",
+      "category": "Short",
+      "role": "Director / Editor / Producer",
+      "logline": "Due to a severe stutter, Ray Demnitz often struggles to say his name.",
+      "description": "He struggles to place orders at restaurants. Finishing any sentence can prove challenging. Even though he may struggle to get the words out, he’s a great communicator. Rather than let his stutter hold him back, Ray has proudly embraced it as a mark of his individuality — and others might do well to learn from his example.",
+      "recognition": [],
+      "poster": "assets/posters/i-have-a-stutter.png",
+      "video": "",
+      "cover": "https://vimeo.com/1211522952/c01d3ce9f5",
+      "embed": "https://vimeo.com/1211522952/c01d3ce9f5",
       "link": "",
       "featured": false,
       "tier": "bteam",

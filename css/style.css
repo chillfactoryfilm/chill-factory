@@ -243,13 +243,18 @@ img, video { display: block; max-width: 100%; }
   grid-template-columns: repeat(5, 1fr); gap: clamp(12px, 1.2vw, 18px);
   max-width: 1280px; margin-left: auto; margin-right: auto;
 }
-/* per-category subheadline above the grid (currently 60SD only) */
+/* per-category intro above the grid (currently 60SD only): title + one-liner */
+.grid-intro { margin: 0 0 clamp(24px, 3.2vw, 40px); }
+.grid-intro-title {
+  margin: 0 0 10px; font-size: clamp(19px, 1.9vw, 28px); font-weight: 800;
+  letter-spacing: 0.1em; text-transform: uppercase;
+}
 .grid-sub {
-  margin: 0 0 clamp(22px, 3vw, 34px);
+  margin: 0; max-width: 72ch;
   font-size: clamp(14px, 1.2vw, 17px); color: #c9c9c9;
 }
 .grid-sub--wall { max-width: 1280px; margin-left: auto; margin-right: auto; }
-.grid-sub[hidden] { display: none; }
+.grid-intro[hidden] { display: none; }
 /* 60SD wall mode: captionless contact sheet. The caption stays in the DOM but
    becomes an overlay that fades in over a bottom scrim on hover — the wall
    stays pure image until you reach into it. */

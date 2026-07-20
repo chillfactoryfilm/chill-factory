@@ -282,10 +282,10 @@ img, video { display: block; max-width: 100%; }
 /* ---------- page header -------------------------------------------------- */
 /* vertical only — keep .wrap's horizontal gutter (was flush to the edge) */
 .page-head {
-  /* tight enough that the first grid tile reads above the fold on a laptop */
-  padding-top: clamp(40px, 6.5vw, 84px); padding-bottom: clamp(18px, 3vw, 32px);
+  /* WORK sits right under the nav; first grid tile well above the fold */
+  padding-top: clamp(18px, 2.5vw, 36px); padding-bottom: clamp(14px, 2vw, 24px);
   display: flex; flex-direction: column; align-items: flex-start;
-  gap: clamp(10px, 1.6vw, 20px);
+  gap: clamp(8px, 1.2vw, 14px);
 }
 .page-title {
   margin: 0; font-weight: 800; text-transform: uppercase; line-height: 0.94;

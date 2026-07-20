@@ -256,7 +256,7 @@ img, video { display: block; max-width: 100%; }
 }
 .grid-sub a:hover { color: #fff; }
 .grid-sub {
-  margin: 0; max-width: 72ch;
+  margin: 0;
   font-size: clamp(14px, 1.2vw, 17px); color: #c9c9c9;
 }
 .grid-sub--wall { max-width: 1280px; margin-left: auto; margin-right: auto; }

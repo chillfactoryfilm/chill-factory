@@ -249,9 +249,12 @@ img, video { display: block; max-width: 100%; }
   content: ""; position: absolute; left: 0; bottom: 0; height: 2px; width: 100%;
   background: currentColor;
 }
-/* title links out (60SD → their Instagram): brighten with the site's frost glow */
-.grid-intro-title a { transition: text-shadow 0.3s var(--ease); }
-.grid-intro-title a:hover { text-shadow: 0 0 9px rgba(255,255,255,0.55), 0 0 2px rgba(255,255,255,0.9); }
+/* in-copy link (60 Second Docs → their Instagram): underlined, brightens on hover */
+.grid-sub a {
+  text-decoration: underline; text-underline-offset: 3px;
+  transition: color 0.3s var(--ease);
+}
+.grid-sub a:hover { color: #fff; }
 .grid-sub {
   margin: 0; max-width: 72ch;
   font-size: clamp(14px, 1.2vw, 17px); color: #c9c9c9;

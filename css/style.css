@@ -209,6 +209,9 @@ img, video { display: block; max-width: 100%; }
   grid-template-columns: 1fr;
   /* height budget reserves a little air below the caption at the fold */
   max-width: min(100%, calc((100vh - 350px) * 1.77778));
+  /* roomier row gap keeps the NEXT film fully below the fold and gives the
+     full-width tiles cinematic separation while scrolling */
+  row-gap: clamp(40px, 6vh, 72px);
 }
 .grid--three { grid-template-columns: repeat(3, 1fr); }
 @media (max-width: 720px) {

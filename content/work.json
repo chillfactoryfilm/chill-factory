@@ -1397,42 +1397,6 @@
       ]
     },
     {
-      "id": "new-orleans-boxing-club",
-      "title": "New Orleans Boxing Club",
-      "year": "2016",
-      "client": "Defend New Orleans",
-      "category": "Branded",
-      "logline": "A short film produced in collaboration with the New Orleans lifestyle brand DNO and the New Orleans Boxing Club.",
-      "description": "",
-      "recognition": [],
-      "poster": "assets/posters/new-orleans-boxing-club.png",
-      "video": "",
-      "cover": "",
-      "embed": "https://vimeo.com/156635402",
-      "link": "",
-      "featured": false,
-      "tier": "bteam",
-      "clientLabel": "Client",
-      "affiliations": [
-        {
-          "label": "Director / Editor",
-          "value": "Christopher Stoudt"
-        },
-        {
-          "label": "Client",
-          "value": "Defend New Orleans"
-        },
-        {
-          "label": "Year",
-          "value": "2016"
-        },
-        {
-          "label": "Format",
-          "value": "Branded Documentary Short"
-        }
-      ]
-    },
-    {
       "id": "ryans-recycling",
       "title": "Ryan's Recycling",
       "year": "2017",
@@ -1676,6 +1640,42 @@
         {
           "label": "Year",
           "value": "2018"
+        },
+        {
+          "label": "Format",
+          "value": "Branded Documentary Short"
+        }
+      ]
+    },
+    {
+      "id": "new-orleans-boxing-club",
+      "title": "New Orleans Boxing Club",
+      "year": "2016",
+      "client": "Defend New Orleans",
+      "category": "Branded",
+      "logline": "A short film produced in collaboration with the New Orleans lifestyle brand DNO and the New Orleans Boxing Club.",
+      "description": "",
+      "recognition": [],
+      "poster": "assets/posters/new-orleans-boxing-club.png",
+      "video": "",
+      "cover": "",
+      "embed": "https://vimeo.com/156635402",
+      "link": "",
+      "featured": false,
+      "tier": "bteam",
+      "clientLabel": "Client",
+      "affiliations": [
+        {
+          "label": "Director / Editor",
+          "value": "Christopher Stoudt"
+        },
+        {
+          "label": "Client",
+          "value": "Defend New Orleans"
+        },
+        {
+          "label": "Year",
+          "value": "2016"
         },
         {
           "label": "Format",

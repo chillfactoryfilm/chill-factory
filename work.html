@@ -21,7 +21,7 @@
   <!-- Favicon / app icon -->
   <link rel="icon" type="image/png" href="/assets/icon.png" />
   <link rel="apple-touch-icon" href="/assets/icon.png" />
-  <link rel="stylesheet" href="css/style.css?v=38" />
+  <link rel="stylesheet" href="css/style.css?v=39" />
 </head>
 <body class="theme-dark">
 
@@ -50,8 +50,15 @@
     <div class="wrap" style="padding-bottom: clamp(48px,9vw,120px)">
       <!-- per-category intro; shown/hidden by setupWorkFilter -->
       <div class="grid-intro" data-grid-sub hidden>
-        <h2 class="grid-intro-title">60 Second Docs</h2>
-        <p class="grid-sub">We helped create the format for <a href="https://www.instagram.com/60secdocs/" target="_blank" rel="noopener">60 Second Docs</a> and produced 93 episodes.<br>The Webby Award-winning series grew into the #1 publisher of documentary content on&nbsp;Facebook.</p>
+        <div class="grid-intro-text">
+          <h2 class="grid-intro-title">60 Second Docs</h2>
+          <p class="grid-sub">We helped create the format for <a href="https://www.instagram.com/60secdocs/" target="_blank" rel="noopener">60 Second Docs</a> and produced 93 episodes.<br>The Webby Award-winning series grew into the #1 publisher of documentary content on&nbsp;Facebook.</p>
+        </div>
+        <div class="grid-intro-badges">
+          <img src="assets/webby-2019.png" alt="Webby Award Winner 2019" loading="lazy">
+          <img src="assets/webby-2020.png" alt="Webby Award Winner 2020" loading="lazy">
+          <img src="assets/webby-2022.png" alt="Webby Award Winner 2022" loading="lazy">
+        </div>
       </div>
       <div class="grid" data-grid="all"></div>
       <div class="work-filter work-filter--end" data-work-filter role="group" aria-label="Filter work by category">
@@ -77,7 +84,7 @@
     </div>
   </footer>
 
-  <script src="js/site.js?v=38"></script>
+  <script src="js/site.js?v=39"></script>
   <script>document.getElementById("yr").textContent = new Date().getFullYear();</script>
 </body>
 </html>

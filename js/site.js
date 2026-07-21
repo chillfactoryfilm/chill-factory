@@ -515,7 +515,7 @@
 
     root.innerHTML =
       '<div class="wrap section"><a class="back-link" href="' + backHref + '">← ' + escapeHTML(backLabel) + "</a>" +
-      '<div class="project-hero">' + hero + "</div>" +
+      '<div class="project-hero' + (workCat(p) === "60sd" ? " project-hero--compact" : "") + '">' + hero + "</div>" +
       '<div class="project-grid"><div class="project-body">' +
       '<h1 class="project-title">' + escapeHTML(p.title).replace(/\n/g, "<br>") + "</h1>" +
       (p.logline ? '<p class="logline">' + escapeHTML(p.logline) + "</p>" : "") +

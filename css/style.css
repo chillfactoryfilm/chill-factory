@@ -443,6 +443,7 @@ body:not(.page-video) .page-title--bright {
 }
 .back-link:hover { color: var(--fg); }
 .project-hero {
+  position: relative; /* anchors the absolutely-positioned embed iframe */
   aspect-ratio: 16 / 9; background: var(--tile); overflow: hidden;
   margin-bottom: clamp(28px, 5vw, 56px);
 }
@@ -451,7 +452,7 @@ body:not(.page-video) .page-title--bright {
    Cap the player from the viewport height so the player AND the title below it
    share the first screen; centered, with a floor for short viewports. */
 .project-hero--compact {
-  max-width: min(100%, 1140px, max(560px, calc((100vh - 420px) * 1.77778)));
+  max-width: min(100%, 1140px, max(560px, calc((100vh - 360px) * 1.77778)));
   margin-left: auto; margin-right: auto;
 }
 

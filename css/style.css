@@ -742,6 +742,9 @@ body:not(.page-video) .page-title--bright {
   padding: 12px 22px; border-radius: 0;
 }
 .role-tag--fill { background: #fff; color: #0a0a0a; border: 1px solid #fff; }
+/* smaller tag scale for the Collabs listing cards */
+.role-tags--sheet { gap: 10px; margin-top: 12px; }
+.role-tags--sheet .role-tag { font-size: 11px; padding: 8px 14px; letter-spacing: 0.12em; }
 .role-tag--line { background: transparent; color: #fff; border: 1px solid rgba(255, 255, 255, 0.85); }
 
 /* critic pull quote on a feature page (optionally wrapped in a link to the review) */

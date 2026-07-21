@@ -679,7 +679,7 @@ body:not(.page-video) .page-title--bright {
   text-transform: uppercase; color: #fff;
 }
 .sheet-role {
-  display: block; margin-top: 5px; font-size: 12px; color: var(--muted);
+  display: block; margin-top: 5px; font-size: 12px; color: #fff;
   text-transform: uppercase; letter-spacing: 0.1em;
   /* same static frost glow as the nav/footer links — no pulse */
   text-shadow: 0 0 6px rgba(255, 255, 255, 0.3), 0 0 1px rgba(255, 255, 255, 0.55);

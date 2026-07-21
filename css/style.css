@@ -389,7 +389,7 @@ img, video { display: block; max-width: 100%; }
 /* ---------- frozen headlines (Chill Factory) ----------------------------- */
 /* Big page headlines get a crisp frost "rime" edge + a slow, subtle breathing
    frost halo — monochrome, playing on the "chill" theme. */
-.hero-title, .page-title, .project-title, .feature-title, .email-huge {
+.hero-title, .page-title, .project-title, .feature-title, .grid-intro-title, .email-huge {
   -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.5);
   animation: frost-breathe 6s ease-in-out infinite;
 }
@@ -424,7 +424,7 @@ body:not(.page-video) .page-title--bright {
 }
 /* accessibility: hold still (but keep a static frost glow) if motion is off */
 @media (prefers-reduced-motion: reduce) {
-  .hero-title, .page-title, .project-title, .feature-title, .email-huge {
+  .hero-title, .page-title, .project-title, .feature-title, .grid-intro-title, .email-huge {
     animation: none;
     text-shadow: 0 0 7px rgba(255,255,255,0.26), 0 0 1px rgba(255,255,255,0.85);
   }

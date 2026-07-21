@@ -326,6 +326,7 @@ img, video { display: block; max-width: 100%; }
 /* the repeat bar at the end of the grid — needs extra clearance on mobile
    so it doesn't crowd the last card's title */
 .work-filter--end { margin-top: clamp(40px, 6vw, 64px); }
+.work-filter--detail { margin-top: clamp(26px, 4vw, 44px); }
 
 /* hidden by the category filter — .card.card--hidden so it outranks the
    later `.card { display: block }` rule regardless of source order */

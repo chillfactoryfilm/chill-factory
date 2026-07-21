@@ -452,7 +452,7 @@ body:not(.page-video) .page-title--bright {
    Cap the player from the viewport height so the player AND the title below it
    share the first screen; centered, with a floor for short viewports. */
 .project-hero--compact {
-  max-width: min(100%, 1140px, max(560px, calc((100vh - 360px) * 1.77778)));
+  max-width: min(100%, 1280px, max(560px, calc((100vh - 345px) * 1.77778)));
   margin-left: auto; margin-right: auto;
 }
 

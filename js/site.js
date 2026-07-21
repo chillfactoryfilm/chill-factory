@@ -436,7 +436,8 @@
     var cats = [["all", "All", "work.html"], ["films", "Films", "work.html?cat=films"],
                 ["series", "Series", "work.html?cat=series"], ["branded", "Branded", "work.html?cat=branded"],
                 ["60sd", "60SD", "work.html?cat=60sd"]];
-    var own = workCat(p);
+    // allOnly entries live on the ALL grid exclusively — light no category
+    var own = p.allOnly ? null : workCat(p);
     return '<nav class="work-filter work-filter--detail" aria-label="Browse by category">' +
       cats.map(function (c) {
         var active = c[0] !== "all" && c[0] === own;

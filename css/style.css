@@ -633,6 +633,12 @@ body:not(.page-video) .page-title--bright {
 .sheet-grid {
   display: grid; grid-template-columns: repeat(3, 1fr);
   gap: clamp(16px, 2.4vw, 34px);
+  /* Fold guard (same trick as the Films/Series grids): cap the row's width from
+     the viewport HEIGHT so the tallest poster (Motel Drive, 0.647 ratio) plus
+     its caption clears the fold on any screen. ~370px = page head + card meta.
+     900px floor keeps landscape-phone viewports from crushing the cards. */
+  max-width: min(100%, max(900px, calc(((100vh - 370px) * 0.647 * 3) + 68px)));
+  margin-left: auto; margin-right: auto;
 }
 @media (max-width: 900px) { .sheet-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 460px) { .sheet-grid { grid-template-columns: 1fr; } }
